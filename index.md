@@ -11,7 +11,7 @@ In summer 2020, I worked on DEGs analysis from ovarian cancer datasets as a rese
 
 Apart from research, I love to sketch, do check my graphite on papers [here](), whilst great fan of classical detective stories - Sherlock Holmes, Feluda and many more. In my off-research time, I love to teach biology to the kids at my village where I show them the fun experiments of DIY DNA extraction, glowing plants and perspective biochemistry in our daily lives.
 
-Find my full CV [here.](/assets/resume/cv-shamrat.pdf)
+Find my full CV [here.](/assets/cv-web/cv-llt.pdf)
 
 ### Employment
 **Summer 2020**

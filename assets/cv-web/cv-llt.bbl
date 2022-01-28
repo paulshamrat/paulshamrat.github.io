@@ -1,0 +1,742 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ymdnt/global//global/global}
+    \entry{paul2022ipf}{inprogress}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e5087b6025fadc65c9452c9d493a1361}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Mahbub},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89209bc8fb5de763ae9bc7084ebe67a9}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0,
+           suffix={Nidhan\bibnamedelimb Chandra.and\bibnamedelima Paul},
+           suffixi={N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=add05021a39c901d4972e3fc2293a8ef}{%
+           family={Saikat},
+           familyi={S\bibinitperiod},
+           given={Abu\bibnamedelima Saim},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d60648cfbcbb85a8f2e013340de932c}{%
+           family={Akter},
+           familyi={A\bibinitperiod},
+           given={Hossain},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5036522d69528ec4d17b77353eab28}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3c77f36ca3f97224e3c8eeb8e6a9296}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sang-Suk.},
+           giveni={S\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{453cb1b4d7fd251e4fd0562d72838a50}
+      \strng{fullhash}{59c9fb2f235bc324908ee42f8a4ef963}
+      \strng{bibnamehash}{59c9fb2f235bc324908ee42f8a4ef963}
+      \strng{authorbibnamehash}{59c9fb2f235bc324908ee42f8a4ef963}
+      \strng{authornamehash}{453cb1b4d7fd251e4fd0562d72838a50}
+      \strng{authorfullhash}{59c9fb2f235bc324908ee42f8a4ef963}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Natural products-based potential therapeutic interventions of pulmonary fibrosis.}
+      \true{nocite}
+    \endentry
+    \entry{paul2022rhob}{inprogress}{}
+      \name{author}{8}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b305f1817d1f09c65c8e5a63baaca56}{%
+           family={Metu},
+           familyi={M\bibinitperiod},
+           given={Chowdhury\bibnamedelimb Lutfun\bibnamedelima Nahar},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bdaff7afc485f619d9105678b62cc8c}{%
+           family={Sutihar},
+           familyi={S\bibinitperiod},
+           given={Sunita\bibnamedelima Kumari},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fead7f2674739f53c12305ee4396099}{%
+           family={Hasib},
+           familyi={H\bibinitperiod},
+           given={Tasnin\bibnamedelima Al},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cc37174012db8776e88f2a313fd2ed2}{%
+           family={Saddam},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=3a3881082eac174c4e59ebfa17ca973e}{%
+           family={Kabur},
+           familyi={K\bibinitperiod},
+           given={Lutful\bibnamedelima Md},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06107e73e405c7c841516303402546b2}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Kazi\bibnamedelima Nur},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceee6842b6ef9abf31b96785fbf5fb8d}{%
+           family={Shihab},
+           familyi={S\bibinitperiod},
+           given={Sk\bibnamedelima Rezwan.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7d2032574efdeaad43f586973cb9a02}
+      \strng{fullhash}{d504a936cb791b06052dfedab2c2d255}
+      \strng{bibnamehash}{d7d2032574efdeaad43f586973cb9a02}
+      \strng{authorbibnamehash}{d7d2032574efdeaad43f586973cb9a02}
+      \strng{authornamehash}{d7d2032574efdeaad43f586973cb9a02}
+      \strng{authorfullhash}{d504a936cb791b06052dfedab2c2d255}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Homology modeling and molecular dynamics simulation study on RhoB: modulator of cytoskeleton organization.}
+      \true{nocite}
+    \endentry
+    \entry{paul2022eae}{inprogress}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0b1795128b6c1f6e804de4642784122}{%
+           family={Saddam},
+           familyi={S\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3c77f36ca3f97224e3c8eeb8e6a9296}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sang-Suk},
+           giveni={S\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5087b6025fadc65c9452c9d493a1361}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Mahbub},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7ddb63e7ce9b28c6c77dc27d2a507a1d}
+      \strng{fullhash}{e3fb40d330e6f897408c12470e8f453f}
+      \strng{bibnamehash}{e3fb40d330e6f897408c12470e8f453f}
+      \strng{authorbibnamehash}{e3fb40d330e6f897408c12470e8f453f}
+      \strng{authornamehash}{7ddb63e7ce9b28c6c77dc27d2a507a1d}
+      \strng{authorfullhash}{e3fb40d330e6f897408c12470e8f453f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physicochemical, structural properties, and 100 nanoseconds molecular dynamics simulation of mouse grancalcin (GCA) protein: an in-silico study.}
+      \true{nocite}
+    \endentry
+    \entry{ahmed2021ccn}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=e46acdc0a11bf321919a0630996e6975}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Kazi\bibnamedelima Ahsan},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fead7f2674739f53c12305ee4396099}{%
+           family={Hasib},
+           familyi={H\bibinitperiod},
+           given={Tasnin\bibnamedelima Al},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0b1795128b6c1f6e804de4642784122}{%
+           family={Saddam},
+           familyi={S\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d96414f7cded26f37e53bb8fda5cc26}{%
+           family={Mimi},
+           familyi={M\bibinitperiod},
+           given={Afsana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd25b5a6ede9b271de2c338be0e94700}{%
+           family={Saikat},
+           familyi={S\bibinitperiod},
+           given={Abu\bibnamedelimb Saim\bibnamedelima Mohammad},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8183f9ef511b911aa12c7aa1e6f066c}{%
+           family={Faruque},
+           familyi={F\bibinitperiod},
+           given={Hasan-Al},
+           giveni={H\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d5db2fc1dc83f082caa02abfb18f58c}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b728882431b58994748481e72ac6f312}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17f3f84eebbd46ff26425e6f72e61e6c}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Bonglee},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{27bb3667c209a560e948ead5e3522363}
+      \strng{fullhash}{3de34abda5d2c137ddfb410d5bbaa7b8}
+      \strng{bibnamehash}{8cfb71128b1b17b65b4850b951732a1d}
+      \strng{authorbibnamehash}{8cfb71128b1b17b65b4850b951732a1d}
+      \strng{authornamehash}{27bb3667c209a560e948ead5e3522363}
+      \strng{authorfullhash}{3de34abda5d2c137ddfb410d5bbaa7b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Oncology}
+      \field{number}{6}
+      \field{title}{Potential role of ccn proteins in breast cancer: Therapeutic advances and perspectives}
+      \field{volume}{28}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{4972\bibrangedash 4985}
+      \range{pages}{14}
+    \endentry
+    \entry{seo2021ependymoma}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=e1a81db7607268a4b32970860f3dba7c}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Seung-Hee},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51c6cffa4acd73aaefc41cf2f2f83bff}{%
+           family={Shikder},
+           familyi={S\bibinitperiod},
+           given={Mita},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5aabc58ebcbe5ffe94dc97128d4a6d48}{%
+           family={Khanam},
+           familyi={K\bibinitperiod},
+           given={Mushira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8309d760da98e636a320de5afd278186}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Popy},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fead7f2674739f53c12305ee4396099}{%
+           family={Hasib},
+           familyi={H\bibinitperiod},
+           given={Tasnin\bibnamedelima Al},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e46acdc0a11bf321919a0630996e6975}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Kazi\bibnamedelima Ahsan},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42a9428bcc816b4035f8626006948737}{%
+           family={Sikdar},
+           familyi={S\bibinitperiod},
+           given={Suranjana},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6119f45f01ee108d27b40e7ed3c2201}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Jamal},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=912973e86f79b1c362bf59441d8237ed}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Youngjoo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{49b9e979b0a636294f705021dec4534a}
+      \strng{fullhash}{2dd5fe5cc170768013ea0763e7b09617}
+      \strng{bibnamehash}{a63d8a53f3571eca85742301206ad493}
+      \strng{authorbibnamehash}{a63d8a53f3571eca85742301206ad493}
+      \strng{authornamehash}{49b9e979b0a636294f705021dec4534a}
+      \strng{authorfullhash}{2dd5fe5cc170768013ea0763e7b09617}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cancers}
+      \field{number}{13}
+      \field{title}{An Insight into Pathophysiological Features and Therapeutic Advances on Ependymoma}
+      \field{volume}{13}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{3221}
+      \range{pages}{1}
+    \endentry
+    \entry{paul2020wnvconf}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90336b7be374fe3c91af8b4fca130c9b}{%
+           family={Khalipha},
+           familyi={K\bibinitperiod},
+           given={Abul\bibnamedelimb Bashar\bibnamedelima Ripon},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64e47004057067f1be0a4155f3c8e49a}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Lutful},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=badd93fd7f11e9039ff5cd893048d933}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Pranta},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2c60a5cc185ddf175cd6400eda6209c}{%
+           family={Mina},
+           familyi={M\bibinitperiod},
+           given={Masuma\bibnamedelima Akter},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc50b2a0a3d4dbdd7ef3e9892b4f3042}{%
+           family={Masum},
+           familyi={M\bibinitperiod},
+           given={Hossain\bibnamedelima Mohammad},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d713c8045bf7057863a5717b819fbb94}
+      \strng{fullhash}{ef672af9d5b419950aaca6ecd305ff3d}
+      \strng{bibnamehash}{ef672af9d5b419950aaca6ecd305ff3d}
+      \strng{authorbibnamehash}{ef672af9d5b419950aaca6ecd305ff3d}
+      \strng{authornamehash}{d713c8045bf7057863a5717b819fbb94}
+      \strng{authorfullhash}{ef672af9d5b419950aaca6ecd305ff3d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2nd International Conference on Communication, Devices and Computing}
+      \field{title}{In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{723\bibrangedash 732}
+      \range{pages}{10}
+    \endentry
+    \entry{paul2019mtbconf}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e0da3bd9d082c2de5074d5e994e4da9}{%
+           family={Al\bibnamedelima Hasib},
+           familyi={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Tasnin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=badd93fd7f11e9039ff5cd893048d933}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Pranta},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64e47004057067f1be0a4155f3c8e49a}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Lutful},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90336b7be374fe3c91af8b4fca130c9b}{%
+           family={Khalipha},
+           familyi={K\bibinitperiod},
+           given={Abul\bibnamedelimb Bashar\bibnamedelima Ripon},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{bcbe6a559241058733fbf98f59e46fdd}
+      \strng{fullhash}{f0b71cc04132c011e38e0937d9c80818}
+      \strng{bibnamehash}{f0b71cc04132c011e38e0937d9c80818}
+      \strng{authorbibnamehash}{f0b71cc04132c011e38e0937d9c80818}
+      \strng{authornamehash}{bcbe6a559241058733fbf98f59e46fdd}
+      \strng{authorfullhash}{f0b71cc04132c011e38e0937d9c80818}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Biotechnology and Biological Sciences}
+      \field{title}{Structure prediction and functional characterization of uncharacterized protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{179\bibrangedash 184}
+      \range{pages}{6}
+    \endentry
+    \entry{paul:2019petase}{inpresentation}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fead7f2674739f53c12305ee4396099}{%
+           family={Hasib},
+           familyi={H\bibinitperiod},
+           given={Tasnin\bibnamedelima Al},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94704d0f094107f5fd78d928d5521914}{%
+           family={Rizvy},
+           familyi={R\bibinitperiod},
+           given={Tasnimul\bibnamedelima Karim},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BUP Environmental Fest 2019, Dhaka 1216, Bangladesh; April 19, 2019. (Poster Presentation).}%
+      }
+      \strng{namehash}{195d8fe6baf795ff5404fd8fe0fc1182}
+      \strng{fullhash}{822f9a8be11e69754e1ef3d5382811ce}
+      \strng{bibnamehash}{822f9a8be11e69754e1ef3d5382811ce}
+      \strng{authorbibnamehash}{822f9a8be11e69754e1ef3d5382811ce}
+      \strng{authornamehash}{195d8fe6baf795ff5404fd8fe0fc1182}
+      \strng{authorfullhash}{822f9a8be11e69754e1ef3d5382811ce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development and Molecular Modelling of PETase enzyme for Degradation of Polyethylene terephthalate (PET)}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{paul:2018htt}{inpresentation}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3efa68eeec65a132ede48d235066ccf5}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Md\bibnamedelima Lutful},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2c60a5cc185ddf175cd6400eda6209c}{%
+           family={Mina},
+           familyi={M\bibinitperiod},
+           given={Masuma\bibnamedelima Akter},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94704d0f094107f5fd78d928d5521914}{%
+           family={Rizvy},
+           familyi={R\bibinitperiod},
+           given={Tasnimul\bibnamedelima Karim},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Biospectrum 2018, UEM, Kolkata 700156, India, July 27-28, 2018; (Poster Presentation)}%
+      }
+      \strng{namehash}{c47ed6ac6079e47375004130c39053be}
+      \strng{fullhash}{487382cb4bffaff098155dc840e41ab0}
+      \strng{bibnamehash}{487382cb4bffaff098155dc840e41ab0}
+      \strng{authorbibnamehash}{487382cb4bffaff098155dc840e41ab0}
+      \strng{authornamehash}{c47ed6ac6079e47375004130c39053be}
+      \strng{authorfullhash}{487382cb4bffaff098155dc840e41ab0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Molecular Docking Study of Tetrabenazine for Targeting Huntingtin Protein}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{paul:2018dfxn}{inpresentation}{}
+      \name{author}{4}{ul=3}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90336b7be374fe3c91af8b4fca130c9b}{%
+           family={Khalipha},
+           familyi={K\bibinitperiod},
+           given={Abul\bibnamedelimb Bashar\bibnamedelima Ripon},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a95e009a12c769169ca5629cbf0c7ae}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Solaiman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c91cd90686e0b4abe1f807d56e92b888}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={Mohammad\bibnamedelima Torequl},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {BAUET Tech Fair 2K18, BAUET, Natore, Bangladesh; May 10, 2018; (Poster Presentation); Awarded Prize for the 3rd Best Poster}%
+      }
+      \strng{namehash}{30ca926148772614e676aab136559189}
+      \strng{fullhash}{daeab14000f40f82f4c48cd3973d805d}
+      \strng{bibnamehash}{daeab14000f40f82f4c48cd3973d805d}
+      \strng{authorbibnamehash}{daeab14000f40f82f4c48cd3973d805d}
+      \strng{authornamehash}{30ca926148772614e676aab136559189}
+      \strng{authorfullhash}{daeab14000f40f82f4c48cd3973d805d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{In Silico Molecular Docking Study of Delafloxacin against 4MQT; The Treatment of Acute Bacterial Skin And Skin Structure Infections}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{paul:2019wnv}{inpresentation}{}
+      \name{author}{6}{ul=3}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90336b7be374fe3c91af8b4fca130c9b}{%
+           family={Khalipha},
+           familyi={K\bibinitperiod},
+           given={Abul\bibnamedelimb Bashar\bibnamedelima Ripon},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3efa68eeec65a132ede48d235066ccf5}{%
+           family={Kabir},
+           familyi={K\bibinitperiod},
+           given={Md\bibnamedelima Lutful},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5e6224879f91cf05af9edfa9ca5691}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2c60a5cc185ddf175cd6400eda6209c}{%
+           family={Mina},
+           familyi={M\bibinitperiod},
+           given={Masuma\bibnamedelima Akter},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc50b2a0a3d4dbdd7ef3e9892b4f3042}{%
+           family={Masum},
+           familyi={M\bibinitperiod},
+           given={Hossain\bibnamedelima Mohammad},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ICCDC 2019, HIT, Kolkata 721657, India; 14-15 March 2019. (Oral Presentation).}%
+      }
+      \strng{namehash}{f70a8d430066317a63b7d69efd32473f}
+      \strng{fullhash}{dae48302837cb8d0f3f8a42215eb8ca4}
+      \strng{bibnamehash}{dae48302837cb8d0f3f8a42215eb8ca4}
+      \strng{authorbibnamehash}{dae48302837cb8d0f3f8a42215eb8ca4}
+      \strng{authornamehash}{f70a8d430066317a63b7d69efd32473f}
+      \strng{authorfullhash}{dae48302837cb8d0f3f8a42215eb8ca4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{In-Silico Design and Homology Modeling of Helicase C-terminal Domain of Nonstructural Protein NS3 of West Nile Virus (strain NY-99)}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{paul:2017tlr4}{inpresentation}{}
+      \name{author}{7}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6d23c88dcf2251695378afffe4e892e3}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Shamrat\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2c60a5cc185ddf175cd6400eda6209c}{%
+           family={Mina},
+           familyi={M\bibinitperiod},
+           given={Masuma\bibnamedelima Akter},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a190f5914f50c1c515454d0d7d0c1e2}{%
+           family={Noor},
+           familyi={N\bibinitperiod},
+           given={Minhazul\bibnamedelima Islam},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a8bdc77f90d0aa4e8c8cea8e7a065f9}{%
+           family={Singha},
+           familyi={S\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be8f75a6f8436a92681fc8f979c69c1d}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Moriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc25db83ddaf6acb647539eac94176bc}{%
+           family={Rima},
+           familyi={R\bibinitperiod},
+           given={Sharmin\bibnamedelima Akter},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=080db396365d7dbf501b8e47fc1f7c1d}{%
+           family={Halim},
+           familyi={H\bibinitperiod},
+           given={Mohammad\bibnamedelima Abdul},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {8th Annual Conference, BCS; Chittagong, Bangladesh; March 31, 2017; (Oral presentation)}%
+      }
+      \strng{namehash}{574efc47d94a5e2bc8b886f8de6a26b4}
+      \strng{fullhash}{289618c6775724bc1440fd71760f05ea}
+      \strng{bibnamehash}{289618c6775724bc1440fd71760f05ea}
+      \strng{authorbibnamehash}{289618c6775724bc1440fd71760f05ea}
+      \strng{authornamehash}{574efc47d94a5e2bc8b886f8de6a26b4}
+      \strng{authorfullhash}{289618c6775724bc1440fd71760f05ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Searching Potential Inhibitors for Targeting Toll-like Receptor 4 (TLR4) Protein by Virtual Screening}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
