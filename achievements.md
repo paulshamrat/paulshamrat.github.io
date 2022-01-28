@@ -34,7 +34,7 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 
 **6. Homology modeling and molecular dynamics simulation study on RhoB: modulator of cytoskeleton organization** <br>
 <u>Paul, S.K.</u>, Metu, C.L.N., Sutihar, S.K., Hasib, T.A., Saddam, M., Kabir, M.L., Uddin, K.N., Shihab, S.R.
-**(*Submitted to NHIB, Springer*)**.
+**(*Submitted to JPPS, Springer*)**.
 <!-- [Last updated; Jul 05, 2021; v18.5](/achievementfiles/inprogress/mapk-Jul5-V18.5.pdf) -->
 
 **7. Homology Modeling and Molecular Dynamics Simulation Study on Uncharacterized NAD-dependent oxidoreductase Rv0687 of Mycobacterium tuberculosis (strain ATCC 25618/H37Rv)**<br>
