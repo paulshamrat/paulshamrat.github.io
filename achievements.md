@@ -6,11 +6,11 @@ permalink: /achievements/
 layout: default
 ---
 ### Articles
-[**1. Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.**](https://www.mdpi.com/2072-6694/13/13/3221) <br>
+[**1. Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.**](https://www.mdpi.com/1718-7729/28/6/417) <br>
 Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., Kim, B. *Curr. Oncol. 2021, 28, 4972-4985. DOI: 10.3390/curroncol28060417.*
 [**(PDF)**](https://www.mdpi.com/1718-7729/28/6/417/pdf)<br>
 
-[**2. An insight into pathophysiological features and therapeutic advances on ependymoma.**](https://www.mdpi.com/1718-7729/28/6/417) <br>
+[**2. An insight into pathophysiological features and therapeutic advances on ependymoma.**](https://www.mdpi.com/2072-6694/13/13/3221) <br>
 Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, Ahmed, K.A., Sikdar, S., Uddin, M.J., & Kwon, Y. 
 *Cancers **2021**, 13, 3221. DOI: 10.3390/cancers13133221.*
 [**(PDF)**](https://www.mdpi.com/2072-6694/13/13/3221/pdf)<br>
