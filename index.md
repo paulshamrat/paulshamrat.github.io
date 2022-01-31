@@ -64,7 +64,7 @@ Depicting complex biological phenomenon in the form of flowchart, pathway and lo
 
 ### Publications
 1. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417)*.  **Current Oncology**, 28(6), 4972–4985*.
-2. Seo, S.-H. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221)*. **Cancers**, 13(13), 3221.*
+2. Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221)*. **Cancers**, 13(13), 3221.*
 3. Paul, S. K., et al. (2020). [In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68)*. **Springer Nature**, pp: 723–732.*
 4. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30)*. **CRC press**. pp: 179–184*.
 
