@@ -48,7 +48,7 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 
 **9. Natural products-based potential therapeutic interventions of pulmonary fibrosis** <br>
 Hasan, M., Paul, N.C., <u>Paul, S.K.</u>, Saikat, A.S.M., Akter, H., Mandal, M., Lee, S.-S.
-**(*In-progress*)**<br>
+**(*Accepted in [molecules](/assets/Acceptance-Certificate-molecules-1538449.pdf)*)**<br>
 <!--[Last updated; Jun 07, 2021; v9.0](/achievementfiles/inprogress/ipf-draft-reference-mendeley-june7--v9.pdf) -->
 
 
