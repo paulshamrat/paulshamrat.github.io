@@ -5,7 +5,7 @@ description:
 permalink: /showcases/
 layout: default
 ---
-### DIGITAL ILLUSTRATION
+### DIGITAL ILLUSTRATIONS
 
 <style>
 td, th {
@@ -13,37 +13,82 @@ td, th {
 }
 </style>
 
+01 Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417)*.  **Current Oncology**, 28(6), 4972–4985*.
+
 | ![](/assets/images/ccn/mechanismccn-aug11.svg) | ![](/assets/images/ccn/therapeutics-oct15.svg)    |
-| Mechanism of CCN                               | Therapeutics for CCN                              |
+| [Mechanism of CCN](/assets/images/ccn/mechanismccn-aug11.svg)                               | [Therapeutics for CCN](/assets/images/ccn/therapeutics-oct15.svg)                               |
+
+
+02 Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221)*. **Cancers**, 13(13), 3221.*
+
+| ![](/assets/images/ependymoma/00-ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell .svg)    |
+| [Graphical Abstract of Ependymoma](/assets/images/ependymoma/00-ependymoma-abstract.svg)                                          | [Tumorigenesis of Ependymoma](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell .svg)                               |
 
 
 
-| ![](/assets/images/ependymoma/00. ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01. Tumorigenesis of ependymal cell .svg)    |
-| Graphical Abstract of Ependymoma                                         | Tumorigenesis of Ependymoma                               |
+| ![](/assets/images/ependymoma/02-Chromosomal-abnormalities-in-ependymoma.svg)               | ![](/assets/images/ependymoma/03-Metastasis-of-ependymoma.svg)    |
+| [Chromosomal abnormalities: Ependymoma](/assets/images/ependymoma/02-Chromosomal-abnormalities-in-ependymoma.svg)                                                         | [Metastasis in Ependymoma](/assets/images/ependymoma/03-Metastasis-of-ependymoma.svg)                             |
 
 
 
-| ![](/assets/images/ependymoma/02. Chromosomal abnormalities in ependymoma .svg)               | ![](/assets/images/ependymoma/03. Metastasis of ependymoma.svg)    |
-| Chromosomal abnormalities: Ependymoma                                                         | Metastasis in Ependymoma                             |
+| ![](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)               | ![](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)    |
+| [Therapeutics of Ependymoma](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)                                                           | [Pathophysiology of Ependymoma](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)                            |
+
+
+### PROJECT TIMELINE
+**2022** <br>
+- MD simulation: via SSH@science outreach server; access: 12 Intel Xeon E5 cores, and an NVIDIA GTX 2080 GPU]. <br>
+- MD simulation on RhoB; modulator of cytoskeleton organization. <br>
+<br>
+
+**2021** <br>
+- Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in EAE mice. <br>
+- Role of CCN protein family in breast cancer.<br>
+- Idipathic pulmonary fibrosis; potential therapeutic advancements. <br>
+- Ependymoma: therapeutics and it's advancements. <br>
+<br>
+
+**2020** <br>
+- Physicochemical properties of MUNC18 and MUNC 13 protein. <br>
+- Microarray data analysis to identify DEGs in ovarian cancer. <br>
+<br>
+
+**2019**<br>
+- PETase enzyme: investigation of tertiary structures. <br>
+- Investigation on mycobacterial ABC transporter. <br>
+<br>
+
+**2018**<br>
+- Biophysics of WNV Helicase C-terminal. <br>
+- Modification of Delafloxacin and Fenofibrate. <br>
+- Searching for potential inhibitors of TLR4 protein. <br>
+
+    
+
+### SCIENCE OUTREACH
+**Organizational role** <br>
+- Jan 2021 - Research Assistant, ABEx Bio-Research Center, Dhaka 1230, Bangladesh. <br>
+- Mar 2020 - Project Mentor, Bio-Science Research Initiative, Gopalganj 8100, Bangladesh. <br>
+- Jan 2018 - Research Assistant, Evergreen Scientific Research Centre, Gopalganj 8100, Bangladesh. <br>
+
+**Training** <br>
+- Mar 29, 2020 - Training on CRISPR Cas-9 molecular biology tool conducted by Bio Bangla and Dept. of BMB, BSMRSTU, Gopalganj 8100 Bangladesh. <br>
+- Mar 08, 2019 - Hands-on Training Workshop on Molecular Biological Tools used for DNA Barcoding and Basic Bioinformatics at Molecular Pathology Lab of CVASU, Chittagong 4225, Bangladesh. <br>
+
+**Workshops** <br>
+- Apr 22, 2018 - A journey to code and sequence 02 at BSMRSTU, Gopalganj 8100, Bangladesh. <br>
+- Apr 06, 2018 -  Code and sequence returns at BSMRSTU, Gopalganj 8100, Bangladesh. <br>
+
+- Feb 10, 2018 - Training on bioinformatics at Rajshahi University, Rajshahi, Bangladesh. <br>
+- Jan 02, 2018 - A journey to code and sequence (workshop) at BSMRSTU, Gopalganj 8100, Bangladesh. <br>
+- Oct 29, 2017 - Workshop on Computational Chemistry at Red green research center Dhaka, Bangladesh. <br>
+- Sep 11, 2017 - A Workshop on Synthetic Biology by Bio Bangla at NMST, Dhaka, Bangladesh. <br>
+- Aug 06, 2017 - Workshop on Synthetic Biology by Bio Bangla at Software Technology Park, Dhaka, Bangladesh. <br>
+- Apr 11, 2017 - Advance workshop on computational chemistry at Red Green Research Center Dhaka, Bangladesh. <br>
 
 
 
-| ![](/assets/images/ependymoma/04. Possible therapeutic approaches.svg)               | ![](/assets/images/ependymoma/05. Pathophysiology of ependymoma.svg)    |
-| Therapeutics of Ependymoma                                                           | Pathophysiology of Ependymoma                            |
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Courses Undertaken
+### COURSES UNDERTAKEN
 MS in Biochemistry and Molecular Biology at BSMRSTU, Gopalganj 8100, Bangladesh.<br>
 
 Level 2
