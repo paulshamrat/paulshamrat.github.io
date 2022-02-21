@@ -34,36 +34,7 @@ td, th {
 | ![](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)               | ![](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)    |
 | [Therapeutics of Ependymoma](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)                                                           | [Pathophysiology of Ependymoma](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)                            |
 
-
-### PROJECT TIMELINE
-**2022** <br>
-- MD simulation: via SSH@science outreach server; access: 12 Intel Xeon E5 cores, and an NVIDIA GTX 2080 GPU]. <br>
-- MD simulation on RhoB; modulator of cytoskeleton organization. <br>
-<br>
-
-**2021** <br>
-- Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in EAE mice. <br>
-- Role of CCN protein family in breast cancer.<br>
-- Idipathic pulmonary fibrosis; potential therapeutic advancements. <br>
-- Ependymoma: therapeutics and it's advancements. <br>
-<br>
-
-**2020** <br>
-- Physicochemical properties of MUNC18 and MUNC 13 protein. <br>
-- Microarray data analysis to identify DEGs in ovarian cancer. <br>
-<br>
-
-**2019**<br>
-- PETase enzyme: investigation of tertiary structures. <br>
-- Investigation on mycobacterial ABC transporter. <br>
-<br>
-
-**2018**<br>
-- Biophysics of WNV Helicase C-terminal. <br>
-- Modification of Delafloxacin and Fenofibrate. <br>
-- Searching for potential inhibitors of TLR4 protein. <br>
-
-    
+ 
 
 ### SCIENCE OUTREACH
 **Organizational role** <br>
