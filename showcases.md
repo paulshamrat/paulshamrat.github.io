@@ -13,26 +13,26 @@ td, th {
 }
 </style>
 
-01 Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417)*.  **Current Oncology**, 28(6), 4972–4985*.
+01 Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}*.  **Current Oncology**, 28(6), 4972–4985*.
 
 | ![](/assets/images/ccn/mechanismccn-aug11.svg) | ![](/assets/images/ccn/therapeutics-oct15.svg)    |
-| [Mechanism of CCN](/assets/images/ccn/mechanismccn-aug11.svg)                               | [Therapeutics for CCN](/assets/images/ccn/therapeutics-oct15.svg)                               |
+| [Mechanism of CCN](/assets/images/ccn/mechanismccn-aug11.svg){:target="\_blank"}                               | [Therapeutics for CCN](/assets/images/ccn/therapeutics-oct15.svg){:target="\_blank"}                               |
 
 
-02 Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221)*. **Cancers**, 13(13), 3221.*
+02 Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}*. **Cancers**, 13(13), 3221.*
 
-| ![](/assets/images/ependymoma/00-ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell .svg)    |
-| [Graphical Abstract of Ependymoma](/assets/images/ependymoma/00-ependymoma-abstract.svg)                                          | [Tumorigenesis of Ependymoma](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell .svg)                               |
+| ![](/assets/images/ependymoma/00-ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell.svg)    |
+| [Graphical Abstract of Ependymoma](/assets/images/ependymoma/00-ependymoma-abstract.svg){:target="\_blank"}                                          | [Tumorigenesis of Ependymoma](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell.svg){:target="\_blank"}                               |
 
 
 
 | ![](/assets/images/ependymoma/02-Chromosomal-abnormalities-in-ependymoma.svg)               | ![](/assets/images/ependymoma/03-Metastasis-of-ependymoma.svg)    |
-| [Chromosomal abnormalities: Ependymoma](/assets/images/ependymoma/02-Chromosomal-abnormalities-in-ependymoma.svg)                                                         | [Metastasis in Ependymoma](/assets/images/ependymoma/03-Metastasis-of-ependymoma.svg)                             |
+| [Chromosomal abnormalities: Ependymoma](/assets/images/ependymoma/02-Chromosomal-abnormalities-in-ependymoma.svg){:target="\_blank"}                                                         | [Metastasis in Ependymoma](/assets/images/ependymoma/03-Metastasis-of-ependymoma.svg){:target="\_blank"}                             |
 
 
 
 | ![](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)               | ![](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)    |
-| [Therapeutics of Ependymoma](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg)                                                           | [Pathophysiology of Ependymoma](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg)                            |
+| [Therapeutics of Ependymoma](/assets/images/ependymoma/04-Possible-therapeutic-approaches.svg){:target="\_blank"}                                                           | [Pathophysiology of Ependymoma](/assets/images/ependymoma/05-Pathophysiology-of-ependymoma.svg){:target="\_blank"}                            |
 
  
 
@@ -108,22 +108,22 @@ Level 3.1
 
 
 # Some Resources at a Glance:
-- [SWISS MODEL](https://swissmodel.expasy.org/interactive); Comparative Protein Modeling Server.
-- [MODELLER](https://salilab.org/modeller/); Peptide modeling suit.
-- [GROMACS](https://www.gromacs.org/); Molecular Dynamics Simulation Package (Open source).
-- [Lysozyme in Water](http://www.mdtutorials.com/gmx/lysozyme/index.html); Tutorial by Justin A. Lemkul.
-- [PyRx](https://pyrx.sourceforge.io/); Molecular Docking Software.
-- [PyMOL](https://pymol.org/2/): Molecular Graphics and Visualization interface.
-- [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/); Graphical and visualization tools.
-- [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download); Protein-Ligand Interaction Study.
-- [VMD](https://www.ks.uiuc.edu/Research/vmd/); Molecular Dynamics Simulation data.
-- [MDAnalysis](https://www.mdanalysis.org/); Python package for MD data analysis.
-- [gnuplot](http://www.gnuplot.info/); Visualizing MD data (RMSD, RMSF, Rg).
-- [xmgrace](https://plasma-gate.weizmann.ac.il/Grace/); Visualizing MD data (RMSD, RMSF, Rg).
-- [Inkscape](https://inkscape.org/); Lightweight digital illustration tool.
-- [GIMP](https://www.gimp.org/); Lightweight Photoshop alternative for low-end PC.
-- [MikTex](https://miktex.org/download); Basic Latex interface for documentation.
-- [Texworks](https://miktex.org/download); Console for MikTex; Latex made easy.
-- [Overleaf](https://www.overleaf.com/project); Webbased Latex resource and compiler.
-- [RDMkit](https://rdmkit.elixir-europe.org/biomolecular_simulation_data.html); Repositroy for large sclae MD simulation datasets.
-- [Markdown guide](https://www.markdownguide.org/); Learn markdown formatting for jekyll sites.
+- [SWISS MODEL](https://swissmodel.expasy.org/interactive){:target="\_blank"}; Comparative Protein Modeling Server.
+- [MODELLER](https://salilab.org/modeller/){:target="\_blank"}; Peptide modeling suit.
+- [GROMACS](https://www.gromacs.org/){:target="\_blank"}; Molecular Dynamics Simulation Package (Open source).
+- [Lysozyme in Water](http://www.mdtutorials.com/gmx/lysozyme/index.html){:target="\_blank"}; Tutorial by Justin A. Lemkul.
+- [PyRx](https://pyrx.sourceforge.io/){:target="\_blank"}; Molecular Docking Software.
+- [PyMOL](https://pymol.org/2/){:target="\_blank"}: Molecular Graphics and Visualization interface.
+- [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/){:target="\_blank"}; Graphical and visualization tools.
+- [Discovery Studio](https://discover.3ds.com/discovery-studio-visualizer-download){:target="\_blank"}; Protein-Ligand Interaction Study.
+- [VMD](https://www.ks.uiuc.edu/Research/vmd/){:target="\_blank"}; Molecular Dynamics Simulation data.
+- [MDAnalysis](https://www.mdanalysis.org/){:target="\_blank"}; Python package for MD data analysis.
+- [gnuplot](http://www.gnuplot.info/){:target="\_blank"}; Visualizing MD data (RMSD, RMSF, Rg).
+- [xmgrace](https://plasma-gate.weizmann.ac.il/Grace/){:target="\_blank"}; Visualizing MD data (RMSD, RMSF, Rg).
+- [Inkscape](https://inkscape.org/){:target="\_blank"}; Lightweight digital illustration tool.
+- [GIMP](https://www.gimp.org/){:target="\_blank"}; Lightweight Photoshop alternative for low-end PC.
+- [MikTex](https://miktex.org/download){:target="\_blank"}; Basic Latex interface for documentation.
+- [Texworks](https://miktex.org/download){:target="\_blank"}; Console for MikTex; Latex made easy.
+- [Overleaf](https://www.overleaf.com/project){:target="\_blank"}; Webbased Latex resource and compiler.
+- [RDMkit](https://rdmkit.elixir-europe.org/biomolecular_simulation_data.html){:target="\_blank"}; Repositroy for large sclae MD simulation datasets.
+- [Markdown guide](https://www.markdownguide.org/){:target="\_blank"}; Learn markdown formatting for jekyll sites.
