@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.12.27)  21 FEB 2022 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.12.27)  21 FEB 2022 15:57
 entering extended mode
 **c:/Users/shamr/paulshamrat.github.io/assets/cv/cv-llt.tex
 (c:/Users/shamr/paulshamrat.github.io/assets/cv/cv-llt.tex
@@ -1031,9 +1031,6 @@ LaTeX Font Info:    Font shape `T1/Cabin-TLF/b/n' aliased to
 (Font)              `T1/Cabin-TLF/bold/n' on input line 10.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 10.
- [1
-
-{C:/Users/shamr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/m/n' aliased to
 (Font)              `T1/Cabin-TLF/regular/n' on input line 10.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/regular/n' will be
@@ -1046,7 +1043,9 @@ LaTeX Font Info:    Font shape `T1/Cabin-TLF/b/n' aliased to
 (Font)              `T1/Cabin-TLF/bold/n' on input line 10.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/bold/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
+ [1
 
+{C:/Users/shamr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
 Package biblatex Warning: No driver for entry type 'inpresentation'.
 (biblatex)                Using fallback driver on input line 14.
@@ -1085,7 +1084,7 @@ Package biblatex Warning: No driver for entry type 'inprogress'.
 Package biblatex Warning: No driver for entry type 'inprogress'.
 (biblatex)                Using fallback driver on input line 18.
 
-) (projects.tex) (projects.tex) (projects.tex) (projects.tex [2]) (misc.tex) (misc.tex) (misc.tex) (misc.tex) (lang-prof.tex) (lang-prof.tex) (lang-prof.tex) (lang-prof.tex) (referee.tex) (referee.tex) (referee.tex) (referee.tex) [3] (cv-llt.aux)
+) (projects.tex) (projects.tex) (projects.tex) (projects.tex) (misc.tex) (misc.tex) (misc.tex) (misc.tex [2]) (lang-prof.tex) (lang-prof.tex) (lang-prof.tex) (lang-prof.tex) (referee.tex) (referee.tex) (referee.tex) (referee.tex) [3] (cv-llt.aux)
 Package rerunfilecheck Info: File `cv-llt.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'cv-llt.run.xml'.
@@ -1095,13 +1094,13 @@ Package logreq Info: Writing requests to 'cv-llt.run.xml'.
 Here is how much of TeX's memory you used:
  35422 strings out of 478864
  701211 string characters out of 2848659
- 1494865 words of memory out of 3000000
+ 1496864 words of memory out of 3000000
  52626 multiletter control sequences out of 15000+600000
  638068 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,11n,107p,1198b,4073s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cochineal/coch_qyvxxn.enc}{C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cochineal/coch_kbpxlj.enc}{C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-5.enc}{C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cabin/cbn_i3ioen.enc}<C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/cabin/Cabin-Bold.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cochineal/Cochineal-Bold.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cochineal/Cochineal-Italic.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cochineal/Cochineal-Roman.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/shamr/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on cv-llt.pdf (3 pages, 216873 bytes).
+Output written on cv-llt.pdf (3 pages, 215983 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
