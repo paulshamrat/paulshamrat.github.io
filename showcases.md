@@ -24,7 +24,7 @@ td, th {
 
 
 | ![](/assets/images/ependymoma/02. Chromosomal abnormalities in ependymoma .svg)               | ![](/assets/images/ependymoma/03. Metastasis of ependymoma.svg)    |
-| Chromosomal abnormalities in Ependymoma                                                       | Metastasis in Ependymoma                             |
+| Chromosomal abnormalities: Ependymoma                                                         | Metastasis in Ependymoma                             |
 
 
 
