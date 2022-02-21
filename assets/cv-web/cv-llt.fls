@@ -1,6 +1,6 @@
-PWD C:\Users\shamr\OneDrive\Desktop\mycv-latex
+PWD C:\Users\shamr\paulshamrat.github.io\assets\cv-web
 INPUT C:\Users\shamr\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\shamr\OneDrive\Desktop\mycv-latex\cv-llt.tex
+INPUT c:\Users\shamr\paulshamrat.github.io\assets\cv-web\cv-llt.tex
 OUTPUT cv-llt.log
 INPUT C:\Users\shamr\AppData\Local\Programs\MiKTeX\tex\latex\curve\curve.cls
 INPUT C:\Users\shamr\AppData\Local\Programs\MiKTeX\tex\latex\curve\curve.cls
