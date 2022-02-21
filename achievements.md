@@ -8,12 +8,12 @@ layout: default
 ### Articles
 [**1. Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.**](https://www.mdpi.com/1718-7729/28/6/417) <br>
 Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., Kim, B. *Curr. Oncol. 2021, 28, 4972-4985. DOI: 10.3390/curroncol28060417.*
-[**(PDF)**](https://www.mdpi.com/1718-7729/28/6/417/pdf)<br>
+[**(PDF)**](/assets/articles/2021-11-CCN.pdf)<br>
 
 [**2. An insight into pathophysiological features and therapeutic advances on ependymoma.**](https://www.mdpi.com/2072-6694/13/13/3221) <br>
 Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, Ahmed, K.A., Sikdar, S., Uddin, M.J., & Kwon, Y. 
 *Cancers **2021**, 13, 3221. DOI: 10.3390/cancers13133221.*
-[**(PDF)**](https://www.mdpi.com/2072-6694/13/13/3221/pdf)<br>
+[**(PDF)**](/assets/articles/2021-06-EPENDYMOMA.pdf)<br>
 
 [**3. Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis.**](https://www.researchgate.net/publication/349832074_Microarray_Data_Analysis_Using_GEO2R_to_Identify_Differentially_Expressed_Genes_in_Ovarian_Cancer_after_NSC319726_Treatment_and_Pathway_Analysis) <br>
 <u>Paul, S.K.</u>, Banerjee, S., Karunagaran, D.
@@ -24,12 +24,12 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 [**4. In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99).**](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68) <br>
 <u>Paul, S.K.</u>, Khalipha, A.B.R., Kabir, M.L., Ray, P., Mina, M.A., Masum, H.M.
 *In Proceedings of the 2nd International Conference on Communication, Devices and Computing, **2020**, (pp. 723-732). Springer, Singapore. DOI: 10.1007/978-981-15-0829-5_68.*
-[**(Article)**](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68)
+[**(PDF)**](/assets/articles/2019-12-WNV.pdf)
 
 [**5. Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv).**](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003001614-30/structure-prediction-functional-characterization-uncharacterized-protein-rv1708-mycobacterium-tuberculosis-strain-atcc-25618-h37rv-shamrat-kumar-paul-tasnin-al-hasib-pranta-ray-lutful-kabir-abul-bashar-ripon-khalipha) <br>
 <u>Paul, S.K.</u>, Hasib, T.A., Ray, P., Kabir, L., Khalipha, A.B.R.
 *In Biotechnology and Biological Sciences, **2019** (pp. 179-184). CRC Press. DOI: 10.1201/9781003001614-30.* 
-[**(Article)**](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003001614-30/structure-prediction-functional-characterization-uncharacterized-protein-rv1708-mycobacterium-tuberculosis-strain-atcc-25618-h37rv-shamrat-kumar-paul-tasnin-al-hasib-pranta-ray-lutful-kabir-abul-bashar-ripon-khalipha)<br>
+[**(PDF)**](/assets/articles/2019-11-MTB-BIOSPECTRUM.pdf)<br>
 
 **6. Homology modeling and molecular dynamics simulation study on RhoB: modulator of cytoskeleton organization** <br>
 <u>Paul, S.K.</u>, Metu, C.L.N., Sutihar, S.K., Hasib, T.A., Saddam, M., Kabir, M.L., Uddin, K.N., Shihab, S.R.
