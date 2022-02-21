@@ -5,11 +5,41 @@ description:
 permalink: /showcases/
 layout: default
 ---
-![](/assets/images/ependymoma.svg)
-Contribution in illustration projects published in *[**cancers**](https://www.mdpi.com/2072-6694/13/13/3221)*.
+### DIGITAL ILLUSTRATION
 
-![](/assets/images/therapeutics-oct15.svg)
-Contribution in illustration projects published in *[**current oncology**](https://www.mdpi.com/1718-7729/28/6/417)*.
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
+| ![](/assets/images/ccn/mechanismccn-aug11.svg) | ![](/assets/images/ccn/therapeutics-oct15.svg)    |
+| Mechanism of CCN                               | Therapeutics for CCN                              |
+
+
+
+| ![](/assets/images/ependymoma/00. ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01. Tumorigenesis of ependymal cell .svg)    |
+| Graphical Abstract of Ependymoma                                         | Tumorigenesis of Ependymoma                               |
+
+
+
+| ![](/assets/images/ependymoma/02. Chromosomal abnormalities in ependymoma .svg)               | ![](/assets/images/ependymoma/03. Metastasis of ependymoma.svg)    |
+| Chromosomal abnormalities in Ependymoma                                                       | Metastasis in Ependymoma                             |
+
+
+
+| ![](/assets/images/ependymoma/04. Possible therapeutic approaches.svg)               | ![](/assets/images/ependymoma/05. Pathophysiology of ependymoma.svg)    |
+| Therapeutics of Ependymoma                                                           | Pathophysiology of Ependymoma                            |
+
+
+
+
+
+
+
+
+
+
 
 
 
