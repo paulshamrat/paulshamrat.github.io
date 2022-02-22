@@ -63,10 +63,11 @@ In this project I am keeping a record of essential resources, workplan and updat
 Depicting complex biological phenomenon in the form of flowchart, pathway and logical figure. I mostly used Inkscape and GIMP for the generation of biological illustrations and python for data analysis. Here I track record of these works. 
 
 ### Publications
-1. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}*.  **Current Oncology**, 28(6), 4972–4985*.
-2. Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}*. **Cancers**, 13(13), 3221.*
-3. Paul, S. K., et al. (2020). [In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68){:target="\_blank"}*. **Springer Nature**, pp: 723–732.*
-4. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}*. **CRC press**. pp: 179–184*.
+1. Hasan, M. et al. (2022). [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}. *Molecules 2022, 27(5), 1481.*
+2. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}*.  *Current Oncology*, 28(6), 4972–4985*.
+3. Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}*. *Cancers*, 13(13), 3221.*
+4. Paul, S. K., et al. (2020). [In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68){:target="\_blank"}*. *Springer Nature*, pp: 723–732.*
+5. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}*. *CRC press*. pp: 179–184*.
 
 ### Recent Updates
 - *February 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *molecules* [IF: 4.412].
