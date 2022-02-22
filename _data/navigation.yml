@@ -4,10 +4,12 @@
   link: /achievements
 - name: Projects
   link: /projects
-- name: Showcases
-  link: /showcases
 - name: Blog
   link: /blog
+- name: Gallery
+  link: /gallery
+- name: Misc.
+  link: /misc
 #- name: About
   #link: /about
 #- name: Contact

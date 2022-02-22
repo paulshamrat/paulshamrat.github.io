@@ -1,7 +1,7 @@
 ---
 title: Home | Shamrat Kumar Paul
 header: Shamrat Kumar Paul
-description: bt20f002@smail.iitm.ac.in
+description:
 permalink: /
 layout: default
 ---
