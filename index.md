@@ -70,7 +70,8 @@ Depicting complex biological phenomenon in the form of flowchart, pathway and lo
 5. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}*. *CRC press*. pp: 179–184*.
 
 ### Recent Updates
-- *February 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *molecules* [IF: 4.412].
+- *February 22, 2022* - IPF review has been [published](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"} in *Molecules* [IF: 4.412].
+- *February 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *Molecules* [IF: 4.412].
 - *January 14, 2022* - Advanced workshop on GROMACS by [CSC.fi](https://ssl.eventilla.com/advanced-gromacs-2022){:target="\_blank"}; selected as participant.
 - *December 30, 2021* - MSc thesis project awarded [NST fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"}, MOST, Bangladesh.
 - *December 03, 2021* - Recieved MS thesis internship offer from [ICSR](https://icsr.iitpkd.ac.in/){:target="\_blank"}, IIT Palakkad, Kerala, India.
