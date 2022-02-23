@@ -7,7 +7,7 @@ layout: default
 ---
 
 <img align="right" src="/assets/images/ipf/ipf.png" alt="drawing" style="width:300px;"/> **Highlighting illustration:** Potential therapeutic targets aiming at the mechanism of IPF. Environmental micro-injuries, genetic and epigenetic effects, and thus microbial activities influence the activation pathways and factors that are the inducers of fibrosis and myofibroblast formation. The complex interrelation among key signaling molecules and factors is depicted in this figure, indicating the potential targets for the treatment of IPF identified over years of research. *Read more in [Hasan M. et al (2022)](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}.* <br>
-[High resulation illustration](/assets/images/ipf/ipf.png).
+[High resulation illustration](/assets/images/ipf/ipf.png){:target="\_blank"}.
 
 <style>
 td, th {
