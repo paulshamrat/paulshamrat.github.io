@@ -5,14 +5,15 @@ description:
 permalink: /gallery/
 layout: default
 ---
+
+<img align="right" src="/assets/images/ipf/ipf.png" alt="drawing" style="width:300px;"/> **Highlighting illustration:** Potential therapeutic targets aiming at the mechanism of IPF. Environmental micro-injuries, genetic and epigenetic effects, and thus microbial activities influence the activation pathways and factors that are the inducers of fibrosis and myofibroblast formation. The complex interrelation among key signaling molecules and factors is depicted in this figure, indicating the potential targets for the treatment of IPF identified over years of research. *Read more in [Hasan M. et al (2022)](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}.* <br>
+[High resulation illustration](/assets/images/ipf/ipf.png).
+
 <style>
 td, th {
    border: none!important;
 }
 </style>
-
-<img src="/assets/images/ipf/ipf.png" alt="drawing" style="width:650px;"/>  <br>
-**Highlighting illustration:** Potential therapeutic targets aiming at the mechanism of IPF. Environmental micro-injuries, genetic and epigenetic effects, and thus microbial activities influence the activation pathways and factors that are the inducers of fibrosis and myofibroblast formation. The complex interrelation among key signaling molecules and factors is depicted in this figure, indicating the potential targets for the treatment of IPF identified over years of research. *Read more in [Hasan M. et al (2022)](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}.* <br>
 
 ### Contribution in  [Ahmed, K.A., et al. (2021)](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}
 
@@ -42,7 +43,7 @@ td, th {
 | [Cottage (2014)](/assets/images/sketch/cottege.jpg){:target="\_blank"}                                                           | [River (2014)](/assets/images/sketch/river.jpg){:target="\_blank"}                            |
 
 
-| ![](/assets/images/sketch/language.PNG)               | ![](/assets/images/sketch/michael.PNG)    |
+| ![](/assets/images/sketch/language.PNG)              | ![](/assets/images/sketch/michael.PNG)    |
 | [Language Movement 1952 (2016)](/assets/images/sketch/cottege.jpg){:target="\_blank"}                                                           | [Michael Madhusudan Dutt (2014)](/assets/images/sketch/michael.PNG){:target="\_blank"}                            |
 
 
