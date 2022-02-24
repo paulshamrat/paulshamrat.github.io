@@ -169,27 +169,34 @@ March 31, **2017**.
 
 ### Academic Presentations
 
-**01. Nucleic acid therapeutics based on biotechnology.** <br>
-<u>Paul, S.K.</u>
-*Academic presentation; Course Code: BMB553.* 
-July 13, **2021**.
+[05] [Comprehensive Study of Advanced Literature](/assets/academic-presentations/bmb519-presentation_edit5-final-nov20-2021-11.30pm.pdf){:target="\_blank"}. <br>
+Sohag, M., Hasan, M., Rahman, S.S., Debnath, A., <u>Paul, S.K.</u>, Prome, U.H., Rahman, M.A, Saha, P., Pal, B., Sil, S.K.;
+*Academic presentation; Course Code: BMB519 <br>
+November 21, 2021. [PDF](/assets/academic-presentations/bmb519-presentation_edit5-final-nov20-2021-11.30pm.pdf){:target="\_blank"}.
+
+[04] [Nucleic acid therapeutics based on biotechnology](/assets/academic-presentations/20151216025-Shamrat-Kumar-Paul-Nucleic-acid-therapeutics-based-on-biotechnology-jul13-2021.pdf){:target="\_blank"}. <br>
+<u>Paul, S.K.</u>,
+*Academic presentation; Course Code: BMB553, [Score: 20 out of 20 (Rubrics)]<br>
+Jury: Mahbub Hasan, PhD <br>
+July 13, **2021**. [PDF](/assets/academic-presentations/20151216025-Shamrat-Kumar-Paul-Nucleic-acid-therapeutics-based-on-biotechnology-jul13-2021.pdf){:target="\_blank"}
 
 
-**02. Positive Effect of Genetically Modified (GM) Food on the Environment.** <br>
-<u>Paul, S.K.</u>, Rahman, S.S., Lipu, T.A., Aziz, M.A., Debnath, A., Hossain, K., Prome, U.H., Rahman, M.A.
-*Academic Presentation; Course Code: BMB425.*
-November 01, **2019**.
+[03] [Positive Effect of Genetically Modified (GM) Food on the Environment](/assets/academic-presentations/bmb425-presentation-nov01-2019.pdf){:target="\_blank"}. <br>
+<u>Paul, S.K.</u>, Rahman, S.S., Lipu, T.A., Aziz, M.A., Debnath, A., Hossain, K., Prome, U.H., Rahman, M.A.,
+*Academic Presentation; Course Code: BMB425.* [Score: 80%] <br>
+Jury: Ummay Mahfuza Shapla <br>
+November 01, **2019**. [PDF](/assets/academic-presentations/bmb425-presentation-nov01-2019.pdf){:target="\_blank"}
 
 
-**03. Many Different Ways Can Lead a Human Cell to Succeed in Acquiring Cancerous Potentials.** <br>
-<u>Paul, S.K.</u>
-*Academic Presentation; Course Code: BMB416.*
+[02] Many Different Ways Can Lead a Human Cell to Succeed in Acquiring Cancerous Potentials. <br>
+<u>Paul, S.K.</u>,
+*Academic Presentation; Course Code: BMB416.* <br>
 May 07, **2019**.
 
 
-**04. DNA extraction method; DIY process-Workshop of Synthetic Biology.** <br>
-<u>Paul, S.K.</u>
-*Academic Presentation; Workshop: Synthetic Biology.*
+[01] DNA extraction method; DIY process-Workshop of Synthetic Biology. <br>
+<u>Paul, S.K.</u> <br>
+*Workshop Presentation; Workshop: Synthetic Biology.* <br>
 August 18, **2017**.
 
 
