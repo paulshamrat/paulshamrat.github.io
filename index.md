@@ -9,7 +9,7 @@ layout: default
 
 In summer 2020, I worked on DEGs analysis from ovarian cancer datasets as a research intern at the Cancer Biology Lab, Dept. of Biotechnology, IIT Madras, India with a GRIESHMA fellowship under the supervision of  [Professor Karuanagaran D](https://biotech.iitm.ac.in/Faculty/Karunagaran/index.php){:target="\_blank"}. I secured a joint 2nd runner up position at the BAUET Tech Fair 2K18 at BAUET, Natore, Bangladesh for the outstanding presentation on DFT and Molecular Docking study on Delafloxacin against ABSSI.
 
-Apart from research, I love to sketch, do check my graphite on papers [here](){:target="\_blank"}, whilst great fan of classical detective stories - Sherlock Holmes, Feluda and many more. In my off-research time, I love to teach biology to the kids at my village where I show them the fun experiments of DIY DNA extraction, glowing plants and perspective biochemistry in our daily lives.
+Apart from research, I love to sketch, do check my graphite on papers [here](https://paulshamrat.github.io/gallery/){:target="\_blank"}, whilst great fan of classical detective stories - Sherlock Holmes, Feluda and many more. In my off-research time, I love to teach biology to the kids at my village where I show them the fun experiments of DIY DNA extraction, glowing plants and perspective biochemistry in our daily lives.
 
 Find my full CV [here.](/assets/cv/cv-llt.pdf){:target="\_blank"}
 
