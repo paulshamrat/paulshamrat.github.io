@@ -1,0 +1,1 @@
+- *February 22, 2022* - Biology and Biotechnology olympiad prize winner in Master's level (50% and 39.4% score in preliminary and final round respectively).
