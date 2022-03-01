@@ -169,6 +169,10 @@ March 31, **2017**.
 
 ### Academic Presentations
 
+[06] [Rosetta@Common & Type three secretion system: T3SS]
+Paul, S.K.
+January 06, 2022. [PDF](/assets/academic-presentations/t3ss-presentation-6.1.22.pdf){:target="\_blank"}
+
 [05] [Comprehensive Study of Advanced Literature](/assets/academic-presentations/bmb519-presentation_edit5-final-nov20-2021-11.30pm.pdf){:target="\_blank"}. <br>
 Sohag, M., Hasan, M., Rahman, S.S., Debnath, A., <u>Paul, S.K.</u>, Prome, U.H., Rahman, M.A, Saha, P., Pal, B., Sil, S.K.;
 *Academic presentation; Course Code: BMB519 <br>
