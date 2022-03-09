@@ -63,19 +63,19 @@ Depicting complex biological phenomenon in the form of flowchart, pathway and lo
 
 ### Publications
 1. Hasan, M. et al. (2022). [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}. *Molecules 2022, 27(5), 1481.*
-2. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}*.  *Current Oncology*, 28(6), 4972–4985*.
-3. Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}*. *Cancers*, 13(13), 3221.*
-4. Paul, S. K., et al. (2020). [In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68){:target="\_blank"}*. *Springer Nature*, pp: 723–732.*
-5. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}*. *CRC press*. pp: 179–184*.
+2. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}.  *Current Oncology, 28(6), 4972–4985*.
+3. Seo, S.-H., Paul, S.K. et al. (2021). [An insight into pathophysiological features and therapeutic advances on ependymoma](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}. *Cancers, 13(13), 3221.*
+4. Paul, S. K., et al. (2020). [In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)](https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68){:target="\_blank"}. *Springer Nature, pp: 723–732.*
+5. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}. *CRC press. pp: 179–184*.
 
 ### Recent Updates
-- *February 22, 2022* - IPF review has been [published](/assets/Publication_Certificate_MDPI_molecules-27-01481.pdf){:target="\_blank"} in *[Molecules](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}* [IF: 4.412].
-- *February 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *Molecules* [IF: 4.412].
-- *January 14, 2022* - Advanced workshop on GROMACS by [CSC.fi](https://ssl.eventilla.com/advanced-gromacs-2022){:target="\_blank"}; selected as participant.
-- *December 30, 2021* - MSc thesis project awarded [NST fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"}, MOST, Bangladesh.
-- *December 03, 2021* - Recieved MS thesis internship offer from [ICSR](https://icsr.iitpkd.ac.in/){:target="\_blank"}, IIT Palakkad, Kerala, India.
-- *November 26, 2021* - Collaborative research on CCN protein family published in *[Current oncology](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}.*
-- *June 28, 2021* - Ependymoma article is now online in *[Cancers](https://doi.org/10.3390/cancers13133221){:target="\_blank"}*.
+- *Feb 22, 2022* - IPF review has been [published](/assets/Publication_Certificate_MDPI_molecules-27-01481.pdf){:target="\_blank"} in *[Molecules](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}* [IF: 4.412].
+- *Feb 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *Molecules* [IF: 4.412].
+- *Jan 14, 2022* - Advanced workshop on GROMACS by [CSC.fi](https://ssl.eventilla.com/advanced-gromacs-2022){:target="\_blank"}; participant.
+- *Dec 30, 2021* - Awarded [NST fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"} by MOST, Bangladesh.
+- *Dec 03, 2021* - Recieved MS thesis internship offer [ICSR](https://icsr.iitpkd.ac.in/){:target="\_blank"}, IIT Palakkad, India.
+- *Nov 26, 2021* - Collaborative research on CCN published in *[Current oncology](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}.*
+- *Jun 28, 2021* - Ependymoma article is now online in *[Cancers](https://doi.org/10.3390/cancers13133221){:target="\_blank"}*.
 
 <br>
 Reach me --> bt20f002@smail.iitm.ac.in
