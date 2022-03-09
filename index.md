@@ -15,21 +15,22 @@ Find my full CV [here.](/assets/cv/cv-llt.pdf){:target="\_blank"}
 
 ### Education
 **Master of Science** in Biochemistry in Molecular Biology. (*2020 - 2021*) <br>
-Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Gopalganj 8100, Bangladesh.<br>
-Thesis title: *Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in experimental autoimmune encephalomyelitis (EAE) mice.* Advisor: Mahbub Hasan, PhD.
+Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Bangladesh.<br>
+Thesis: *Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in experimental autoimmune encephalomyelitis (EAE) mice.* <br>
+Advisor: Mahbub Hasan, PhD.
 
 **Bachelor of Science** in Biochemistry and Molecular Biology. (*2016 - 2019*) <br>
-Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Gopalganj 8100, Bangladesh.
+Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Bangladesh.
 
 
 ### Employment
-**Research Intern** - Cancer Biology Laboratory. (*Mar 2020 - Sep 2020*)<br>
+**Research Intern** - Cancer Biology Laboratory. (*Mar 2020-Sep 2020*)<br>
 Indian Institute of Technology Madras, Chennai, India.<br>
-Project title: *Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis.*
+Project: *Microarray data analysis using GEO2R to identify differentially expressed genes in ovarian cancer after NSC319726 treatment and pathway analysis.*
 
-**Trainee** - Analytical Chemistry and Environmental Science Department. ( Dec 07 - 27, 2020) <br>
+**Trainee** - Analytical Chemistry & Environmental Science Department. (*Dec 07-27, 2020*) <br>
 Training Institute for Chemical Industries, Narsingdi 1611, Bangladesh.<br>
-Trainingtitle: *Chemical Analysis and Quality Control.*
+Training: *Chemical analysis and quality control.*
 
 ### Skills
 - **Biophysics**: Molecular Dynamics simulation, Peptide Modeling, Molecular Docking, Microarray and NGS data analysis; elementary, Force-Fields: OPLS-aa.
