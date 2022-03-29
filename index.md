@@ -42,8 +42,6 @@ Training: *Chemical analysis and quality control.*
 - **Misc.**: Teaching, training, consultation in molecular modeling and simulation.
 
 ### Grants and Awards
-- **2022** : Biology and Biotechnology Olympiad Prize Winner; Level: Master.
-- **2022** : Research Internship at [ICSR](https://icsr.iitpkd.ac.in/){:target="\_blank"}, IIT Palakkad, Kerala, India.
 - **2021** : [NST Fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"} 2021-2022, MOST, Bangladesh.
 - **2020** : [GRIESHMA Fellowship](https://ge.iitm.ac.in/grieshma/){:target="\_blank"}  at IIT Madras, Chennai, India.
 - **2018** : 2nd Runner up: poster presentation at [BAUET Tech Fair 2K18](https://bauet.ac.bd/bauet-tech-fair-2k18/){:target="\_blank"}, BAUET, Natore, Bangladesh.
