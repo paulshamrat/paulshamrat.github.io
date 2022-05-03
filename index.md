@@ -60,7 +60,7 @@ Depicting complex biological phenomenon in the form of flowchart, pathway and lo
 5. Paul, S. K., et al. (2019).  [Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis (Strain ATCC 25618/H37Rv)](https://www.taylorfrancis.com/books/e/9781003001614/chapters/10.1201/9781003001614-30){:target="\_blank"}. *CRC press. pp: 179–184*.
 
 ### Recent Updates
-- *Apr 22, 2022* - Bioexcel.eu featured @ScienceServers; My MD Simulation [tweet](https://bioexcel.eu/science-outreach-servers-computers-for-low-income-nations/) also included.
+- *Apr 22, 2022* - Bioexcel featured [@ScienceServers](https://scienceoutreachservers.org/); My [tweet](https://bioexcel.eu/science-outreach-servers-computers-for-low-income-nations/) on simulation included.
 - *Feb 22, 2022* - IPF review has been [published](/assets/Publication_Certificate_MDPI_molecules-27-01481.pdf){:target="\_blank"} in *[Molecules](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}* [IF: 4.412].
 - *Feb 18, 2022* - IPF review has been [accepted](/assets/Acceptance-Certificate-molecules-1538449.pdf){:target="\_blank"} in *Molecules* [IF: 4.412].
 - *Jan 14, 2022* - Advanced workshop on GROMACS by [CSC.fi](https://ssl.eventilla.com/advanced-gromacs-2022){:target="\_blank"}; participant.
