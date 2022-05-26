@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "GROMACS 2021.2 installation on WSL2"
-author: paul
-image: assets/images/example.png
+title:  "Plot the *.xvg file"
+author: paulshamrat
+image: assets/data/rmsd-1aki.svg
 ---
 
 # Plot the *.xvg file.
@@ -43,5 +43,5 @@ Step final: ...aaaAnd the plot is here:
 
 NB: Before importing data, ensure that you have masked or deleted all headers within the *.xvg file and have only two column data by opening it in an editor.
 
-![rmsd-copy](https://paulshamrat.github.io/assets/data/rmsd-1aki.png)
+![rmsd-copy](https://paulshamrat.github.io/assets/data/rmsd-1aki.svg)<br>
 RMSD
