@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GROMACS 2021.2 installation on WSL2"
-author: paul
+author: paushamrat
 image: assets/images/example.png
 ---
 

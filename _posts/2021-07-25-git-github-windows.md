@@ -18,7 +18,7 @@ Commiting codes directly from the local disc to the github repository is an impo
 like: 
 
 ```bash
-shamr@DESKTOP-SL6NFAN MiNGW64/c/git
+user@DESKTOP-AB6NSDID MiNGW64/c/git
 ```
 
 - login your github account
@@ -26,14 +26,14 @@ shamr@DESKTOP-SL6NFAN MiNGW64/c/git
 - name it "testgit" (whatever in your mind)
 
 ```bash
-$ git config --global [user.name](http://user.name/) "paulshamrat"
-$ git config --global user.email [bt20f002@smail.iitm.ac.in](mailto:bt20f002@smail.iitm.ac.in)
+$ git config --global user.name "username"
+$ git config --global user.email "useremail@mail.com"
 ```
 
 - [this will ask your credentials and login via browser in which you previously logged into your github account]
 
 ```bash
-$ git clone [https://github.com/paulshamrat/testgit.git](https://github.com/paulshamrat/testgit.git)
+$ git clone [https://github.com/user/testgit.git](https://github.com/user/testgit.git)
 $ ls
 $ cd testgit
 $ git status
