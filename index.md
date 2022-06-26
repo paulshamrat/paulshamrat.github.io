@@ -39,19 +39,6 @@ Training: *Chemical analysis and quality control.*
 - **2020** : [GRIESHMA Fellowship](https://ge.iitm.ac.in/grieshma/){:target="\_blank"}  at IIT Madras, Chennai, India.
 - **2018** : 2nd Runner up: poster presentation at [BAUET Tech Fair 2K18](https://bauet.ac.bd/bauet-tech-fair-2k18/){:target="\_blank"}, BAUET, Natore, Bangladesh.
 
-### Projects
-01. **MSnEAE**: Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in experimental autoimmune encephalomyelitis (EAE) mice. <br>
-Dept. of Biochemistry and Molecular Biology, Bangabandhu Sheikh Mujibur Rahman Science and Technology University, Gopalganj 8100, Bangladesh. Advisor: Mahbub Hasan, PhD. 2021-2022
-
-02. **DEGnNGSanalysis**: Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis.<br>
-Prof. D Karunagaran's Cancer Biology Lab, Dept. of Biotechnology. Indian Institute of Technology Madras, Chennai 6000636, Tamil Nadu, India. Advisor: Professor Karunagaran D. Mar 2020- Sep 2020. 
-
-03. **MMMDDynamics**: Molecular Modeling, Molecular Dynamics Simulation, Molecular Docking & Data analysis.<br>
-In this project I am keeping a record of essential resources, workplan and updates on python programming used in data analysis of molecular dynamics simulation and NGS data as well. 
-
-04. **CODEnSEQ**: Learning tools like- Python, R, Ruby, Jekyll, HTML, illustration and other assets to give support my scientific projects.<br>
-Depicting complex biological phenomenon in the form of flowchart, pathway and logical figure. I mostly used Inkscape and GIMP for the generation of biological illustrations and python for data analysis. Here I track record of these works. 
-
 ### Publications
 1. Hasan, M. et al. (2022). [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://www.mdpi.com/1420-3049/27/5/1481){:target="\_blank"}. *Molecules 2022, 27(5), 1481.*
 2. Ahmed, K.A., et al. (2021). [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives](https://www.mdpi.com/1718-7729/28/6/417){:target="\_blank"}.  *Current Oncology, 28(6), 4972–4985*.
