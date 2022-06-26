@@ -30,20 +30,6 @@ layout: default
 
 
 ### COURSES UNDERTAKEN
-MS in Biochemistry and Molecular Biology at BSMRSTU, Gopalganj 8100, Bangladesh.<br>
-
-Level 2
-- BMB 551; Emerging Frontiers of Molecular Biology II
-- BMB 553; Drug Development and Pharmacogenomics
-- BMB 555; Medical Genetics
-- BMB 559; Biochemistry Business Management
-
-Level 1
-- BMB 511; Emerging Frontiers of Molecular Biology I
-- BMB 513; Behavioral Genetics
-- BMB 515; Clinical Immunology and Molecular Diagnostics
-- BMB 517; Environmental and Agricultural Biochemistry
-
 BSc in Biochemistry and Molecular Biology at BSMRSTU, Gopalganj 8100, Bangladesh
 
 Level 4.2

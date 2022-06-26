@@ -18,3 +18,18 @@ In this project I am keeping a record of essential resources, workplan and updat
 
 04. **CODEnSEQ**: Learning tools like- Python, R, Ruby, Jekyll, HTML, illustration and other assets to give support my scientific projects.<br>
 Depicting complex biological phenomenon in the form of flowchart, pathway and logical figure. I mostly used Inkscape and GIMP for the generation of biological illustrations and python for data analysis. Here I track record of these works. 
+
+
+MS in Biochemistry and Molecular Biology at BSMRSTU, Gopalganj 8100, Bangladesh.<br>
+
+Level 2
+- BMB 551; Emerging Frontiers of Molecular Biology II
+- BMB 553; Drug Development and Pharmacogenomics
+- BMB 555; Medical Genetics
+- BMB 559; Biochemistry Business Management
+
+Level 1
+- BMB 511; Emerging Frontiers of Molecular Biology I
+- BMB 513; Behavioral Genetics
+- BMB 515; Clinical Immunology and Molecular Diagnostics
+- BMB 517; Environmental and Agricultural Biochemistry
