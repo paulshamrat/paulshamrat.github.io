@@ -42,11 +42,6 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 **(*Submitted to JPPS, Springer*)**.
 <!-- [Last updated; Jul 05, 2021; v18.5](/achievementfiles/inprogress/mapk-Jul5-V18.5.pdf) -->
 
-[02] Homology Modeling and Molecular Dynamics Simulation Study on Uncharacterized NAD-dependent oxidoreductase Rv0687 of Mycobacterium tuberculosis (strain ATCC 25618/H37Rv). <br>
-<u>Paul, S.K.</u>, Mimi, S.S, Debnath, A., Rima, S.A., Mina, M.A., Shapla, U.M.
-*Master of Science (MS) first semester project Report, Dept. of BMB, BSMRSTU, Gopalganj 8100, Bangladesh. June 2021.*
-<!-- [Last updated; Feb 04, 2021; v1.0](/achievementfiles/inprogress/P9WGS7-feb4-V1.pdf)-->
-
 [01] Physicochemical, structural properties, and 100 nanoseconds molecular dynamics simulation of mouse grancalcin (GCA) protein: an in-silico study. <br>
 <u>Paul, S.K.</u>, Saddam M., Rahaman, K.A., Lee, S.-S., Hasan, M. 
 **(*In-progress*)**
