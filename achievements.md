@@ -196,14 +196,3 @@ May 07, **2019**.
 <u>Paul, S.K.</u> <br>
 *Workshop Presentation; Workshop: Synthetic Biology.* <br>
 August 18, **2017**.
-
-
-<br>
-
-### Fundings
-
-**1. Physicochemical role and potential inhibitor screening for the candidate biomarkers overexpressed in experimental autoimmune encephalomyelitis (EAE) mice.** <br>
-Supervisor: Mahbub Hasan, PhD*.
-*Application for National Science and Technology (NST) Fellowship, 
-Ministry of Science and Technology, Peoples Republic of Bangladesh.*
-Awarded [NST Fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf) on Dec 31, 2021.
