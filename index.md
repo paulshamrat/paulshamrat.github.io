@@ -5,7 +5,7 @@ description:
 permalink: /
 layout: default
 ---
-<img align="left" src="/assets/images/shamrat.svg">Hello! and welcome, I am Shamrat - Biochemistry graduate student at BSMRSTU, Gopalganj, Bangladesh. Currently, I am concentrating on molecular modelling and molecular dynamics simulation study of proteins associated with EAE: a mouse model of Multiple Sclerosis under the supervision of [Mahbub Hasan, PhD](https://sites.google.com/view/mahbub-hasan/home){:target="\_blank"}. My thesis project was awarded [NST Fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"} 2021-2022 from the ministry of science and technology, people's republic of Bangladesh.
+<img align="left" src="/assets/images/shamrat.svg">Hello! and welcome, I am Shamrat - graduated with a Bachelor's degree in Biochemistry and Molecular Biology from BSMRSTU, Gopalganj, Bangladesh. Currently, I am concentrating on molecular modelling and molecular dynamics simulation study of proteins associated with EAE: a mouse model of Multiple Sclerosis under the supervision of [Mahbub Hasan, PhD](https://sites.google.com/view/mahbub-hasan/home){:target="\_blank"}.
 
 In summer 2020, I worked on DEGs analysis from ovarian cancer datasets as a research intern at the Cancer Biology Lab, Dept. of Biotechnology, IIT Madras, India with a GRIESHMA fellowship under the supervision of  [Professor Karuanagaran D](https://biotech.iitm.ac.in/Faculty/Karunagaran/index.php){:target="\_blank"}. I secured a joint 2nd runner up position at the BAUET Tech Fair 2K18 at BAUET, Natore, Bangladesh for the outstanding presentation on DFT and Molecular Docking study on Delafloxacin against ABSSI.
 
@@ -14,7 +14,6 @@ Apart from research, I love to sketch, do check my graphite on papers [here](htt
 ### Education
 **Bachelor of Science** in Biochemistry and Molecular Biology. (*2016 - 2019*) <br>
 Bangabandhu Sheikh Mujibur Rahman Science & Technology University, Bangladesh.
-
 
 ### Experience
 **Research Intern** - Cancer Biology Laboratory. (*Mar 2020-Sep 2020*)<br>
@@ -35,7 +34,6 @@ Training: *Chemical analysis and quality control.*
 - **Misc.**: Teaching, training, consultation in molecular modeling and simulation.
 
 ### Grants and Awards
-- **2021** : [NST Fellowship](https://most.portal.gov.bd/sites/default/files/files/most.portal.gov.bd/npfblock//%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%93%20%20%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%20%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%AA.pdf){:target="\_blank"} 2021-2022, MOST, Bangladesh.
 - **2020** : [GRIESHMA Fellowship](https://ge.iitm.ac.in/grieshma/){:target="\_blank"}  at IIT Madras, Chennai, India.
 - **2018** : 2nd Runner up: poster presentation at [BAUET Tech Fair 2K18](https://bauet.ac.bd/bauet-tech-fair-2k18/){:target="\_blank"}, BAUET, Natore, Bangladesh.
 
