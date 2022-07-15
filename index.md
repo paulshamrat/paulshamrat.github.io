@@ -5,7 +5,7 @@ description:
 permalink: /
 layout: default
 ---
-<img align="left" src="/assets/images/shamrat.svg">Hello! and welcome, I am Shamrat - graduated with a Bachelor's degree in Biochemistry and Molecular Biology from BSMRSTU, Gopalganj, Bangladesh. Currently, I am concentrating on molecular modelling and molecular dynamics simulation study of proteins associated with EAE: a mouse model of Multiple Sclerosis under the supervision of [Mahbub Hasan, PhD](https://sites.google.com/view/mahbub-hasan/home){:target="\_blank"}.
+<img align="left" src="/assets/images/shamrat.svg">Hello! Shamrat here; I received my Bachelor of Science degree in Biochemistry and Molecular Biology from BSMRSTU in Gopalganj, Bangladesh. Currently, I am concentrating on molecular modelling and molecular dynamics simulation study of proteins associated with EAE: a mouse model of Multiple Sclerosis under the supervision of [Mahbub Hasan, PhD](https://sites.google.com/view/mahbub-hasan/home){:target="\_blank"}.
 
 In summer 2020, I worked on DEGs analysis from ovarian cancer datasets as a research intern at the Cancer Biology Lab, Dept. of Biotechnology, IIT Madras, India with a GRIESHMA fellowship under the supervision of  [Professor Karuanagaran D](https://biotech.iitm.ac.in/Faculty/Karunagaran/index.php){:target="\_blank"}. I secured a joint 2nd runner up position at the BAUET Tech Fair 2K18 at BAUET, Natore, Bangladesh for the outstanding presentation on DFT and Molecular Docking study on Delafloxacin against ABSSI.
 
