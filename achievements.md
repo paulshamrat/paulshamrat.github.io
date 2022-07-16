@@ -37,12 +37,12 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 *In Biotechnology and Biological Sciences, **2019** (pp. 179-184). CRC Press. DOI: 10.1201/9781003001614-30.* 
 [PDF](/assets/articles/2019-11-MTB-BIOSPECTRUM.pdf){:target="\_blank"}<br>
 
-[02] Homology modeling and molecular dynamics simulation study on RhoB: modulator of cytoskeleton organization <br>
+[02] A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study <br>
 <u>Paul, S.K.</u>, Metu, C.L.N., Sutihar, S.K., Hasib, T.A., Saddam, M., Kabir, M.L., Uddin, K.N., Shihab, S.R.
-**(*Submitted to JPPS, Springer*)**.
+**(*In-progress*)**.
 <!-- [Last updated; Jul 05, 2021; v18.5](/achievementfiles/inprogress/mapk-Jul5-V18.5.pdf) -->
 
-[01] Physicochemical, structural properties, and 100 nanoseconds molecular dynamics simulation of mouse grancalcin (GCA) protein: an in-silico study. <br>
+[01] Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: an upregulated biomarker in experimental autoimmune encephalomyelitis mice <br>
 <u>Paul, S.K.</u>, Saddam M., Rahaman, K.A., Lee, S.-S., Hasan, M. 
 **(*In-progress*)**
 <!-- [Last updated; June 25, 2021; v3.0](/achievementfiles/inprogress/structural studies on-Q8VC88_1k94-june25--v3.pdf) -->
