@@ -85,3 +85,4 @@ Level 3.1
 - [Markdown guide](https://www.markdownguide.org/){:target="\_blank"}; Learn markdown formatting for jekyll sites.
 - [MD simulation in 5 min](https://www.youtube.com/watch?v=veBZYlD6AF4&ab_channel=MDSimulators){:target=\_blank"}; Background of MD.
 - [File System Hierarchy: Linux](https://manpages.ubuntu.com/manpages/bionic/man7/file-hierarchy.7.html){:target=\_blank"};
+- [Connect Linux Terminal from Windows CMD](https://www.addictivetips.com/ubuntu-linux-tips/connect-to-ubuntu-from-windows/){:target=\_blank"};
