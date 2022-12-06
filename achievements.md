@@ -9,21 +9,21 @@ layout: default
 
 [08] [Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}.
 Shamrat Kumar Paul, Md Saddam, Khandoker Asiqur Rahaman, Jong-Gu Choi, Sang-Suk Lee, Mahbub Hasan. *Heliyon, e11232.*
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9626934/pdf/main.pdf){:target="\_blank"}<br>
 
 [07] [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://pubmed.ncbi.nlm.nih.gov/35268581/
 ){:target="\_blank"} <br>
 Hasan, M., Paul, N.C., <u>Paul, S.K.</u>, Saikat, A.S.M., Akter, H., Mandal, M., Lee, S.-S. *Molecules 2022, 27(5), 1481; https://doi.org/10.3390/molecules27051481.* (Q1, IF: 4.414).
-[PDF](/assets/articles/2022-02-22-IPF.pdf){:target="\_blank"}<br>
-
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8911636/pdf/molecules-27-01481.pdf){:target="\_blank"}<br>
 
 [06] [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.](https://pubmed.ncbi.nlm.nih.gov/34940056/
 ){:target="\_blank"} <br>
 Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., K im, B. *Curr. Oncol. 2021, 28, 4972-4985. DOI: 10.3390/curroncol28060417.* (Q2, IF: 3.677).
-[PDF](/assets/articles/2021-11-CCN.pdf){:target="\_blank"}<br>
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8700172/pdf/curroncol-28-00417.pdf){:target="\_blank"}<br>
 
 [05] [An insight into pathophysiological features and therapeutic advances on ependymoma.](https://pubmed.ncbi.nlm.nih.gov/34203272/){:target="\_blank"} <br>
 Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, Ahmed, K.A., Sikdar, S., Uddin, M.J., & Kwon, Y. *Cancers **2021**, 13, 3221. DOI: 10.3390/cancers13133221.* (Q1, IF: 6.639).
-[PDF](/assets/articles/2021-06-EPENDYMOMA.pdf){:target="\_blank"}<br>
+[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8269186/pdf/cancers-13-03221.pdf){:target="\_blank"}<br>
 
 [04] [Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis.](https://www.researchgate.net/publication/349832074_Microarray_Data_Analysis_Using_GEO2R_to_Identify_Differentially_Expressed_Genes_in_Ovarian_Cancer_after_NSC319726_Treatment_and_Pathway_Analysis){:target="\_blank"} <br>
 <u>Paul, S.K.</u>, Banerjee, S., Karunagaran, D.
