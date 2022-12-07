@@ -1,6 +1,6 @@
 ---
-title: Publications | Shamrat Kumar Paul
-header: Publications
+title: Achievements | Shamrat Kumar Paul
+header: Achievements
 description:
 permalink: /achievements/
 layout: default
