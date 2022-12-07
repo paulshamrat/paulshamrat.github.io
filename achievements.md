@@ -1,5 +1,5 @@
 ---
-title: Achievements | Shamrat Kumar Paul
+title: Publications | Shamrat Kumar Paul
 header: Achievements
 description:
 permalink: /achievements/
