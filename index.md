@@ -12,7 +12,7 @@ During my academic activities in Bangladesh, I worked on molecular modelling and
 Apart from research, I love to sketch, do check my graphite on papers [here](https://paulshamrat.github.io/gallery/){:target="\_blank"}, whilst great fan of classical detective stories - Sherlock Holmes, Feluda and many more. In my off-research time, I love to teach biology to the kids at my village where I show them the fun experiments of DIY DNA extraction, glowing plants and perspective biochemistry in our daily lives.
 
 ### Education
-**PhD Candidate** (Medical Biophysics). (2022 - Present) <br>
+**Graduate Student** (Medical Biophysics). (2022 - Present) <br>
 Clemson University, SC 29634, United States. <br>
 Ongoing.
 
