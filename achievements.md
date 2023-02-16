@@ -41,9 +41,7 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 *In Biotechnology and Biological Sciences, **2019** (pp. 179-184). CRC Press. DOI: 10.1201/9781003001614-30.* 
 [PDF](/assets/articles/2019-11-MTB-BIOSPECTRUM.pdf){:target="\_blank"}<br>
 
-[01] A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study <br>
-<u>Paul, S.K.</u>, Metu, C.L.N., Sutihar, S.K., Hasib, T.A., Saddam, M., Kabir, M.L., Uddin, K.N., Shihab, S.R.
-**(*In-progress*)**.
+[01] Paul, S. K., Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study. BioRxiv, 2023.02.14.528547. https://doi.org/10.1101/2023.02.14.528547
 <!-- [Last updated; Jul 05, 2021; v18.5](/achievementfiles/inprogress/mapk-Jul5-V18.5.pdf) -->
 
 
