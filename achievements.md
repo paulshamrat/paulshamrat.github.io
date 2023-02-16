@@ -7,7 +7,7 @@ layout: default
 ---
 ### Articles
 
-[08] Paul, S. K., Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). [A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.](https://doi.org/10.1101/2023.02.14.528547) BioRxiv, 2023.02.14.528547. [BioRxiv](https://doi.org/10.1101/2023.02.14.528547){:target="\_blank"} [PDF](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"}<br>
+[08] Paul, S. K., Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). [A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.](https://doi.org/10.1101/2023.02.14.528547) BioRxiv, 2023.02.14.528547. [LINK]()  [PDF](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"}  [BioRxiv](https://doi.org/10.1101/2023.02.14.528547){:target="\_blank"}<br>
 
 [07] [Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}.
 Shamrat Kumar Paul, Md Saddam, Khandoker Asiqur Rahaman, Jong-Gu Choi, Sang-Suk Lee, Mahbub Hasan. *Heliyon, e11232.* (Q1; IF: 3.776)
