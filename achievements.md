@@ -11,7 +11,7 @@ layout: default
 
 [07] [Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}.
 Shamrat Kumar Paul, Md Saddam, Khandoker Asiqur Rahaman, Jong-Gu Choi, Sang-Suk Lee, Mahbub Hasan. *Heliyon, e11232.* (Q1; IF: 3.776)
-[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9626934/pdf/main.pdf){:target="\_blank"}<br>
+[PDF](https://paulshamrat.github.io/assets/articles/2022-10-20-GCA.pdf){:target="\_blank"}<br>
 
 [06] [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://pubmed.ncbi.nlm.nih.gov/35268581/
 ){:target="\_blank"} <br>
