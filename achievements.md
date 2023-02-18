@@ -38,7 +38,7 @@ Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M
 Curr. Oncol. 2021, 28, 4972-4985.
 https://doi.org/10.3390/molecules27051481.
 (Q2, IF: 3.677).
-[**PDF**](https://paulshamrat.github.io/assets/articles/2021-11-CCN.pdff){:target="\_blank"} |
+[**PDF**](https://paulshamrat.github.io/assets/articles/2021-11-CCN.pdf){:target="\_blank"} |
 [**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34940056/){:target="\_blank"}
 <br>
 
@@ -47,7 +47,7 @@ Seo, S.-H., <u>Paul, S.K.</u>, Shikder, M., Khanam, M., Ghosh, P., Hasib, T.A, A
 Cancers **2021**, 13, 3221.
 https://doi.org/10.3390/cancers13133221.
 (Q1, IF: 6.639).
-[**PDF**](https://paulshamrat.github.io/assets/articles/2021-06-EPENDYMOMA.pdfdf){:target="\_blank"} |
+[**PDF**](https://paulshamrat.github.io/assets/articles/2021-06-EPENDYMOMA.pdf){:target="\_blank"} |
 [**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34203272/){:target="\_blank"}
 <br>
 
