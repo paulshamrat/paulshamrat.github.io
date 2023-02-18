@@ -21,7 +21,7 @@ Heliyon, e11232.
 (Q1; IF: 3.776).
 https://doi.org/10.1016/j.heliyon.2022.e11232.
 [**PDF**](https://paulshamrat.github.io/assets/articles/2022-10-20-GCA.pdf){:target="\_blank"} |
-[*PUBMED**](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}
+[**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}
 <br>
 
 [06] **Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.** <br>
@@ -30,7 +30,7 @@ Molecules 2022, 27(5), 1481.
 https://doi.org/10.3390/molecules27051481.
 (Q1, IF: 4.414).
 [**PDF**](https://paulshamrat.github.io/assets/articles/2022-02-22-IPF.pdf){:target="\_blank"} |
-[*PUBMED**](https://pubmed.ncbi.nlm.nih.gov/35268581/){:target="\_blank"} 
+[**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/35268581/){:target="\_blank"} 
 <br>
 
 [05] **[Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.** <br>
@@ -39,7 +39,7 @@ Curr. Oncol. 2021, 28, 4972-4985.
 https://doi.org/10.3390/molecules27051481.
 (Q2, IF: 3.677).
 [**PDF**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8700172/pdf/curroncol-28-00417.pdf){:target="\_blank"} |
-[*PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34940056/){:target="\_blank"}
+[**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34940056/){:target="\_blank"}
 <br>
 
 [04] **An insight into pathophysiological features and therapeutic advances on ependymoma.** <br>
@@ -48,7 +48,7 @@ Cancers **2021**, 13, 3221.
 https://doi.org/10.3390/cancers13133221.
 (Q1, IF: 6.639).
 [**PDF**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8269186/pdf/cancers-13-03221.pdf){:target="\_blank"} |
-[*PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34203272/){:target="\_blank"}
+[**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/34203272/){:target="\_blank"}
 <br>
 
 [03] **Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis.** <br>
@@ -70,7 +70,7 @@ https://doi.org/10.1007/978-981-15-0829-5_68.
 In Biotechnology and Biological Sciences, **2019** (pp. 179-184). CRC Press.
 https://doi.org/10.1201/9781003001614-30.
 [**PDF**](https://paulshamrat.github.io/assets/articles/2019-11-MTB-BIOSPECTRUM.pdf){:target="\_blank"} |
-[T&FOnline](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003001614-30/structure-prediction-functional-characterization-uncharacterized-protein-rv1708-mycobacterium-tuberculosis-strain-atcc-25618-h37rv-shamrat-kumar-paul-tasnin-al-hasib-pranta-ray-lutful-kabir-abul-bashar-ripon-khalipha){:target="\_blank"}
+[**T&FOnline**](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003001614-30/structure-prediction-functional-characterization-uncharacterized-protein-rv1708-mycobacterium-tuberculosis-strain-atcc-25618-h37rv-shamrat-kumar-paul-tasnin-al-hasib-pranta-ray-lutful-kabir-abul-bashar-ripon-khalipha){:target="\_blank"}
 <br>
 
 <!--
@@ -90,7 +90,7 @@ Pranta Ray, Pushpendu Malakar, Shamrat Kumar Paul, Mohammad Torequl Islam.
 [01] **In Silico Molecular Docking Study of Delafloxacin against 4MQT for the Treatment of Acute Bacterial Skin and Skin Structure Infections** <br>
 Shamrat Kumar Paul, Pranta Ray, Mohammad Solaiman Hossain, Abul Bashar Ripon Khalipha, Mohammad Torequl Islam.
 <!--Int. J. Biopro. Biotechnol. Advance 5 (1), 144-150 2019<br>
-[PDF](/achievementfiles/publishedarticles/Delafloxacin-2019.pdf) -->
+[PDF](/achievementfiles/publishedarticles/Delafloxacin-2019.pdf)
 <br>-->
 
 ### Conference Presentations
