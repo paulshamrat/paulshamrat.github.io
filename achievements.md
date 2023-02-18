@@ -33,7 +33,7 @@ https://doi.org/10.3390/molecules27051481.
 [**PUBMED**](https://pubmed.ncbi.nlm.nih.gov/35268581/){:target="\_blank"} 
 <br>
 
-[05] **[Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.** <br>
+[05] **Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.** <br>
 Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., K im, B. (2021).
 Curr. Oncol. 2021, 28, 4972-4985.
 https://doi.org/10.3390/molecules27051481.
