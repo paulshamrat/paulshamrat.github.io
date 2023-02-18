@@ -86,3 +86,4 @@ Level 3.1
 - [MD simulation in 5 min](https://www.youtube.com/watch?v=veBZYlD6AF4&ab_channel=MDSimulators){:target=\_blank"}; Background of MD.
 - [File System Hierarchy: Linux](https://manpages.ubuntu.com/manpages/bionic/man7/file-hierarchy.7.html){:target=\_blank"};
 - [Connect Linux Terminal from Windows CMD](https://www.addictivetips.com/ubuntu-linux-tips/connect-to-ubuntu-from-windows/){:target=\_blank"};
+- [The Cell: A Molecular Approach. 2nd edition. Cooper GM. Sunderland (MA): Sinauer Associates; 2000.](https://www.ncbi.nlm.nih.gov/books/NBK9839/){:target=\_blank"};
