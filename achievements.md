@@ -7,9 +7,8 @@ layout: default
 ---
 ### Articles
 
-[08] <u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). <br>
-**A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.]**
-BioRxiv, 2023.02.14.528547. 
+[08] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.]** <br>
+<u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). BioRxiv, 2023.02.14.528547. 
 [PDF](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"}
 [BioRxiv](https://doi.org/10.1101/2023.02.14.528547){:target="\_blank"}
 <br>
