@@ -7,27 +7,29 @@ layout: default
 ---
 ### Articles
 
-[08] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.]** <br>
-<u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). BioRxiv, 2023.02.14.528547. 
+[08] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
+<u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023). BioRxiv, 2023.02.14.528547.
 [PDF](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"}
 [BioRxiv](https://doi.org/10.1101/2023.02.14.528547){:target="\_blank"}
 <br>
 
-<u>Shamrat Kumar Paul</u>, Md Saddam, Khandoker Asiqur Rahaman, Jong-Gu Choi, Sang-Suk Lee, Mahbub Hasan. <br>
-[07] [Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice.](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}<br>
-*Heliyon, e11232.* (Q1; IF: 3.776).  
+[07] **Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice.** <br>
+<u>Shamrat Kumar Paul</u>, Md Saddam, Khandoker Asiqur Rahaman, Jong-Gu Choi, Sang-Suk Lee, Mahbub Hasan.
+Heliyon, e11232. (Q1; IF: 3.776).
 [PDF](https://paulshamrat.github.io/assets/articles/2022-10-20-GCA.pdf){:target="\_blank"}  
 [PUBMED](https://pubmed.ncbi.nlm.nih.gov/36340004/){:target="\_blank"}
 <br>
 
-Hasan, M., Paul, N.C., <u>Paul, S.K.</u>, Saikat, A.S.M., Akter, H., Mandal, M., Lee, S.-S. *Molecules 2022, 27(5), 1481; https://doi.org/10.3390/molecules27051481.* (Q1, IF: 4.414). <br>
-[06] [Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.](https://pubmed.ncbi.nlm.nih.gov/35268581/){:target="\_blank"} <br>
+[06] **Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis.** <br>
+Hasan, M., Paul, N.C., <u>Paul, S.K.</u>, Saikat, A.S.M., Akter, H., Mandal, M., Lee, S.-S.
+Molecules 2022, 27(5), 1481; https://doi.org/10.3390/molecules27051481. (Q1, IF: 4.414).
 [PDF](https://paulshamrat.github.io/assets/articles/2022-02-22-IPF.pdf){:target="\_blank"}  
 [PUBMED](https://pubmed.ncbi.nlm.nih.gov/35268581/){:target="\_blank"} 
 <br>
 
-Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., K im, B. *Curr. Oncol. 2021, 28, 4972-4985. DOI: 10.3390/curroncol28060417.* (Q2, IF: 3.677).
-[05] [Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.](https://pubmed.ncbi.nlm.nih.gov/34940056/){:target="\_blank"}
+[05] **[Potential Role of CCN Proteins on Breast Cancer: Therapeutic Advances and Perspectives.** <br>
+Ahmed, K.A.; Hasib, T.A.; <u>Paul, S.K.</u>, Saddam, M., Mimi, A., Saikat, A.S.M., Faruque, H.-A., Rahman, M.A., Uddin, M.J., K im, B. 
+*Curr. Oncol. 2021, 28, 4972-4985. DOI: 10.3390/curroncol28060417.* (Q2, IF: 3.677).
 [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8700172/pdf/curroncol-28-00417.pdf){:target="\_blank"}  
 [PUBMED](https://pubmed.ncbi.nlm.nih.gov/34940056/){:target="\_blank"}
 <br>
