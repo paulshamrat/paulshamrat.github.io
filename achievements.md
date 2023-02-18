@@ -11,8 +11,8 @@ layout: default
 <u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023).
 BioRxiv, 2023.02.14.528547.
 https://doi.org/10.1101/2023.02.14.528547
-[PDF](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"} |
-[BioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.14.528547v1){:target="\_blank"}
+[**PDF**](https://paulshamrat.github.io/assets/articles/2023-02-15-RHOB.pdf){:target="\_blank"} |
+[**BioRxiv**](https://www.biorxiv.org/content/10.1101/2023.02.14.528547v1){:target="\_blank"}
 <br>
 
 [07] **Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice.** <br>
