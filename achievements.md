@@ -7,6 +7,14 @@ layout: default
 ---
 ### Articles
 
+[09] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
+<u>Paul, S.K.</u>; Saddam, M.; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U.
+Preprints 2023, 2023020387
+https://doi.org/10.20944/preprints202302.0387.v1
+[**PDF**](https://paulshamrat.github.io/assets/articles/2023-02-22-bcl2.pdf){:target="\_blank"} |
+[**Preprints**](https://www.preprints.org/manuscript/202302.0387/v1){:target="\_blank"}
+<br>
+
 [08] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
 <u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023).
 BioRxiv, 2023.02.14.528547.
