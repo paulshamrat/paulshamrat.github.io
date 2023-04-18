@@ -24,10 +24,6 @@ Mechanism of CCN. <br>
 Therapeutics for CCN.
 
 
-| ![](/assets/images/ccn/mechanismccn-aug11.svg) | ![](/assets/images/ccn/therapeutics-oct15.svg)    |
-| [Mechanism of CCN](/assets/images/ccn/mechanismccn-aug11.jpg){:target="\_blank"}                               | [Therapeutics for CCN](/assets/images/ccn/ccn-therapeutics-oct15.jpg){:target="\_blank"}                               |
-
-
 ### Contribution in  [Seo & Paul et al. (2021)](https://www.mdpi.com/2072-6694/13/13/3221){:target="\_blank"}
 
 | ![](/assets/images/ependymoma/00-ependymoma-abstract.svg)               | ![](/assets/images/ependymoma/01-tumorigenesis-of-ependymal-cell.svg)    |
