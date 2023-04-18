@@ -20,7 +20,7 @@ td, th {
 ![Mechanism of CCN](/assets/images/ccn/mechanismccn-aug11.jpg){:target="\_blank"} <br>
 Mechanism of CCN. <br>
 
-!rapeutics for CCN](/assets/images/ccn/ccn-therapeutics-oct15.jpg){:target="\_blank"} <br>
+![Therapeutics for CCN](/assets/images/ccn/ccn-therapeutics-oct15.jpg){:target="\_blank"} <br>
 Therapeutics for CCN.
 
 
