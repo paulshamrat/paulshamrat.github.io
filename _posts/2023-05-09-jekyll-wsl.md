@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started with Jekyll on WSL: A Step-by-Step Guide"
+title:  "Jekyll on WSL"
 author: paulshamrat
 image: assets/data/rmsd-1aki.svg
 ---
