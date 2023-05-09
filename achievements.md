@@ -7,6 +7,15 @@ layout: default
 ---
 ### Articles
 
+[10] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
+<u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023).
+BioRxiv, 2023.02.14.528547.
+https://doi.org/10.33696/Signaling.4.089
+[**PDF**](https://paulshamrat.github.io/assets/articles/2023-03-23-RHOB.pdf){:target="\_blank"} |
+[**Google Scholar**](https://scholar.google.com/scholar?cluster=16571501518634770369&hl=en&as_sdt=0,41){:target="\_blank"} |
+[**J Cell Signal.**](https://www.scientificarchives.com/article/a-computational-investigation-on-rho-related-gtp-binding-protein-rhob-through-molecular-modeling-and-molecular-dynamics-simulation-study){:target="\_blank"}
+<br>
+
 [09] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
 <u>Paul, S.K.</u>; Saddam, M.; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U.
 Preprints 2023, 2023020387.
