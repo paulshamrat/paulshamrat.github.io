@@ -27,3 +27,5 @@ activities = calculate_kinase_activity(phosphorylated_substrate, kinase_amount, 
 
 for i, activity in enumerate(activities):
     print(f"Sample {i+1}: Protein kinase activity = {activity} moles/s/mole of kinase")
+
+# final
