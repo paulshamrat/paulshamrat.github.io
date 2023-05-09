@@ -9,7 +9,7 @@ layout: default
 
 [10] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
 <u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023).
-BioRxiv, 2023.02.14.528547.
+J Cell Signal. 2023;4(1):30-48.
 https://doi.org/10.33696/Signaling.4.089
 [**PDF**](https://paulshamrat.github.io/assets/articles/2023-03-23-RHOB.pdf){:target="\_blank"} |
 [**Google Scholar**](https://scholar.google.com/scholar?cluster=16571501518634770369&hl=en&as_sdt=0,41){:target="\_blank"} |
