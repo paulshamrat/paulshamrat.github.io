@@ -35,4 +35,9 @@ bundle exec jekyll serve
 
 ## YES YES after nearly 2 years i am back to jekyll
 
+>> update 230512
+- probably gems are deleted when session ends
+- then again need to install it from the beginning commands
+- and run bundle install as existing repo for "paulshamrat.github.io"
+
 ```
