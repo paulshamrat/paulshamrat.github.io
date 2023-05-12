@@ -29,7 +29,7 @@ bundle exec jekyll serve
 
 # run this in existing repo
 jekyll new paulshamrat.github.io --force
-cd mysite
+cd paulshamrat.github.io
 bundle install
 bundle exec jekyll serve
 
