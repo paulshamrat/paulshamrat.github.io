@@ -40,4 +40,11 @@ bundle exec jekyll serve
 - then again need to install it from the beginning commands
 - and run bundle install as existing repo for "paulshamrat.github.io"
 
+
+>> update 230514
+- single command
+```
+sudo apt update; sudo apt install -y ruby-full build-essential zlib1g-dev; echo '# Add Ruby to PATH' >> ~/.bashrc; echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bashrc; source ~/.bashrc; sudo gem install jekyll bundler; gem install --user-install jekyll bundler; mkdir ~/.gems; export GEM_HOME="$HOME/.gems"; export PATH="$GEM_HOME/bin:$PATH"; gem install jekyll bundler
+```
+
 ```
