@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install NGS tool on Ubuntu 20.04"
+title:  "Install NGS on Ubuntu 20.04"
 image: assets/images/ngs2.png
 ---
 A raw and draft version of "NGS tool installation on ubuntu" on my Ubuntu 20.04 LTS operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.

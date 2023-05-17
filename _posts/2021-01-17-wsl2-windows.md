@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WSL2 installation on windows 10"
+title:  "Install WSL2 on windows 10"
 image: assets/images/wsl2.png
 ---
 A raw and draft version of wsl2 activation on my version 20H2 (OS Build 19042.746) windows 10 operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.
