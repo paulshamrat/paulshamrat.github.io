@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install GROMACS on WSL with simple commands"
+title:  "Install GROMACS on WSL"
 image: assets/images/wsl2.png
 ---
 # Code Summary
