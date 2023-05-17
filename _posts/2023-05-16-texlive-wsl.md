@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WSL2 installation on windows 10"
+title:  "Install Texlive in WSL"
 image: assets/images/wsl2.png
 ---
 # Code Summary: Install latex on wsl
