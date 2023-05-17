@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install Texlive in WSL"
+title:  "Install Texlive on WSL"
 image: assets/images/wsl2.png
 ---
 # Code Summary: Install latex on wsl
