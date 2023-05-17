@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GROMACS on WSL"
+title:  "Install GROMACS on WSL"
 author: paulshamrat
 image: assets/data/rmsd-1aki.svg
 ---

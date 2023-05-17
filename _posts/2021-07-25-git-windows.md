@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git bash on Windows 10"
+title:  "Install Git bash on Windows 10"
 author: paul
 image: assets/images/git-bash-windows.png
 ---
