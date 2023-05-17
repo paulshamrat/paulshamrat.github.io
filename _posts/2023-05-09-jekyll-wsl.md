@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll on WSL"
+title:  "Install Jekyll on WSL"
 author: paulshamrat
 image: assets/data/rmsd-1aki.svg
 ---
