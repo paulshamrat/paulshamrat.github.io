@@ -88,3 +88,6 @@ Level 3.1
 - [Connect Linux Terminal from Windows CMD](https://www.addictivetips.com/ubuntu-linux-tips/connect-to-ubuntu-from-windows/){:target=\_blank"};
 - [The Cell: A Molecular Approach. 2nd edition. Cooper GM. Sunderland (MA): Sinauer Associates; 2000.](https://www.ncbi.nlm.nih.gov/books/NBK9839/){:target=\_blank"};
 - [The Cell: A Molecular Approach.8th ed.](https://learninglink.oup.com/access/cooper8e){:target="\_blank"};
+- [230601 Measurement of volume and mass](https://laney.edu/doug_bruce/wp-content/uploads/sites/33/2011/12/b75_lab_2.pdf){:target="\_blank"};
+
+
