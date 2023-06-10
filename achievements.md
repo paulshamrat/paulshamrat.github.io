@@ -7,6 +7,15 @@ layout: default
 ---
 ### Articles
 
+[11] **Miliary tuberculosis in an immune-competent Bangladeshi man—A case report.** <br>
+Paul, S. K., Ahmed, S., Chakrabortty, R., <u>Paul, S.K.</u>, & Rahman, M. A. (2023).
+Clinical Case Reports, 11(6), e7516.
+https://doi.org/10.1002/ccr3.7516
+[**PDF**](https://paulshamrat.github.io/assets/articles/2023-06-09-MilTB.pdf){:target="\_blank"} |
+[**Google Scholar**](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C41&q=Miliary+Tuberculosis+in+an+Immune-Competent+Bangladeshi+Male-case+report&btnG=){:target="\_blank"} |
+[**Clinical Case Reports**](https://onlinelibrary.wiley.com/doi/10.1002/ccr3.7516){:target="\_blank"}
+<br>
+
 [10] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
 <u>Paul, S.K.</u>, Metu, C. L. N., Sutihar, S. K., Saddam, M., Paul, B., Kabir, M. L., & Helal, M. M. U. (2023).
 J Cell Signal. 2023;4(1):30-48.
