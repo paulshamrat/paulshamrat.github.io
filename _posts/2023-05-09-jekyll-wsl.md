@@ -9,8 +9,9 @@ Jekyll is a popular static site generator that allows you to create and manage w
 
 Command lines
 
-# run jekyll in a new rep
 ```
+# run jekyll in a new repository
+
 sudo apt update
 sudo apt install -y ruby-full build-essential zlib1g-dev
 echo '# Add Ruby to PATH' >> ~/.bashrc
@@ -42,9 +43,12 @@ bundle exec jekyll serve
 
 
 >> update 230514
-- single command
+
+```
+
+single command
+
 ```
 sudo apt update; sudo apt install -y ruby-full build-essential zlib1g-dev; echo '# Add Ruby to PATH' >> ~/.bashrc; echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bashrc; source ~/.bashrc; sudo gem install jekyll bundler; gem install --user-install jekyll bundler; mkdir ~/.gems; export GEM_HOME="$HOME/.gems"; export PATH="$GEM_HOME/bin:$PATH"; gem install jekyll bundler
 ```
 
-```
