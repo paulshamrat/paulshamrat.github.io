@@ -89,5 +89,6 @@ Level 3.1
 - [The Cell: A Molecular Approach. 2nd edition. Cooper GM. Sunderland (MA): Sinauer Associates; 2000.](https://www.ncbi.nlm.nih.gov/books/NBK9839/){:target=\_blank"};
 - [The Cell: A Molecular Approach.8th ed.](https://learninglink.oup.com/access/cooper8e){:target="\_blank"};
 - [230601 Measurement of volume and mass](https://laney.edu/doug_bruce/wp-content/uploads/sites/33/2011/12/b75_lab_2.pdf){:target="\_blank"};
+- [230612 Visualizing Molecular Dynamics Data](https://www.youtube.com/watch?v=Ve6lZRbr_aM&ab_channel=ClemsonDataVisualizationLab){:target="\_blank"};
 
 
