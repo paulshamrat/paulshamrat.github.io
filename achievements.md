@@ -12,8 +12,9 @@ Paul, S. K., Ahmed, S., Chakrabortty, R., <u>Paul, S.K.</u>, & Rahman, M. A. (20
 Clinical Case Reports, 11(6), e7516.
 https://doi.org/10.1002/ccr3.7516
 [**PDF**](https://paulshamrat.github.io/assets/articles/2023-06-09-MilTB.pdf){:target="\_blank"} |
-[**Google Scholar**](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C41&q=Miliary+Tuberculosis+in+an+Immune-Competent+Bangladeshi+Male-case+report&btnG=){:target="\_blank"} |
-[**Clinical Case Reports**](https://onlinelibrary.wiley.com/doi/10.1002/ccr3.7516){:target="\_blank"}
+[**Google Scholar**](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C41&q=Miliary+tuberculosis+in+an+immune%E2%80%90competent+Bangladeshi+man+A+case+report&btnG=){:target="\_blank"} |
+[**Wiley Clinical Case Reports**](https://onlinelibrary.wiley.com/doi/10.1002/ccr3.7516){:target="\_blank"} |
+[**Pubmed**](https://pubmed.ncbi.nlm.nih.gov/37305888/){:target="\_blank"}
 <br>
 
 [10] **A computational investigation on Rho-related GTP-binding protein RhoB through molecular modeling and molecular dynamics simulation study.** <br>
