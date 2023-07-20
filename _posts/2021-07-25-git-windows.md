@@ -87,4 +87,36 @@ git push origin main
 
 ```
 
+
+# git large file on wsl
+
+```
+# Install Git and Git LFS on WSL (if not already installed)
+sudo apt update
+sudo apt install git git-lfs
+
+# Configure Git LFS
+git lfs install
+git lfs version
+git --version
+
+
+# Set up a new repository, track large files, and push using Git LFS
+mkdir git-lfs-demo
+cd git-lfs-demo
+git init
+git lfs track "test.txt"
+git add .gitattributes
+git commit -m "Configure Git LFS for large files"
+git remote add origin <your_remote_repository_url>  # Replace with your actual remote repository URL
+git push origin main
+
+# Add More Large Files and Push to Origin
+# Assuming you have more large files (e.g., video.mp4 and dataset.csv) to add
+git add video.mp4 dataset.csv
+git commit -m "Add new files and changes"
+git push origin main
+
+```
+
 ***Last update: Jul 20 2023.***
