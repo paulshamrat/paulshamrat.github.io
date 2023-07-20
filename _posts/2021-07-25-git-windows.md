@@ -67,6 +67,24 @@ $ git pull --all
 - close the current tab and it pulled down succesfully.
 - Now time to push your local changes to your desired repository.
 
-Last update: Jan 19, 2022.
+# Git large files
 
-Reference: [https://www.youtube.com/watch?v=J_Clau1bYco](https://www.youtube.com/watch?v=J_Clau1bYco)
+```
+# 01 install
+git lfs install
+
+# 02 test push
+git init
+git lfs track "test.txt"
+git add .gitattributes
+git commit m "configure Git LFS for large files"
+git push origin main
+
+# 03 add more large files and origin push
+git add .
+git commit -m "add new files and changes"
+git push origin main
+
+```
+
+***Last update: Jul 20 2023.***
