@@ -8,9 +8,7 @@ layout: default
 ### Articles
 
 [12] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
-Saddam, M.; <u>Paul, S.K.</u>; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U.
-Preprints 2023, 2023020387.
-https://doi.org/10.20944/preprints202302.0387.v1
+Saddam, M.; <u>Paul, S.K.</u>; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U. Egyptian Journal of Medical Human Genetics 25.1 (2024): 12.
 [**PDF**](https://paulshamrat.github.io/assets/articles/2024-01-27-bcl2.pdf){:target="\_blank"} |
 [**Springer Open**](https://jmhg.springeropen.com/articles/10.1186/s43042-024-00485-7){:target="\_blank"} |
 <br>
