@@ -7,6 +7,15 @@ layout: default
 ---
 ### Articles
 
+[12] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
+Saddam, M.; <u>Paul, S.K.</u>; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U.
+Preprints 2023, 2023020387.
+https://doi.org/10.20944/preprints202302.0387.v1
+[**PDF**](https://paulshamrat.github.io/assets/articles/2024-01-27-bcl2.pdf){:target="\_blank"} |
+[**Springer Open**](https://jmhg.springeropen.com/articles/10.1186/s43042-024-00485-7){:target="\_blank"} |
+<br>
+
+
 [11] **Miliary tuberculosis in an immune-competent Bangladeshi man—A case report.** <br>
 Paul, S. K., Ahmed, S., Chakrabortty, R., <u>Paul, S.K.</u>, & Rahman, M. A. (2023).
 Clinical Case Reports, 11(6), e7516.
