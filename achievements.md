@@ -6,10 +6,22 @@ permalink: /achievements/
 layout: default
 ---
 ### Articles
-[13] **Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.** <br>
+[15] **Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.** <br>
 Rimal, P.; <u>Paul, S.K.</u>; Panday, S.K.; Alexov, E. Preprints (2024).
 [**PDF**](https://paulshamrat.github.io/assets/articles/2024-12-30-SAMPDI-3D-V2.pdf){:target="\_blank"} |
 [**Preprints**](https://www.preprints.org/manuscript/202412.2430/v1){:target="\_blank"} |
+<br>
+
+[14] **Molecular dynamics simulation of wild and mutant proteasome subunit beta type 8 (PSMB8) protein: Implications for restoration of inflammation in experimental autoimmune encephalomyelitis pathogenesis.** <br>
+<u>Paul, S.K.</u>; Saddam, M.; Tabassum, N; Hasan, M. Heliyon, Volume 11, Issue 1, e41166 (2024).
+[**PDF**](https://paulshamrat.github.io/assets/articles/2024-12-15-PSMB8.pdf){:target="\_blank"} |
+[**Heliyon**](https://www.cell.com/heliyon/fulltext/S2405-8440(24)17197-6){:target="\_blank"} |
+<br>
+
+[13] **116 Exploring the diversity and function of the RTA1-like protein family in Aspergillus fumigatus.** <br>
+<u>Paul, S.K.</u>; Dolan, S.; Murphy M. Journal of Cystic Fibrosis 23, S61 (2024).
+[**PDF**](https://paulshamrat.github.io/assets/articles/2024-09-01-AF.pdf){:target="\_blank"} |
+[**Journal of Cystic Fibrosis**](https://www.sciencedirect.com/science/article/pii/S1569199324009585){:target="\_blank"} |
 <br>
 
 [12] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
