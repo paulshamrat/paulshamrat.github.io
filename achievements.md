@@ -6,6 +6,11 @@ permalink: /achievements/
 layout: default
 ---
 ### Articles
+[12] **Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.** <br>
+Rimal, P.; <u>Paul, S.K.</u>; Panday, S.K.; Alexov, E. Preprints (2024).
+[**PDF**](https://paulshamrat.github.io/assets/articles/22024-12-30-SAMPDI-3D-V2.pdf){:target="\_blank"} |
+[**Preprints**](https://www.preprints.org/manuscript/202412.2430/v1){:target="\_blank"} |
+<br>
 
 [12] **Emerging Biomarkers and Potential Therapeutics of the BCL-2 Protein Family: The Apoptotic and Anti-Apoptotic Context.** <br>
 Saddam, M.; <u>Paul, S.K.</u>; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Paul, B.; Helal, M.M.U. Egyptian Journal of Medical Human Genetics 25.1 (2024): 12.
