@@ -6,7 +6,7 @@ permalink: /achievements/
 layout: default
 ---
 ### Articles
-[12] **Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.** <br>
+[13] **Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA.** <br>
 Rimal, P.; <u>Paul, S.K.</u>; Panday, S.K.; Alexov, E. Preprints (2024).
 [**PDF**](https://paulshamrat.github.io/assets/articles/2024-12-30-SAMPDI-3D-V2.pdf){:target="\_blank"} |
 [**Preprints**](https://www.preprints.org/manuscript/202412.2430/v1){:target="\_blank"} |
@@ -17,7 +17,6 @@ Saddam, M.; <u>Paul, S.K.</u>; Habib, M.A.; Fahim, M.A.; Mimi, A.; Islam, S.; Pa
 [**PDF**](https://paulshamrat.github.io/assets/articles/2024-01-27-bcl2.pdf){:target="\_blank"} |
 [**Springer Open**](https://jmhg.springeropen.com/articles/10.1186/s43042-024-00485-7){:target="\_blank"} |
 <br>
-
 
 [11] **Miliary tuberculosis in an immune-competent Bangladeshi man—A case report.** <br>
 Paul, S. K., Ahmed, S., Chakrabortty, R., <u>Paul, S.K.</u>, & Rahman, M. A. (2023).
