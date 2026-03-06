@@ -1,0 +1,35 @@
+# This file was created Thu May  4 15:03:52 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/c/Users/paul/works/1aki/1aki_2
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  300.902924
+    1.000000  302.505737
+    2.000000  302.582916
+    3.000000  303.334808
+    4.000000  299.491211
+    5.000000  300.896851
+    6.000000  299.884979
+    7.000000  301.184052
+    8.000000  306.544708
+    9.000000  300.261658
+   10.000000  298.712585

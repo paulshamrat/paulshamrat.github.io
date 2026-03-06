@@ -1,0 +1,38 @@
+title: Shamrat Kumar Paul
+first_name: Shamrat
+middle_name: Kumar
+last_name: Paul
+description: Academic Portfolio of Shamrat Kumar Paul.
+baseurl: ""
+# remote_theme: yaoyao-liu/minimal-light@main # Disabled to use local theme
+
+# Sidebar information
+email: shamratpaul@gmail.com
+google_scholar: https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en
+orcid: https://orcid.org/0000-0001-8673-3771
+github: https://github.com/paulshamrat
+
+# Navigation (Custom addition for top-right menu)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Gallery"
+    url: "/gallery/"
+
+# Theme customization
+google_analytics: # UA-XXXXXXXXX-X
+social_icons: true
+reveal_sidebar: true
+
+third_party_libraries:
+  enabled: false
+
+# Local theme settings (since we're not using remote_theme)
+auto_dark_mode: true
+font: "Crimson Pro"
+enable_footnote: true
+avatar: assets/img/shamrat.svg
