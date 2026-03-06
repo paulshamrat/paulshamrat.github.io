@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Install NGS on Ubuntu 20.04</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Install NGS on Ubuntu 20.04</h1>
+    <p class="post-meta">Posted on March 7, 2021   
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>A raw and draft version of “NGS tool installation on ubuntu” on my Ubuntu 20.04 LTS operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.</p>
+
+<h2 id="installation-procedure">INSTALLATION PROCEDURE</h2>
+<h3 id="01-linux-ubuntu-distro">01. Linux (Ubuntu) Distro</h3>
+<ul>
+  <li>Find out a Debian Linux distribution (i.e.. Ubuntu20.04) primed laptop or desktop and start.</li>
+</ul>
+
+<h3 id="02-anaconda">02. Anaconda</h3>
+<ul>
+  <li>As anaconda is a python distribution it is good to be installed python on your system</li>
+  <li>Though Ubuntu comes with default python 2.7</li>
+  <li>Try to prime it with the latest version of python I.e. python 3.8</li>
+  <li>Download Anaconda distribution form their official website.</li>
+  <li>https://www.anaconda.com/products/individual</li>
+  <li>On the website of anaconda you find Download option</li>
+  <li>Click on Download button</li>
+  <li>Download Anaconda Installer for Linux</li>
+  <li>Select 64-Bit (x86) Installer (529 MB) [as per your device requirements]</li>
+  <li>This will downolad a *.sh file which will be save on your download directory.</li>
+  <li>Assume it is downloaded on your download folder</li>
+  <li>So there is the *.sh file</li>
+  <li>Type this command</li>
+  <li><code class="language-plaintext highlighter-rouge">~/Downloads/Anaconda3-2020.11-Linux-x86_64.sh</code></li>
+  <li>This will install anaconda into your ubuntu system</li>
+  <li>Installation Guide can be found here</li>
+  <li>https://docs.anaconda.com/anaconda/install/linux/</li>
+  <li>To initiate anaconda open your terminal and type</li>
+  <li><code class="language-plaintext highlighter-rouge">conda init</code></li>
+  <li>To open anaconda navigator type this command on the terminal</li>
+  <li><code class="language-plaintext highlighter-rouge">anaconda-navigator</code></li>
+</ul>
+
+<h3 id="03-bioconda--packages--sra-tools">03. bioconda / packages / sra-tools</h3>
+<ul>
+  <li>To install bioconda sra tools type</li>
+  <li><code class="language-plaintext highlighter-rouge">conda install -c bioconda sra-tools</code></li>
+  <li>This command will install v2.8 but it is recommended to install 2.9</li>
+  <li>Install v2.9 by this command</li>
+  <li><code class="language-plaintext highlighter-rouge">conda install -c bioconda/label/cf201901 sra-tools</code></li>
+  <li>Installation guide can be found here</li>
+  <li>https://anaconda.org/bioconda/sra-tools</li>
+  <li>Now you are ready to go..</li>
+  <li>Activate/deactivate your conda</li>
+  <li>After installation your terminal will prompt with an initial text “(base)”</li>
+  <li>Activate or deactivate your anaconda by this command</li>
+  <li><code class="language-plaintext highlighter-rouge">conda activate</code></li>
+  <li><code class="language-plaintext highlighter-rouge">conda deactivate</code></li>
+  <li>This will only work on conda 4.6 and later versions. For conda versions prior to 4.6, run:</li>
+  <li>Windows: activate or deactivate</li>
+  <li>Linux and macOS: source activate or source deactivate</li>
+</ul>
+
+<h3 id="04-fasttqc">04. FasttQC</h3>
+<ul>
+  <li>Before installation of fastqc make sure your system primed with java</li>
+  <li>First check if there is installed java or not</li>
+  <li>To check the presence of java type this command</li>
+  <li><code class="language-plaintext highlighter-rouge">java -version</code></li>
+  <li>If not showing any installed version of java then download it with this instruction in this site</li>
+  <li>https://phoenixnap.com/kb/how-to-install-java-ubuntu</li>
+  <li>Install fastQC software for the qualicte checking purpose of sequence</li>
+  <li>Install it with the below command</li>
+  <li><code class="language-plaintext highlighter-rouge">sudo apt-get install -y fastqc</code></li>
+</ul>
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>

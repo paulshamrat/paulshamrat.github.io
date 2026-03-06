@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Install Git bash on Windows 10</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Install Git bash on Windows 10</h1>
+    <p class="post-meta">Posted on July 25, 2021  by paul  
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>Commiting codes directly from the local disc to the github repository is an important productivity asset. Let’s learn some codes regarding commiting codes through gitbash on Windows 10.</p>
+
+<h1 id="git-bash-on-windows">Git-bash on windows</h1>
+
+<ul>
+  <li>download git (commandline interface ) for windows from this site</li>
+  <li><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></li>
+  <li>there will be an unix like terminal installed “gitbash”</li>
+  <li>open gitbash</li>
+  <li>setup your working directory to the c/git</li>
+</ul>
+
+<p>like:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@DESKTOP-AB6NSDID MiNGW64/c/git
+</code></pre></div></div>
+
+<ul>
+  <li>login your github account</li>
+  <li>create new repository</li>
+  <li>name it “testgit” (whatever in your mind)</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git config <span class="nt">--global</span> user.name <span class="s2">"username"</span>
+<span class="nv">$ </span>git config <span class="nt">--global</span> user.email <span class="s2">"useremail@mail.com"</span>
+</code></pre></div></div>
+
+<ul>
+  <li>[this will ask your credentials and login via browser in which you previously logged into your github account]</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone <span class="o">[</span>https://github.com/user/testgit.git]<span class="o">(</span>https://github.com/user/testgit.git<span class="o">)</span>
+<span class="nv">$ </span><span class="nb">ls</span>
+<span class="nv">$ </span><span class="nb">cd </span>testgit
+<span class="nv">$ </span>git status
+<span class="nv">$ </span>git add test.txt
+<span class="nv">$ </span>git status
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"first commit"</span> test.txt
+<span class="nv">$ </span>git push <span class="nt">-u</span> origin main
+</code></pre></div></div>
+
+<h2 id="add-commit-and-push-multiple-files">Add, commit and push multiple files</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git status
+<span class="nv">$ </span>git add <span class="nt">--all</span>
+<span class="nv">$ </span>git status
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"added 4 new posts"</span> <span class="nt">--all</span>
+<span class="nv">$ </span>git status
+<span class="nv">$ </span>git push <span class="nt">-u</span> origin master
+</code></pre></div></div>
+
+<h1 id="another-note">Another note:</h1>
+<ul>
+  <li>you have cloned repository on your local machine.</li>
+  <li>but you have commited from the browser directly.</li>
+  <li>then you made changes in your local machine and tried to push the command</li>
+  <li>then it wil show, “rejected” sign! so what to do?</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git pull <span class="nt">--all</span>
+</code></pre></div></div>
+<ul>
+  <li>So, this command will pull down all changes made in the repository and merged with your local machine and pop-up a message to close the command tab of VS code.</li>
+  <li>close the current tab and it pulled down succesfully.</li>
+  <li>Now time to push your local changes to your desired repository.</li>
+</ul>
+
+<h1 id="git-large-files">Git large files</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 01 install
+git lfs install
+
+# 02 test push
+git init
+git lfs track "test.txt"
+git add .gitattributes
+git commit m "configure Git LFS for large files"
+git push origin main
+
+# 03 add more large files and origin push
+git add .
+git commit -m "add new files and changes"
+git push origin main
+
+</code></pre></div></div>
+
+<h1 id="git-large-file-on-wsl">git large file on wsl</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install Git and Git LFS on WSL (if not already installed)
+sudo apt update
+sudo apt install git git-lfs
+
+# Configure Git LFS
+git lfs install
+git lfs version
+git --version
+
+
+# Set up a new repository, track large files, and push using Git LFS
+mkdir git-lfs-demo
+cd git-lfs-demo
+git init
+git lfs track "test.txt"
+git add .gitattributes
+git commit -m "Configure Git LFS for large files"
+git remote add origin &lt;your_remote_repository_url&gt;  # Replace with your actual remote repository URL
+git push origin main
+
+# Add More Large Files and Push to Origin
+# Assuming you have more large files (e.g., video.mp4 and dataset.csv) to add
+git add video.mp4 dataset.csv
+git commit -m "Add new files and changes"
+git push origin main
+
+</code></pre></div></div>
+
+<p><strong><em>Last update: Jul 20 2023.</em></strong></p>
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>

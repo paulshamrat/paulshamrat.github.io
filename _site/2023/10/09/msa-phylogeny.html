@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>MSA & Phylogeny</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">MSA & Phylogeny</h1>
+    <p class="post-meta">Posted on October 9, 2023   
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="multiple-sequence-alignment-msa">Multiple Sequence Alignment (MSA)</h2>
+
+<ol>
+  <li>Open the MSA tool.</li>
+  <li>Set the reference sequence to “AFUA_5G01230.”</li>
+  <li>Click on “Align &gt; Edit or build alignment.”</li>
+  <li>Choose “Create a new alignment.”</li>
+  <li>Select “Protein” as the sequence type.</li>
+  <li>Paste the first sequence (already copied from a fasta/text file) into “Sequence 1.”</li>
+  <li>Delete the placeholder “Sequence 1” entry.</li>
+</ol>
+
+<p>Now you have your data ready for alignment.</p>
+
+<ol>
+  <li>Go to “Alignment &gt; Align by Clustalw/ MUSCLE.”</li>
+  <li>If nothing is selected, choose “Select all” and click “Ok.”</li>
+  <li>Keep the alignment options as default and click “Ok.”</li>
+</ol>
+
+<p>Wait for the alignment process to complete.</p>
+
+<ol>
+  <li>Once alignment is complete, go to “Data &gt; Export alignment &gt; MEGA format.”</li>
+</ol>
+
+<h2 id="muscle-default-parameters">MUSCLE: Default Parameters</h2>
+
+<ol>
+  <li>In the MUSCLE parameters window, you’ll see the following default settings:</li>
+</ol>
+
+<ul>
+  <li><strong>GAP penalties:</strong>
+    <ul>
+      <li>Gap open: -2.90</li>
+      <li>Gap extend: 0.00</li>
+      <li>Hydrophobicity multiplier: 1.20</li>
+    </ul>
+  </li>
+  <li><strong>Memory Iterations:</strong>
+    <ul>
+      <li>Max memory in MB: 2048</li>
+      <li>Max iterations: 16</li>
+    </ul>
+  </li>
+  <li><strong>Advanced options:</strong>
+    <ul>
+      <li>Cluster method (iter 1,2): UPGMA</li>
+      <li>Cluster method (iter): UPGMA</li>
+      <li>Min diagonal length (lambda): 24</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Give a name for your alignment and save it, then close the window.</li>
+</ol>
+
+<h2 id="phylogeny-reconstruction">Phylogeny Reconstruction</h2>
+
+<ol>
+  <li>Navigate to “Phylogeny &gt; Construct/Test-neighbor-joining Tree.”</li>
+  <li>When asked about the current data, select “No.”</li>
+  <li>When asked if you want to preserve data, select “No.”</li>
+  <li>It will ask if you want to save the alignment again, do so.</li>
+</ol>
+
+<p>It will open the last sequence alignment for phylogeny reconstruction.</p>
+
+<h2 id="phylogeny-reconstruction-parameters">Phylogeny Reconstruction Parameters</h2>
+
+<ol>
+  <li>In the “Phylogeny reconstruction parameters” window, configure the following settings:</li>
+</ol>
+
+<ul>
+  <li><strong>ANALYSIS:</strong>
+    <ul>
+      <li>Scope: All selected taxa</li>
+      <li>Statistical method: Neighbor-joining</li>
+    </ul>
+  </li>
+  <li><strong>PHYLOGENY TEST:</strong>
+    <ul>
+      <li>Test of phylogeny: Bootstrap method (You can choose the number of bootstrap replicates, e.g., 100 or 1000)</li>
+    </ul>
+  </li>
+  <li><strong>SUBSTITUTIONAL MODEL:</strong>
+    <ul>
+      <li>Substitution type: Amino acids</li>
+      <li>Model/method: Jones-Taylor-Thornton (jTT) model</li>
+    </ul>
+  </li>
+  <li><strong>RATES AND PATTERNS:</strong>
+    <ul>
+      <li>Rates among sites: Uniform rates</li>
+      <li>Pattern among lineages: Same (homogeneous)</li>
+    </ul>
+  </li>
+  <li><strong>DATA SUBSET TO USE:</strong>
+    <ul>
+      <li>Gaps/missing data treatment: Pairwise deletion</li>
+      <li>Site coverage cutoff (%): Not applicable</li>
+    </ul>
+  </li>
+  <li><strong>SYSTEM RESOURCES USAGE:</strong>
+    <ul>
+      <li>NUMBER OF THREADS: 4</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>After configuring these settings, proceed with the phylogeny reconstruction.</li>
+</ol>
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>

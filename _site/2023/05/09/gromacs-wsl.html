@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Install GROMACS on WSL</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Install GROMACS on WSL</h1>
+    <p class="post-meta">Posted on May 9, 2023  by paulshamrat  
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="install-gromacs-on-windows">Install GROMACS on Windows</h1>
+
+<p>Are you interested in running GROMACS, the popular molecular dynamics simulation software, on your Windows machine? Good news! You can easily set it up using the Windows Subsystem for Linux (WSL). In this blog post, we will guide you through the installation process step by step.</p>
+
+<h2 id="activating-windows-subsystem-for-linux">Activating Windows Subsystem for Linux</h2>
+
+<p>To begin, we need to activate the Windows Subsystem for Linux. Follow these steps:</p>
+
+<ol>
+  <li>Click on the Windows button located in the bottom left corner of your screen.</li>
+  <li>In the search bar, type “Turn Windows features on or off” and double-click on the corresponding option that appears.</li>
+  <li>Scroll down the list of features and locate “Windows Subsystem for Linux.” It is recommended to also enable the virtual machine feature.</li>
+  <li>Checkmark the option for “Windows Subsystem for Linux.”</li>
+  <li>Click “OK” to save the changes.</li>
+  <li>A prompt to restart your computer will appear. Restart your computer to apply the changes.</li>
+</ol>
+
+<p>With the Windows Subsystem for Linux activated, we can proceed to install Ubuntu on your Windows machine.</p>
+
+<h2 id="installing-ubuntu-2004-lts">Installing Ubuntu 20.04 LTS</h2>
+
+<ol>
+  <li>Open the Microsoft Store on your Windows machine.</li>
+  <li>Search for “Ubuntu 20.04 LTS” and select the option to install it.</li>
+  <li>Follow the on-screen instructions to complete the installation. Once installed, you will have Ubuntu available as a command-line interface on your Windows machine.</li>
+</ol>
+
+<p>Now that we have Ubuntu installed, we can proceed with installing GROMACS.</p>
+
+<h2 id="alternatively-follow-this-to-install-ubuntu-on-wsl">Alternatively follow this to install Ubuntu on WSL</h2>
+<p>To install WSL (Windows Subsystem for Linux) on Windows 11, you can follow these steps:</p>
+<ol>
+  <li>Open PowerShell as an administrator.</li>
+  <li>Right-click on the  Start button and select “Windows PowerShell (Admin)”.</li>
+  <li>Enable the Windows Subsystem for Linux feature by running the following command:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wsl --install
+</code></pre></div></div>
+<h2 id="installing-gromacs">Installing GROMACS</h2>
+
+<ol>
+  <li>Open the Ubuntu terminal or command-line interface on your Windows machine.</li>
+  <li>In the terminal, enter the following commands one by one and press Enter after each:</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt upgrade
+<span class="nb">sudo </span>apt <span class="nb">install </span>gcc
+<span class="nb">sudo </span>apt <span class="nb">install </span>cmake
+<span class="nb">sudo </span>apt <span class="nb">install </span>build-essential
+<span class="nb">sudo </span>apt <span class="nb">install </span>libfftw3-dev
+<span class="nb">sudo </span>apt <span class="nb">install </span>gromacs
+</code></pre></div></div>
+
+<p>Installation Complete and check the version hitting the command <code class="language-plaintext highlighter-rouge">gmx</code>.</p>
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>

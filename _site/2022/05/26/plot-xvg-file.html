@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Plot the *.xvg file</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Plot the *.xvg file</h1>
+    <p class="post-meta">Posted on May 26, 2022  by paulshamrat  
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="plot-the-xvg-file">Plot the *.xvg file.</h1>
+
+<p>GROMACS uses the XVG file format. The GRACE program on UNIX/LINUX systems and the GNUPlot program on Windows can display this format graphically. XVG files are plain text files that contain tabular data separated by tabulators as well as two types of comments that include data labels.</p>
+
+<p>However, there is a fun an cool way to visualize the xvg file.</p>
+
+<p>Step 1: Open a file rmsd.ipynb
+Step 2: Copy and Paste the following python code inside the code block</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+import matplotlib.pyplot as plt
+
+x, y = [], []
+
+with open("https://paulshamrat.github.io/assets/data/rmsd-1aki.xvg") as f:
+    for line in f:
+        cols = line.split()
+
+        if len(cols) == 2:
+            x.append(float(cols[0]))
+            y.append(float(cols[1]))
+
+
+fig = plt.figure()
+ax1 = fig.add_subplot(111)
+ax1.set_title("RMSD")    
+ax1.set_xlabel('Time (ns)')
+ax1.set_ylabel('RMSD (nm)')
+ax1.plot(x,y, c='r', label='1aki')
+leg = ax1.legend()
+plt.show()  
+
+</code></pre></div></div>
+<p>Step final: …aaaAnd the plot is here:</p>
+
+<p>NB: Before importing data, ensure that you have masked or deleted all headers within the *.xvg file and have only two column data by opening it in an editor.</p>
+
+<p><img src="https://paulshamrat.github.io/assets/data/rmsd-1aki.svg" alt="rmsd-copy" /><br />
+RMSD</p>
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>
