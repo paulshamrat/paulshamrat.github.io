@@ -39,25 +39,6 @@ main:
       }
     notes: "Preprint"
 
-  - title: "Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice."
-    authors: "Paul, S.K., Saddam, M., Rahaman K.A., Choi, J.G., Lee, S. S., Hasan, M."
-    conference: "Heliyon"
-    year: "2022"
-    doi: "10.1016/j.heliyon.2022.e11232"
-    pdf: "/assets/articles/2022-10-20-GCA.pdf"
-    html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
-    bibtex: |
-      @article{paul2022molecular,
-        title={Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice},
-        author={Paul, S. K. and Saddam, M. and Rahaman, K. A. and Choi, J. G. and Lee, S. S. and Hasan, M.},
-        journal={Heliyon},
-        volume={8},
-        number={10},
-        pages={e11232},
-        year={2022},
-        publisher={Elsevier}
-      }
-
   - title: "Molecular dynamics simulation of wild and mutant proteasome subunit beta type 8 (PSMB8) to predict the effect of variants associated with autoinflammatory diseases."
     authors: "Paul, S.K., Saddam, M., Tabassum, N and Hasan, M."
     conference: "Heliyon"
@@ -145,6 +126,25 @@ main:
         journal={bioRxiv},
         year={2023},
         publisher={Cold Spring Harbor Laboratory}
+      }
+
+  - title: "Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice."
+    authors: "Paul, S.K., Saddam, M., Rahaman K.A., Choi, J.G., Lee, S. S., Hasan, M."
+    conference: "Heliyon"
+    year: "2022"
+    doi: "10.1016/j.heliyon.2022.e11232"
+    pdf: "/assets/articles/2022-10-20-GCA.pdf"
+    html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
+    bibtex: |
+      @article{paul2022molecular,
+        title={Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice},
+        author={Paul, S. K. and Saddam, M. and Rahaman, K. A. and Choi, J. G. and Lee, S. S. and Hasan, M.},
+        journal={Heliyon},
+        volume={8},
+        number={10},
+        pages={e11232},
+        year={2022},
+        publisher={Elsevier}
       }
 
   - title: "Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis."
