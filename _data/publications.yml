@@ -173,9 +173,8 @@ main:
     authors: "Paul, S.K., et al."
     conference: "Current Oncology"
     year: "2021"
-    doi: "10.3390/curroncol28060416"
     pdf: "/assets/articles/2021-11-CCN.pdf"
-    html: "https://pubmed.ncbi.nlm.nih.gov/34940056/"
+    html: "https://www.mdpi.com/1718-7729/28/6/417"
     bibtex: |
       @article{paul2021potential,
         title={Potential Role of CCN Proteins in Breast Cancer: Therapeutic Advances and Perspectives},
@@ -207,75 +206,4 @@ main:
         publisher={MDPI}
       }
 
-  - title: "In Silico Identification of Drug Molecules against H5N1 Avian Influenza Virus."
-    authors: "Paul, S.K., et al."
-    conference: "Journal of Biomolecular Structure and Dynamics"
-    year: "2021"
-    doi: "10.1080/07391102.2021.1947895"
-    html: "https://pubmed.ncbi.nlm.nih.gov/34225574/"
-    bibtex: |
-      @article{paul2021insilico,
-        title={In Silico Identification of Drug Molecules against H5N1 Avian Influenza Virus},
-        author={Paul, S. K. and others},
-        journal={Journal of Biomolecular Structure and Dynamics},
-        year={2021},
-        publisher={Taylor \& Francis}
-      }
 
-  - title: "Microarray Data Analysis Using GEO2R to Identify the Candidate Genes for Diabetes Mellitus-Associated Pancreatic Cancer."
-    authors: "Paul, S.K., et al."
-    conference: "Bioinformatics and Biomedical Engineering"
-    year: "2020"
-    doi: "10.1007/978-3-030-45385-5_57"
-    html: "https://link.springer.com/chapter/10.1007/978-3-030-45385-5_57"
-    bibtex: |
-      @inproceedings{paul2020microarray,
-        title={Microarray Data Analysis Using GEO2R to Identify the Candidate Genes for Diabetes Mellitus-Associated Pancreatic Cancer},
-        author={Paul, S. K. and others},
-        booktitle={International Work-Conference on Bioinformatics and Biomedical Engineering},
-        pages={624--635},
-        year={2020},
-        organization={Springer}
-      }
-
-  - title: "In Silico Design and Homology Modeling of Helicase C-Terminal Domain of West Nile Virus (WNV) to Predict Possible Function of NS3 Protein."
-    authors: "Paul, S.K., et al."
-    conference: "International Conference on Computer, Communication, Chemical, Material and Electronic Engineering"
-    year: "2019"
-    doi: "10.1007/978-981-15-0829-5_68"
-    pdf: "/assets/articles/2019-12-WNV.pdf"
-    bibtex: |
-      @inproceedings{paul2019insilico,
-        title={In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)},
-        author={Paul, S. K. and others},
-        booktitle={International Conference on Communication, Devices and Computing},
-        pages={723--732},
-        year={2019},
-        organization={Springer}
-      }
-
-  - title: "Structure prediction and functional characterization of Uncharacterized Protein Rv1708 of Mycobacterium tuberculosis H37Rv."
-    authors: "Paul, S.K., et al."
-    conference: "Journal of Biological Engineering"
-    year: "2019"
-    doi: "10.1201/9781003001614-30"
-    pdf: "/assets/articles/2019-11-MTB-BIOSPECTRUM.pdf"
-    bibtex: |
-      @article{paul2019structure,
-        title={Structure prediction and functional characterization of uncharacterized protein Rv1708 of Mycobacterium tuberculosis},
-        author={Paul, S. K. and others},
-        journal={Journal of Biological Engineering},
-        year={2019},
-        publisher={Taylor \& Francis}
-      }
-
-  - title: "Searching Potential Inhibitors for Targeting Toll-like Receptor 4 (TLR4) Protein by Virtual Screening."
-    authors: "Paul, S.K., et al."
-    conference: "Conference Paper"
-    year: "2017"
-    bibtex: |
-      @inproceedings{paul2017searching,
-        title={Searching Potential Inhibitors for Targeting Toll-like Receptor 4 (TLR4) Protein by Virtual Screening},
-        author={Paul, S. K. and others},
-        year={2017}
-      }
