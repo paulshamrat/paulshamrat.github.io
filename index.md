@@ -23,7 +23,8 @@ I developed and maintain [ColabMDA](https://github.com/paulshamrat/ColabMDA) and
 <h2 id="selected-publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
 <div class="publications">
   <ol class="bibliography">
-    {% for link in site.data.publications.main limit:3 %}
+    {% assign selected_pubs = site.data.publications.main | where: "selected", true %}
+    {% for link in selected_pubs %}
     <li>
       <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 1.5rem;">
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">

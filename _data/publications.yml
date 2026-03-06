@@ -6,6 +6,7 @@ main:
     doi: "10.3390/ijms26178399"
     pdf: "/assets/articles/2025-08-29-CDKL5-VARIANTS.pdf"
     html: "https://www.mdpi.com/1422-0067/26/17/8399"
+    selected: true
     bibtex: |
       @article{paul2025cdkl5,
         title={CDKL5 Deficiency Disorder: Revealing the Molecular Mechanism of Pathogenic Variants},
@@ -26,6 +27,7 @@ main:
     doi: "10.3390/genes16010101"
     pdf: "/assets/articles/2024-12-30-SAMPDI-3D-V2.pdf"
     html: "https://www.mdpi.com/2073-4425/16/1/101"
+    selected: true
     bibtex: |
       @article{rimal2025further,
         title={Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA},
@@ -135,6 +137,7 @@ main:
     doi: "10.1016/j.heliyon.2022.e11232"
     pdf: "/assets/articles/2022-10-20-GCA.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
+    selected: true
     bibtex: |
       @article{paul2022molecular,
         title={Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice},
