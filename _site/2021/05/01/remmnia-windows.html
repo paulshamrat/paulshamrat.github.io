@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>Remmnia- Remote Desktop Connection on Windows 10</title>
+    <meta name="description" content="" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4002/feed.xml" title="Your awesome title" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+  <header>
+    <h1></h1>
+    <p></p>
+    <nav>
+    
+      <a href="/">Home</a>
+    
+      <a href="/achievements">Achievements</a>
+    
+      <a href="/projects">Projects</a>
+    
+      <a href="/gallery">Gallery</a>
+    
+      <a href="/misc">Misc.</a>
+    
+      <a href="/blog">Blog</a>
+    
+  </nav>
+  </header>
+
+  <main>
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Remmnia- Remote Desktop Connection on Windows 10</h1>
+    <p class="post-meta">Posted on May 1, 2021  by paulshamrat  
+
+  in
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p>A raw and draft version of “Remmnia; Remote Desktop Connection” on my Ubuntu 20.04 LTS operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.</p>
+
+<h2 id="from-ubuntu-to-windows">From ubuntu to windows</h2>
+<p>Inside Windows:
+Enabling Remote access of your windows machine:</p>
+<ul>
+  <li>Go to control panel</li>
+  <li>system and security &gt; system &gt; remote settings &gt; Remote &gt; allow remote connections to this computer</li>
+  <li>check mark allow connecction</li>
+  <li>Select Users &gt; add &gt; name check name &gt; add &gt; apply &gt; ok</li>
+  <li>You can allow it withoud adding name.</li>
+</ul>
+
+<h2 id="finding-out-ip-address-server">Finding out IP address/ Server</h2>
+<ul>
+  <li>Open cmd&gt; ipconfig</li>
+  <li>This will show if configuration details</li>
+  <li>For myself there was there ip address
+      a. ethernet adapter virtual box host only network
+      b. ethernet adapter ethernet
+      c. ethernet adapter vethernet(wsl)
+    <ul>
+      <li>Take the IP address for ethernet adapter ethernet</li>
+      <li>It was 168.192.0.102</li>
+      <li>Now you enabled remote access and got Ip address now rest of the task in your ubuntu
+        <h2 id="inside-ubuntu">Inside Ubuntu:</h2>
+      </li>
+    </ul>
+  </li>
+  <li>Open remmina</li>
+  <li>Click on the squire plus icon in the top left corner</li>
+  <li>Write the ip address in the server option</li>
+  <li>Give Username and password of your windows machine</li>
+  <li>Save and connect and it will pop up your windows screen to inside your linux desktop</li>
+</ul>
+
+<p><strong>Hurray; you did it!</strong></p>
+
+<h3 id="reference-tutorial">Reference Tutorial</h3>
+<p>Follow this youtube video which help me during this activation
+Setup and demonstration of remote desktop connections (Linux to Windows 10)
+https://www.youtube.com/watch?v=Qb9lN3RCqVM</p>
+
+
+  </article>
+
+</div>
+  </main>
+
+  <footer>
+    <p> © 2022 <a href="https://paulshamrat.github.io">Shamrat Kumar Paul</a> | Powered by <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.<br>
+      <a href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://orcid.org/0000-0001-8673-3771">ORCID</a> |
+      <a href="https://github.com/paulshamrat">GitHub</a> |
+      <a href="https://twitter.com/shamratpaulbmb">Twitter</a><br>
+      bt20f002[at]smail.iitm.ac.in
+    </p>
+  </footer>
+
+  </body>
+</html>

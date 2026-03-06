@@ -1,0 +1,10 @@
+current directory: /home/paul/website_backup_before_al_folio/vendor/bundle/ruby/3.2.0/gems/sass-embedded-1.62.1/ext/sass
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/paul/website_backup_before_al_folio/vendor/bundle/ruby/3.2.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/home/paul/website_backup_before_al_folio/vendor/bundle/ruby/3.2.0/extensions/x86_64-linux-gnu/3.2.0/sass-embedded-1.62.1 RUBYLIBDIR\=/home/paul/website_backup_before_al_folio/vendor/bundle/ruby/3.2.0/extensions/x86_64-linux-gnu/3.2.0/sass-embedded-1.62.1
+fetch https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-linux-x64.tar.gz
+tar -vxC . -f sass_embedded-1.62.1-linux-x64.tar.gz --no-same-owner --no-same-permissions
+mkdir -p .
+sass_embedded/src/LICENSE
+sass_embedded/src/dart
+sass_embedded/src/dart-sass-embedded.snapshot
+sass_embedded/dart-sass-embedded
+rm sass_embedded-1.62.1-linux-x64.tar.gz

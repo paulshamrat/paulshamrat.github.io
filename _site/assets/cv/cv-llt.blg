@@ -1,0 +1,18 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'cv-llt.blg'
+[289] biber-MSWIN64:340> INFO - === 
+[368] Biber.pm:415> INFO - Reading 'cv-llt.bcf'
+[639] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[685] Biber.pm:4340> INFO - Processing section 0
+[709] Biber.pm:4531> INFO - Looking for bibtex format file 'own-bib.bib' for section 0
+[1229] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1362] bibtex.pm:1494> INFO - Found BibTeX data source 'own-bib.bib'
+[1575] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1576] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1659] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1660] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1660] Biber.pm:4168> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
+[1660] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1698] bbl.pm:654> INFO - Writing 'cv-llt.bbl' with encoding 'UTF-8'
+[1727] bbl.pm:757> INFO - Output to cv-llt.bbl
+[1727] Biber.pm:128> INFO - WARNINGS: 2

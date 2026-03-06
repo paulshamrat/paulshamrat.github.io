@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <title>Shamrat Kumar Paul</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic Portfolio of Shamrat Kumar Paul.">
+  
+
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="" type="image/png" />
+
+  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="/assets/css/font.css">
+  
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/publications.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="top-nav">
+      <div class="nav-container">
+        
+        <a href="/">Home</a>
+        
+        <a href="/publications/">Publications</a>
+        
+        <a href="/blog/">Blog</a>
+        
+        <a href="/gallery/">Gallery</a>
+        
+        <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
+          <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </a>
+      </div>
+    </nav>
+
+    <header>
+      
+      <a class="image avatar"><img src="/assets/img/shamrat.svg" alt="avatar" /></a>
+      
+
+      <h1>Shamrat Kumar Paul</h1>
+
+      
+      
+      
+      <email>shamratpaul@gmail.com</email>
+      
+
+      <br>
+      <br>
+      <div class="social-icons">
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/paulshamrat">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://orcid.org/0000-0001-8673-3771">
+          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        </a>
+        
+
+        
+
+        
+      </div>
+      <br>
+
+    </header>
+    <section>
+
+      <p><a href="/blog/">&larr; Back to Blog</a></p>
+      <h1>Remote Windows Access from Ubuntu: A Robust SSHFS & RDP Setup</h1>
+      <p class="post-metadata" style="color: var(--sidebar-text); font-size: 0.9rem; margin-bottom: 0.8rem;">March 01, 2026 2022 technical</p>
+      <hr><p>In modern research workflows, we often find ourselves jumping between different operating systems. For me, this meant wanting to access my powerful Windows machine (<strong>Insurgent</strong>) directly from my portable Ubuntu laptop (<strong>Divergent</strong>).</p>
+
+<p>After some trial and error, I’ve established a setup that feels like the Windows drive is actually <em>inside</em> my Ubuntu laptop. Here is how I did it.</p>
+
+<h2 id="the-goal">The Goal</h2>
+<p>The objective was simple:</p>
+<ol>
+  <li><strong>File Access</strong>: Browse and edit Windows files (C: drive) as a local folder on Ubuntu.</li>
+  <li><strong>Full Control</strong>: Remote desktop into Windows when I need the GUI.</li>
+  <li><strong>Stability</strong>: A connection that doesn’t break every time I reboot or change Wi-Fi.</li>
+</ol>
+
+<hr />
+
+<h2 id="-the-solution-sshfs--remmina-rdp">🚀 The Solution: SSHFS + Remmina (RDP)</h2>
+
+<h3 id="️-phase-1-the-windows-setup-insurgent">🛠️ Phase 1: The Windows Setup (Insurgent)</h3>
+<p>The biggest hurdle was authentication. Microsoft accounts and PINs often cause issues with SSH. The fix? <strong>A dedicated local account.</strong></p>
+
+<ol>
+  <li><strong>Local Account</strong>: Created <code class="language-plaintext highlighter-rouge">insurgent_user</code> with a standard password.</li>
+  <li><strong>Permissions</strong>: Used <code class="language-plaintext highlighter-rouge">icacls</code> to grant this user full control over my main profile (<code class="language-plaintext highlighter-rouge">C:\Users\paul</code>).</li>
+  <li><strong>OpenSSH Server</strong>: Enabled the Windows OpenSSH service and allowed Port 22 through the firewall.</li>
+  <li><strong>RDP Permission</strong>: Added <code class="language-plaintext highlighter-rouge">insurgent_user</code> to the “Remote Desktop Users” and “Administrators” groups.</li>
+</ol>
+
+<h3 id="-phase-2-the-ubuntu-setup-divergent">🐧 Phase 2: The Ubuntu Setup (Divergent)</h3>
+<p>Once Windows was ready, I used two key tools on Ubuntu:</p>
+
+<ul>
+  <li><strong>SSHFS</strong>: To “mount” the Windows drive as a local folder.</li>
+  <li><strong>Remmina</strong>: To control the Windows screen.</li>
+</ul>
+
+<h4 id="mounting-the-drive">Mounting the Drive</h4>
+<p>To mount the Windows C: drive to <code class="language-plaintext highlighter-rouge">~/insurgent</code>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sshfs insurgent_user@192.168.0.85:/C:/ ~/insurgent <span class="nt">-o</span> allow_other
+</code></pre></div></div>
+
+<h3 id="-phase-3-global-access-tailscale">🌍 Phase 3: Global Access (Tailscale)</h3>
+<p>What if I’m not at home? I installed <strong>Tailscale</strong> on both machines. This creates a secure, private tunnel that works anywhere in the world. I just replaced the home IP with my Tailscale IP, and it worked like a charm!</p>
+
+<hr />
+
+<h2 id="-lessons-learned">🧠 Lessons Learned</h2>
+<ul>
+  <li><strong>Force Unmount</strong>: If Windows reboots, the link “freezes.” The command <code class="language-plaintext highlighter-rouge">fusermount3 -uz ~/insurgent</code> is your best friend to reset the link.</li>
+  <li><strong>NLA Settings</strong>: If Remmina can’t connect, disabling “Network Level Authentication” (NLA) on Windows usually fixes it.</li>
+  <li><strong>Home vs. Office</strong>: I use the local IP at home for maximum speed and Tailscale when I’m away for reliability.</li>
+</ul>
+
+<p>This setup has completely streamlined my workflow. No more syncing files or carrying two laptops—just one seamless research environment.</p>
+
+<p><strong>Happy Hacking!</strong> 🚀</p>
+
+
+      <br>
+
+      
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
+            rel="noopener">Minimal Light</a> theme.</small></p>
+      
+
+    </section>
+  </div>
+  <script src="/assets/js/scale.fix.js"></script>
+  <script src="/assets/js/copy-code.js"></script>
+  <script>
+    const themeIcon = document.getElementById('theme-icon');
+    const root = document.documentElement;
+
+    // Update icon on load based on theme set in head
+    if (root.getAttribute('data-theme') === 'dark') {
+      themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    function modeSwitcher() {
+      const currentTheme = root.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        root.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+        themeIcon.classList.replace('fa-sun', 'fa-moon');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+      }
+    }
+  </script>
+</body>
+
+</html>

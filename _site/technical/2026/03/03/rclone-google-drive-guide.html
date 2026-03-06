@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <title>Shamrat Kumar Paul</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic Portfolio of Shamrat Kumar Paul.">
+  
+
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="" type="image/png" />
+
+  <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="/assets/css/font.css">
+  
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/publications.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="top-nav">
+      <div class="nav-container">
+        
+        <a href="/">Home</a>
+        
+        <a href="/publications/">Publications</a>
+        
+        <a href="/blog/">Blog</a>
+        
+        <a href="/gallery/">Gallery</a>
+        
+        <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
+          <i id="theme-icon" class="fa-solid fa-moon"></i>
+        </a>
+      </div>
+    </nav>
+
+    <header>
+      
+      <a class="image avatar"><img src="/assets/img/shamrat.svg" alt="avatar" /></a>
+      
+
+      <h1>Shamrat Kumar Paul</h1>
+
+      
+      
+      
+      <email>shamratpaul@gmail.com</email>
+      
+
+      <br>
+      <br>
+      <div class="social-icons">
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/paulshamrat">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://orcid.org/0000-0001-8673-3771">
+          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        </a>
+        
+
+        
+
+        
+      </div>
+      <br>
+
+    </header>
+    <section>
+
+      <p><a href="/blog/">&larr; Back to Blog</a></p>
+      <h1>Rclone Google Drive Sync Guide: A Reliable Multi-Device Workflow</h1>
+      <p class="post-metadata" style="color: var(--sidebar-text); font-size: 0.9rem; margin-bottom: 0.8rem;">March 03, 2026 2022 technical</p>
+      <hr><p>Managing large datasets or research wikis across multiple devices can be a headache, especially with Google Drive’s native client limitations on Linux. <strong>Rclone</strong> is the gold standard for bridging this gap, offering a powerful, command-line interface for seamless cloud synchronization.</p>
+
+<p>In this guide, I’ll walk you through setting up a robust, “permanent” connection that doesn’t require daily re-authentication, along with my recommended daily workflow.</p>
+
+<hr />
+
+<h2 id="1-fixing-the-root-cause-the-permanent-fix">1. Fixing the Root Cause (The Permanent Fix)</h2>
+
+<p>If you use the default rclone configuration, you might find yourself logging in and authorizing every few days. To stop this and gain better performance, you should create your own <strong>Google Client ID</strong>.</p>
+
+<h3 id="how-to-create-your-own-client-id--secret">How to Create Your Own Client ID &amp; Secret</h3>
+<ol>
+  <li><strong>Google Cloud Console</strong>: Go to the <a href="https://console.cloud.google.com/">Google Cloud Console</a>.</li>
+  <li><strong>Create Project</strong>: Click the project dropdown at the top and select <strong>“New Project”</strong>. Name it something like <code class="language-plaintext highlighter-rouge">rclone-sync</code>.</li>
+  <li><strong>Enable API</strong>: Search for <strong>“Google Drive API”</strong> and click <strong>Enable</strong>.</li>
+  <li><strong>Configure OAuth Consent</strong>:
+    <ul>
+      <li>Go to <strong>APIs &amp; Services</strong> &gt; <strong>OAuth consent screen</strong>.</li>
+      <li>Choose <strong>“External”</strong> and click <strong>Create</strong>.</li>
+      <li>Fill in the required app details and your email.</li>
+      <li>Click <strong>Save and Continue</strong> until you’re back at the dashboard.</li>
+    </ul>
+  </li>
+  <li><strong>Create Credentials</strong>:
+    <ul>
+      <li>Go to <strong>APIs &amp; Services</strong> &gt; <strong>Credentials</strong>.</li>
+      <li>Click <strong>+ Create Credentials</strong> &gt; <strong>OAuth client ID</strong>.</li>
+      <li>Select <strong>“Desktop app”</strong> as the Application type.</li>
+      <li>Click <strong>Create</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Get the Keys</strong>: A popup will show your <strong>Client ID</strong> and <strong>Client Secret</strong>.</li>
+</ol>
+
+<h3 id="apply-the-keys">Apply the Keys</h3>
+<p>Run <code class="language-plaintext highlighter-rouge">rclone config</code>, edit your existing <code class="language-plaintext highlighter-rouge">gdrive</code> remote (or create a new one), and paste your new <code class="language-plaintext highlighter-rouge">client_id</code> and <code class="language-plaintext highlighter-rouge">client_secret</code> when prompted. This makes your connection much more stable and faster.</p>
+
+<hr />
+
+<h2 id="2-daily-workflow-best-practices">2. Daily Workflow (Best Practices)</h2>
+
+<p>To keep your files synced without accidents, I recommend this routine:</p>
+
+<h3 id="start-of-day-download-changes">Start of Day: Download Changes</h3>
+<p>If you’ve worked on another device, bring those changes to your local machine:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone copy gdrive:works /home/paul/works <span class="nt">-P</span>
+</code></pre></div></div>
+
+<h3 id="end-of-day-upload-changes">End of Day: Upload Changes</h3>
+<p>Back up your locally modified files to the cloud:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone copy /home/paul/works gdrive:works <span class="nt">-P</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>[!TIP]
+Use <code class="language-plaintext highlighter-rouge">copy</code> instead of <code class="language-plaintext highlighter-rouge">sync</code> most of the time. <code class="language-plaintext highlighter-rouge">copy</code> only adds files to the destination; <code class="language-plaintext highlighter-rouge">sync</code> can delete files if they are missing on the source.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="3-maintenance--troubleshooting">3. Maintenance &amp; Troubleshooting</h2>
+
+<h3 id="check-for-differences">Check for Differences</h3>
+<p>Before a big transfer, see what has actually changed:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone check /home/paul/works gdrive:works <span class="nt">--size-only</span>
+</code></pre></div></div>
+
+<h3 id="fix-duplicates">Fix Duplicates</h3>
+<p>Google Drive sometimes creates two files with the exact same name. Rclone can fix this automatically:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone dedupe gdrive:works
+</code></pre></div></div>
+
+<h3 id="re-authentication">Re-authentication</h3>
+<p>If you ever get an “Authorization failed” error, run:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rclone config reconnect gdrive:
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="4-understanding-the-logs">4. Understanding the Logs</h2>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">Checks: 2679 / 2679</code></strong>: Rclone compared all files and found them identical. It did <strong>NOT</strong> re-transfer them, saving you time and bandwidth.</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">Progress (-P)</code></strong>: Always use this flag to see real-time transfer speeds and percentages.</li>
+</ul>
+
+<p>By following this setup, your research data and wiki will stay synchronized and secure, allowing you to focus on the science rather than the plumbing.</p>
+
+<p><strong>Happy Syncing!</strong> 📂✨</p>
+
+
+      <br>
+
+      
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
+            rel="noopener">Minimal Light</a> theme.</small></p>
+      
+
+    </section>
+  </div>
+  <script src="/assets/js/scale.fix.js"></script>
+  <script src="/assets/js/copy-code.js"></script>
+  <script>
+    const themeIcon = document.getElementById('theme-icon');
+    const root = document.documentElement;
+
+    // Update icon on load based on theme set in head
+    if (root.getAttribute('data-theme') === 'dark') {
+      themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    function modeSwitcher() {
+      const currentTheme = root.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        root.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+        themeIcon.classList.replace('fa-sun', 'fa-moon');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+      }
+    }
+  </script>
+</body>
+
+</html>
