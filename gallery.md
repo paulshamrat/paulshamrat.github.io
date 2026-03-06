@@ -7,22 +7,25 @@ permalink: /gallery/
 <h1>Gallery</h1>
 <hr>
 
-<!-- --- Highlighting Illustration (Enlarged & Centered) --- -->
-<div class="featured-illustration">
-  <div class="highlight-image-wrapper">
-    <a href="{{ "/assets/images/cdkl5/Figure02_substrates_250811.jpg" | relative_url }}" target="_blank">
-      <img src="{{ "/assets/images/cdkl5/Figure02_substrates_250811.jpg" | relative_url }}" alt="Substrates and Molecular Mechanisms of CDKL5">
-    </a>
-  </div>
-  <div class="featured-caption">
-    <strong>Highlighting illustration:</strong> Proposed molecular mechanisms and substrate interactions of the CDKL5 kinase. This figure helps reveal the structural impact of pathogenic variants associated with CDKL5 Deficiency Disorder (CDD) and their influence on kinase activation.
-    <br><br>
-    <em>Read more in <a href="https://www.mdpi.com/1422-0067/26/17/8399" target="_blank">Paul S.K. et al (2025)</a>.</em>
+<!-- --- Highlighted Illustrations Category --- -->
+<h2 style="margin-top: 1rem;">Highlighted Illustrations</h2>
+<div class="gallery-section">
+  <p style="margin-bottom: 1.5rem; color: var(--text-color-light);">Curated visualizations showcasing key molecular mechanisms and research breakthroughs.</p>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="{{ "/assets/images/cdkl5/Figure02_substrates_250811.jpg" | relative_url }}" target="_blank">
+        <img src="{{ "/assets/images/cdkl5/Figure02_substrates_250811.jpg" | relative_url }}" alt="Substrates and Molecular Mechanisms of CDKL5">
+        <div class="gallery-overlay">
+          <div class="overlay-title">CDKL5 Mechanisms</div>
+          <div class="overlay-context">Paul S.K. et al (2025)</div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 
 <br>
-<h2 style="margin-top: 2rem;">Scientific Illustrations</h2>
+<h2 style="margin-top: 1rem;">Scientific Illustrations</h2>
 <div class="gallery-section">
   <div class="gallery-grid">
     <!-- IPF Pathology -->
