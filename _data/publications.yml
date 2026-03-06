@@ -15,6 +15,13 @@ main:
     html: "https://www.mdpi.com/2073-4425/16/1/101"
     notes: "Preprint"
 
+  - title: "Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice."
+    authors: "Paul, S.K., Saddam, M., Rahaman K.A., Choi, J.G., Lee, S. S., Hasan, M."
+    conference: "Scientific Reports"
+    year: "2022"
+    pdf: "/assets/articles/2022-10-20-GCA.pdf"
+    html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
+
   - title: "Molecular dynamics simulation of wild and mutant proteasome subunit beta type 8 (PSMB8) protein: Implications for restoration of inflammation in experimental autoimmune encephalomyelitis pathogenesis."
     authors: "Paul, S.K., Saddam, M., Tabassum, N and Hasan, M."
     conference: "Heliyon"
@@ -49,13 +56,6 @@ main:
     year: "2023"
     pdf: "/assets/articles/2023-03-23-RHOB.pdf"
     html: "https://www.scientificarchives.com/article/a-computational-investigation-on-rho-related-gtp-binding-protein-rhob-through-molecular-modeling-and-molecular-dynamics-simulation-study"
-
-  - title: "Molecular modeling, molecular dynamics simulation, and essential dynamics analysis of grancalcin: An upregulated biomarker in experimental autoimmune encephalomyelitis mice."
-    authors: "Paul, S.K., Saddam, M., Rahaman K.A., Choi, J.G., Lee, S. S., Hasan, M."
-    conference: "Scientific Reports"
-    year: "2022"
-    pdf: "/assets/articles/2022-10-20-GCA.pdf"
-    html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
 
   - title: "Natural Product-Based Potential Therapeutic Interventions of Pulmonary Fibrosis."
     authors: "Hasan, M., Paul, N.C., Paul, S.K., Saikat, A.S.M., Akter, H., Mandal, M., Lee, S.-S."
