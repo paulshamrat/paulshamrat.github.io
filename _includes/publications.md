@@ -14,7 +14,7 @@
         </div>
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">
-            <a href="{% if link.doi %}https://doi.org/{{ link.doi }}{% elsif link.html %}{{ link.html }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
+            <a href="{% if link.html %}{{ link.html }}{% elif link.doi %}https://doi.org/{{ link.doi }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
               {{ link.title }}
             </a>
           </div>
@@ -27,6 +27,9 @@
           <div class="links">
             {% if link.pdf %}
             <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+            {% endif %}
+            {% if link.doi %}
+            <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DOI</a>
             {% endif %}
             {% if link.bibtex %}
             <a class="bibtex btn btn-sm z-depth-0" role="button" onclick="toggleBibtex('{{ link.title | slugify }}')" style="font-size:12px;">BibTeX</a>

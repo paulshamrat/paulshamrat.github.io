@@ -67,7 +67,7 @@ main:
     year: "2024"
     doi: "10.1016/S1569-1993(24)00958-5"
     pdf: "/assets/articles/2024-09-01-AF.pdf"
-    html: "https://www.sciencedirect.com/science/article/pii/S1569199324009585"
+    html: "https://www.sciencedirect.com/science/article/abs/pii/S1569199324009585"
     bibtex: |
       @article{PAUL2024S61,
         title={Exploring the diversity and function of the RTA1-like protein family in Aspergillus fumigatus},
