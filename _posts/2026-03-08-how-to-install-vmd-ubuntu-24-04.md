@@ -79,4 +79,20 @@ You should see the **VMD Main** controller and a **VMD Display** window appear. 
 
 ---
 
+## Troubleshooting: Fix Tiny Fonts on High-DPI Screens
+
+If you are using a high-resolution display, you might find that VMD's menus and text are very small. You can fix this by creating a `.vmdrc` file in your home directory with a scaling factor:
+
+1.  Open or create the file:
+    ```bash
+    nano ~/.vmdrc
+    ```
+2.  Add the following line (adjust `1.5` to `2.0` if you need it even larger):
+    ```tcl
+    tk scaling 1.5
+    ```
+3.  Restart VMD.
+
+---
+
 *Happy simulating!* 🧬💻
