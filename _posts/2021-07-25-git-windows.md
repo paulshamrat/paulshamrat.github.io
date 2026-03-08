@@ -5,118 +5,80 @@ author: paul
 image: assets/images/git-bash-windows.png
 ---
 
-Commiting codes directly from the local disc to the github repository is an important productivity asset. Let's learn some codes regarding commiting codes through gitbash on Windows 10.
+Committing code directly from a local disk to a GitHub repository is an essential skill for productivity. This guide covers how to install, configure, and use Git Bash on Windows 10, including managing large files with Git LFS.
 
-# Git-bash on windows
+## Installing Git Bash on Windows
 
-- download git (commandline interface ) for windows from this site
-- [https://git-scm.com/download/win](https://git-scm.com/download/win)
-- there will be an unix like terminal installed "gitbash"
-- open gitbash
-- setup your working directory to the c/git
+1. **Download Git:** Get the Windows installer from the official site: [git-scm.com/download/win](https://git-scm.com/download/win).
+2. **Install:** Follow the installation wizard. This will install "Git Bash," a terminal that provides a Unix-like environment on Windows.
+3. **Open Git Bash:** Launch the application and navigate to your project directory.
+   ```bash
+   cd /c/git-projects
+   ```
 
-like: 
+## Initial Configuration
 
+Before you start committing, configure your global username and email:
 ```bash
-user@DESKTOP-AB6NSDID MiNGW64/c/git
+git config --global user.name "your_username"
+git config --global user.email "your_email@example.com"
 ```
 
-- login your github account
-- create new repository
-- name it "testgit" (whatever in your mind)
+## Basic Git Workflow
 
+### 1. Cloning and Committing
+If you have an existing repository on GitHub:
 ```bash
-$ git config --global user.name "username"
-$ git config --global user.email "useremail@mail.com"
+# Clone the repository
+git clone https://github.com/user/testgit.git
+cd testgit
+
+# Check status and add files
+git status
+git add test.txt
+
+# Commit and push
+git commit -m "Initial commit"
+git push -u origin main
 ```
 
-- [this will ask your credentials and login via browser in which you previously logged into your github account]
-
+### 2. Handling Merge Conflicts (Pull Before Push)
+If you've made changes directly on GitHub (in the browser), your local version will be behind. If you try to push local changes, it will be rejected. To fix this:
 ```bash
-$ git clone [https://github.com/user/testgit.git](https://github.com/user/testgit.git)
-$ ls
-$ cd testgit
-$ git status
-$ git add test.txt
-$ git status
-$ git commit -m "first commit" test.txt
-$ git push -u origin main
+git pull origin main
 ```
+This command pulls the latest changes and merges them into your local branch. After resolving any conflicts, you can push your changes.
 
-## Add, commit and push multiple files
+## Managing Large Files with Git LFS
 
+Standard Git is not optimized for large files (like videos or large datasets). Git Large File Storage (LFS) handles this by storing references in Git while keeping the actual files on a separate server.
+
+### 1. Setup on Windows/WSL
 ```bash
-$ git status
-$ git add --all
-$ git status
-$ git commit -m "added 4 new posts" --all
-$ git status
-$ git push -u origin master
-```
-
-# Another note:
-- you have cloned repository on your local machine.
-- but you have commited from the browser directly.
-- then you made changes in your local machine and tried to push the command
-- then it wil show, "rejected" sign! so what to do?
-
-```bash
-$ git pull --all
-```
-- So, this command will pull down all changes made in the repository and merged with your local machine and pop-up a message to close the command tab of VS code.
-- close the current tab and it pulled down succesfully.
-- Now time to push your local changes to your desired repository.
-
-# Git large files
-
-```
-# 01 install
+# Install and initialize LFS
+sudo apt update && sudo apt install git-lfs # On WSL
 git lfs install
+```
 
-# 02 test push
+### 2. Tracking and Pushing Large Files
+```bash
+# Initialize a new repo or go to an existing one
 git init
-git lfs track "test.txt"
+
+# Track specific file types (e.g., .mp4) or a specific file
+git lfs track "*.mp4"
+git lfs track "large_dataset.csv"
+
+# Add the configuration file and commit
 git add .gitattributes
-git commit m "configure Git LFS for large files"
-git push origin main
+git commit -m "Configure Git LFS for tracking large files"
 
-# 03 add more large files and origin push
-git add .
-git commit -m "add new files and changes"
+# Add the large files and push
+git add video.mp4 large_dataset.csv
+git commit -m "Add large media and data files"
 git push origin main
-
 ```
 
+---
 
-# git large file on wsl
-
-```
-# Install Git and Git LFS on WSL (if not already installed)
-sudo apt update
-sudo apt install git git-lfs
-
-# Configure Git LFS
-git lfs install
-git lfs version
-git --version
-
-
-# Set up a new repository, track large files, and push using Git LFS
-mkdir git-lfs-demo
-cd git-lfs-demo
-git init
-git lfs track "test.txt"
-git add .gitattributes
-git commit -m "Configure Git LFS for large files"
-git remote add origin <your_remote_repository_url>  # Replace with your actual remote repository URL
-git push origin main
-
-# Add More Large Files and Push to Origin
-# Assuming you have more large files (e.g., video.mp4 and dataset.csv) to add
-git add video.mp4 dataset.csv
-git commit -m "Add new files and changes"
-git push origin main
-
-```
-
-***Last update: Jul 20 2023.***
+*Last Updated: Jul 20 2023.*

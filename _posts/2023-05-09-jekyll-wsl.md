@@ -5,50 +5,56 @@ author: paulshamrat
 image: assets/data/rmsd-1aki.svg
 ---
 # Introduction:
-Jekyll is a popular static site generator that allows you to create and manage websites using plain text files. If you're using the Windows Subsystem for Linux (WSL), you can leverage the power of Jekyll right on your Windows machine. In this guide, we will walk you through the process of setting up Jekyll on WSL, from installation to serving your first Jekyll site.
+Jekyll is a powerful static site generator that allows you to manage websites using plain text files. By using Windows Subsystem for Linux (WSL), you can run a full Jekyll development environment directly on your Windows machine. This guide covers the installation and setup process.
 
-Command lines
+## Installation Steps
 
-```
-# run jekyll in a new repository
+Open your WSL terminal (e.g., Ubuntu) and run the following commands:
 
+### 1. Install Ruby and Build Dependencies
+```bash
 sudo apt update
 sudo apt install -y ruby-full build-essential zlib1g-dev
-echo '# Add Ruby to PATH' >> ~/.bashrc
-echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bashrc
+```
+
+### 2. Configure Local Gem Path
+To avoid using `sudo` for installing gems and to ensure they persist correctly, add these lines to your `~/.bashrc`:
+
+```bash
+echo '# Ruby Gems Environment' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/.gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/.gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
-sudo gem install jekyll bundler
-gem install --user-install jekyll bundler
-mkdir ~/.gems
-export GEM_HOME="$HOME/.gems"
-export PATH="$GEM_HOME/bin:$PATH"
+```
+
+### 3. Install Jekyll and Bundler
+```bash
 gem install jekyll bundler
-jekyll new mysite
-cd mysite
+```
+
+## Creating a New Site
+
+If you are starting a new project:
+```bash
+jekyll new my-awesome-site
+cd my-awesome-site
 bundle install
 bundle exec jekyll serve
+```
 
-# run this in existing repo
-jekyll new paulshamrat.github.io --force
-cd paulshamrat.github.io
+## Working with an Existing Repository
+
+If you're maintaining an existing Jekyll site (like a GitHub Pages blog):
+```bash
+cd your-repo-name
 bundle install
 bundle exec jekyll serve
-
-## YES YES after nearly 2 years i am back to jekyll
-
->> update 230512
-- probably gems are deleted when session ends
-- then again need to install it from the beginning commands
-- and run bundle install as existing repo for "paulshamrat.github.io"
-
-
->> update 230514
-
 ```
+Your site will be available at `http://localhost:4000`.
 
-single command
+---
 
-```
-sudo apt update; sudo apt install -y ruby-full build-essential zlib1g-dev; echo '# Add Ruby to PATH' >> ~/.bashrc; echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bashrc; source ~/.bashrc; sudo gem install jekyll bundler; gem install --user-install jekyll bundler; mkdir ~/.gems; export GEM_HOME="$HOME/.gems"; export PATH="$GEM_HOME/bin:$PATH"; gem install jekyll bundler
-```
+### Troubleshooting Tips
+- If gems seem to go missing after a restart, ensure that your `GEM_HOME` and `PATH` are correctly exported in your `~/.bashrc`.
+- Always use `bundle exec jekyll serve` to ensure you are using the versions specified in your `Gemfile`.
 

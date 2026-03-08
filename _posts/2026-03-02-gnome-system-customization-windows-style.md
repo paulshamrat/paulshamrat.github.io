@@ -35,4 +35,4 @@ gsettings set org.gnome.shell disable-user-extensions false
 ```
 
 ### Summary
-The final result is a sleek, modern desktop that maintains the power of Linux while enjoying the refined UI of Windows 11. For a detailed guide on all my system customizations, check out my [System Customization Guide](file:///home/paul/Documents/System_Customization_Guide.md).
+The final result is a sleek, modern desktop that maintains the power of Linux while enjoying the refined UI of Windows 11. For more detailed logs and a step-by-step breakdown of all my system customizations, stay tuned for my upcoming comprehensive System Customization Guide.
