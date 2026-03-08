@@ -20,7 +20,10 @@ Microsoft Edge has a powerful experimental feature that automatically "converts"
 ### How to enable it:
 
 1.  Open Microsoft Edge.
-2.  In the address bar, type or paste: `edge://flags/#enable-force-dark`
+2.  In the address bar, type or paste:
+    ```text
+    edge://flags/#enable-force-dark
+    ```
 3.  Look for the setting: **Auto Dark Mode for Web Contents**.
 4.  Change the dropdown from `Default` to **Enabled**.
 5.  Click the **Restart** button at the bottom right of the browser.
