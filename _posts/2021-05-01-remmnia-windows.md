@@ -1,42 +1,50 @@
 ---
 layout: post
-title:  "Remmnia- Remote Desktop Connection on Windows 10"
+title:  "Remmina - Remote Desktop Connection on Windows 10"
 author: paulshamrat
 image: assets/images/remmnia4.png
 ---
-A raw and draft version of "Remmnia; Remote Desktop Connection" on my Ubuntu 20.04 LTS operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.
+A guide for setting up a Remmina Remote Desktop connection to access Windows 10 from Ubuntu 20.04 LTS. This post documents my trial-and-error process.
 
-## From ubuntu to windows
-Inside Windows:
-Enabling Remote access of your windows machine:
-- Go to control panel
-- system and security > system > remote settings > Remote > allow remote connections to this computer
-- check mark allow connecction
-- Select Users > add > name check name > add > apply > ok 
-- You can allow it withoud adding name. 
+## Step 1: Configure Windows for Remote Access
 
-## Finding out IP address/ Server
-- Open cmd> ipconfig 
-- This will show if configuration details 
-- For myself there was there ip address
-		a. ethernet adapter virtual box host only network
-		b. ethernet adapter ethernet
-		c. ethernet adapter vethernet(wsl)
-	- Take the IP address for ethernet adapter ethernet
-	- It was 168.192.0.102
-	- Now you enabled remote access and got Ip address now rest of the task in your ubuntu
-## Inside Ubuntu:
-- Open remmina
-- Click on the squire plus icon in the top left corner
-- Write the ip address in the server option
-- Give Username and password of your windows machine
-- Save and connect and it will pop up your windows screen to inside your linux desktop
+To allow your Windows machine to be accessed remotely:
 
-**Hurray; you did it!**
+1. **Open Control Panel:** Go to **System and Security > System > Remote settings**.
+2. **Enable Connection:** Under the **Remote** tab, select **"Allow remote connections to this computer"**.
+3. **Advanced Settings:** Ensure the checkbox for "Allow connections only from computers running Remote Desktop with Network Level Authentication" is checked for better security.
+4. **Select Users:** Click on **"Select Users"** to add specific accounts, or ensure your current user has permission.
 
-### Reference Tutorial
-Follow this youtube video which help me during this activation
-Setup and demonstration of remote desktop connections (Linux to Windows 10)
-https://www.youtube.com/watch?v=Qb9lN3RCqVM
+## Step 2: Find your Windows IP Address
+
+You need the server's IP address to connect from Linux:
+
+1. Open the **Command Prompt (cmd)** and type:
+   ```cmd
+   ipconfig
+   ```
+2. Look for your active network adapter (e.g., **Ethernet adapter** or **Wireless LAN adapter**).
+3. Note the **IPv4 Address** (e.g., `192.168.0.102`).
+   - *Note: Avoid addresses from virtual adapters like WSL or VirtualBox.*
+
+## Step 3: Connect from Ubuntu using Remmina
+
+1. **Open Remmina:** Search for Remmina in your applications menu.
+2. **Create New Connection:** Click the **"+" (plus)** icon in the top-left corner.
+3. **Connection Details:**
+   - **Server:** Enter the Windows IP address you found in Step 2.
+   - **Username/Password:** Enter your Windows login credentials.
+   - **Protocol:** Ensure **RDP** is selected.
+4. **Connect:** Click **Save and Connect**. Your Windows desktop should now appear in a window on your Linux machine.
+
+---
+
+### Summary
+Setting this up allows for a seamless workflow between different operating systems on the same network.
+
+**Shamrat**
+
+### Reference
+- [Setup and demonstration of remote desktop connections (YouTube)](https://www.youtube.com/watch?v=Qb9lN3RCqVM)
 
 

@@ -3,173 +3,93 @@ layout: post
 title:  "Install WSL2 on windows 10"
 image: assets/images/wsl2.png
 ---
-A raw and draft version of wsl2 activation on my version 20H2 (OS Build 19042.746) windows 10 operating system. This is the notebook version during the whole trial and error. Tutorial may contain error as it is directly from my notebook.
+A draft guide for activating WSL2 on Windows 10 (Version 20H2, OS Build 19042.746). This post serves as a notebook documenting the trial and error process. Note that it might contain minor errors as it is taken directly from my personal notes.
 
-### Check the version of windows
-- Type winver and check the version of windows 
-- For me it is showing 
-- `Version 20H2 (OS Build 19042.746)`
-- So this version of windows is okay for using wsl2 
-- As microsoft is recommending for having OS Build 19041 and later
+### Check your Windows Version
+- Type `winver` in the Windows search bar and check your version.
+- My system shows `Version 20H2 (OS Build 19042.746)`.
+- This version is suitable for WSL2, as Microsoft recommends OS Build 19041 or later.
 
-### Turn on windows feature on or off
-- Check mark on Windows subsystem for LInux
-- Check mark on Virtual Machine Platform
-- Install ubuntu form microsoft store
-- It may show that WSL 2 requires an update to its kernel componenet. 
-- For more information please visit https://aka.ms/wsl2kernel
-- Visiting that site download required files
+### Enable Windows Features
+- Search for "Turn Windows features on or off".
+- Enable **Windows Subsystem for Linux**.
+- Enable **Virtual Machine Platform**.
+- Install **Ubuntu** from the Microsoft Store.
+- If you see a message saying "WSL 2 requires an update to its kernel component," visit [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel).
+- Download and install the required files from that site.
 
-### Step 4 - Download the Linux kernel update package
-- visit https://aka.ms/wsl2kernel
-- Install this components
-- Then go fro windows powershell
-- Type the command `wsl -l –v`
-- This will show which wsl version you are using
-- If it is showing version 1
-- Then needed to change it to version 2
-- This conversion will happen by this command 
-- `wsl --set-version Ubuntu-18.04 2`
-- After conversion needd to set up this version to as a the default version
-- wsl --set-default-version 2
+### Update the Linux Kernel
+- Visit [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel).
+- Install the update components.
+- Open **Windows PowerShell** as Administrator.
+- Run the command: `wsl -l -v`
+- This will display the WSL version currently in use.
+- If it shows version 1, you need to upgrade to version 2 using the command:
+  `wsl --set-version Ubuntu-18.04 2` (Replace `Ubuntu-18.04` with your installed version).
+- Finally, set WSL2 as the default version:
+  `wsl --set-default-version 2`
 
------------------------------------------------------------------------------------------------------
-## New one
-1. WSL2 Ubuntu GUI
-2. WSL2 Ubuntu GUI
+---
 
-Overview 
-**Prerequisites**
-- Install WSL 
-- install Ubuntu 20.04/18/04
-- Install Ubuntu GUI
-- Test RDP connection to the Ubuntu VM
+## Setting up WSL2 with Ubuntu GUI
 
+### Prerequisites
+- Install WSL and a Linux distribution (e.g., Ubuntu 20.04).
+- Install a lightweight GUI.
+- Test the RDP connection to the Ubuntu environment.
 
-- Follow this link
-- Windows Subsystem for Linux Installation Guide for Windows 10
-- https://docs.microsoft.com/en-us/windows/wsl/install-win10
-- Open windows powershell in administrative mode
+### Step-by-Step Guide
+Follow the official documentation if needed: [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-### Step 1 - Enable the Windows Subsystem for Linux 
-- You must first enable the "Windows Subsystem for Linux" optional feature before installing any Linux distributions on Windows. 
-- Open PowerShell as Administrator and run: 
-- `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+1. **Enable WSL Component:**
+   Open PowerShell as Administrator and run:
+   `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
 
-### Step 3 - Enable Virtual Machine feature
-- Before installing WSL 2, you must enable the Virtual Machine Platform optional feature.
-- Open PowerShell as Administrator and run:
-- `PowerShell`
-- Copy
-- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+2. **Enable Virtual Machine Feature:**
+   Run the following in PowerShell as Administrator:
+   `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 
-### Step 4 - Download the Linux kernel update package
-1. Download the latest package:
-- WSL2 Linux kernel update package for x64 machines
+3. **Install and Update Ubuntu:**
+   - Update your packages:
+     `sudo apt update && sudo apt upgrade`
 
-- Check your machine's health/properties
-- Go to this pc
-- Properties 
-- Check computer's configuration
-- 8 gb ram
+4. **Install XRDP for Remote Desktop:**
+   - `sudo apt install xrdp`
 
-- Update your ubuntu
-- Sudo apt get update
-- Sudo apt get upgrade
+5. **Install a Lightweight Desktop Environment (XFCE):**
+   - `sudo apt install -y xfce4`
+   - During configuration, you may be asked to select a default display manager; select `gdm3` or `lightdm`.
+   - Install additional utilities:
+     `sudo apt install -y xfce4-goodies`
 
-- Install xrdp
-- `sudo apt install xrdp`
+6. **Configure XRDP:**
+   It is recommended to back up the configuration before editing:
+   ```bash
+   sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+   sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+   sudo sed -i 's/max_bpp=64/#max_bpp=64\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+   sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+   echo xfce4-session > ~/.xsession
+   ```
 
-- Let's install lightweight gui (graphical user interface)
-- `sudo apt install -y xfce4`
+7. **Edit Startup Script:**
+   Open the startup script:
+   `sudo nano /etc/rdp/startwm.sh`
+   Add the following line before the last two lines:
+   `startxfce4`
 
-- install additional software
-- sudo apt install -y xfce4-goodies
+8. **Start the XRDP Server:**
+   `sudo /etc/init.d/xrdp start`
+   This will allow you to connect via the Windows Remote Desktop Connection tool using `localhost:3390`.
 
-- After this he made a backup/ as a learner I don’t need it immediately
+---
 
+**Summary**
+This setup took some time to figure out, but it provides full control over the Ubuntu environment with a graphical interface.
 
-- In tutorial there is tested these commands
+*Shamrat*
+*Published: 17.01.2021*
 
-`sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak`
-`sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini`
-`sudo sed -i 's/max_bpp=64/#max_bpp=64/nmax_bpp=128/g' /etc/xrdp/xrdp.ini`
-`sedo sed -i 's/xserverbpp-24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini`
-`echo xfce4-session > ~/.xsession`
-`suso nano /etc/xrdp/startwm.sh`
-
-
-- go to the last two lines of the previous commnands
-- given a space between # and test and exect
-- and added two additional lines
-### xfce
-- startxfce4
-- ctrl+X, save the file 
-
-- sudo /etc/init.d/xrdp start
-- Starting Remote Desktop Protocol server
-- This will open a remote desktop dialog
-- then press correct button
-
-
-**Install the Windows Subsystem for Linux**
-Find the link: https://christitus.com/wsl2/
-
-
-## Try this for understanding wsl2 & GUI for total control
-
-### INSTALL UBUNTU GUI
-- `pwd`
-- `lsb_release -a`
-- `sudo apt update`
-- `sudo apt upgrade`
-
-### Install XRDP to install RDP
-- `sudo apt install xrdp`
-
-### Install a lightweight graphical user interface
-- `sudo apt install -y xfce4`
-
-- Package configuration; Configuring lightdm
-- This will ask you to select default display manager;
- - select gdm3 as gui
-
-### Install an additional software
-- `sudo apt install -y xfce4-goodies`
-
-- Now it is needed to do some configuration of XRDP,
-- `sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak`
-- `sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini`
-
-- `sudo sed -i 's/max_bpp=64/#max_bpp=64/nmax_bpp=128/g' /etc/xrdp/xrdp.ini`
-- `sedo sed -i 's/xserverbpp-24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini`
-
-- `echo xfce4-session > ~/.xsession`
-- `suso nano /etc/xrdp/startwm.sh`
-
-
-
-- This wil open gnu nano 4.8 to edit something
-- go to the command last two line
-- given a space between # and test and exect
-- and added two additional lines
-
-### xfce
-- startxfce4
-- ctrl+X, save the file 
-
-- `sudo /etc/init.d/xrdp start`
-- Starting Remote Desktop Protocol server
-
-- This will open a remote desktop dialog
-- then press correct button
-
-
-**Done**
-- Yeah its took a whole day to accomplish this. At last I did it....
-- Shamrat 
-- 17.01.2021
-
-
-**Reference Tutorial**
-wsl2 by David Bomball: https://www.youtube.com/watch?v=_fntjriRe48&t=185s
+**References**
+- [WSL2 Guide by David Bombal](https://www.youtube.com/watch?v=_fntjriRe48&t=185s)
+- [Chris Titus Tech - WSL2](https://christitus.com/wsl2/)

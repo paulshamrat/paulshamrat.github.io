@@ -3,79 +3,58 @@ layout: post
 title:  "MSA & Phylogeny"
 image: assets/images/wsl2.png
 ---
+Multiple Sequence Alignment (MSA) and phylogenetic tree reconstruction are core tasks in bioinformatics. This guide outlines the workflow using tools like MEGA.
+
 ## Multiple Sequence Alignment (MSA)
 
-1. Open the MSA tool.
-2. Set the reference sequence to "AFUA_5G01230."
-3. Click on "Align > Edit or build alignment."
-4. Choose "Create a new alignment."
-5. Select "Protein" as the sequence type.
-6. Paste the first sequence (already copied from a fasta/text file) into "Sequence 1."
-7. Delete the placeholder "Sequence 1" entry.
+1. **Open MSA Tool:** Launch your preferred MSA software (e.g., MEGA).
+2. **Reference Sequence:** Set the reference sequence (e.g., "AFUA_5G01230").
+3. **Initiate Alignment:** Go to **Align > Edit or Build Alignment**.
+4. **Create New:** Select **Create a new alignment** and choose **Protein** as the sequence type.
+5. **Add Sequences:** Paste your sequences from a FASTA or text file into the alignment window.
+6. **Clean Up:** Ensure all sequences are correctly labeled and delete any empty placeholder entries.
+7. **Perform Alignment:** Navigate to **Alignment > Align by ClustalW** or **Align by MUSCLE**.
+   - If prompted, select **Select All** and click OK.
+   - Use the default alignment options for a standard analysis.
+8. **Export:** Once complete, go to **Data > Export Alignment** and save it in the **MEGA format** (.meg).
 
-Now you have your data ready for alignment.
+## MUSCLE Default Parameters
 
-8. Go to "Alignment > Align by Clustalw/ MUSCLE."
-9. If nothing is selected, choose "Select all" and click "Ok."
-10. Keep the alignment options as default and click "Ok."
+When using MUSCLE, the following parameters are typically used for protein alignments:
 
-Wait for the alignment process to complete.
+- **Gap Penalties:**
+  - Gap Open: -2.90
+  - Gap Extend: 0.00
+  - Hydrophobicity Multiplier: 1.20
+- **Memory & Iterations:**
+  - Max Memory: 2048 MB
+  - Max Iterations: 16
+- **Advanced Options:**
+  - Cluster Method (Iter 1, 2): UPGMA
+  - Min Diagonal Length (Lambda): 24
 
-11. Once alignment is complete, go to "Data > Export alignment > MEGA format."
+## Phylogenetic Tree Reconstruction
 
-## MUSCLE: Default Parameters
+1. **Start Analysis:** Navigate to **Phylogeny > Construct/Test Neighbor-Joining Tree**.
+2. **Load Data:** When prompted to use current data or preserve existing sessions, select **No** to ensure you are starting fresh with the newly aligned data.
+3. **Configure Parameters:** In the reconstruction window, use the following settings for reliable results:
 
-12. In the MUSCLE parameters window, you'll see the following default settings:
+### Reconstruction Parameters
 
-   - **GAP penalties:**
-     - Gap open: -2.90
-     - Gap extend: 0.00
-     - Hydrophobicity multiplier: 1.20
+- **Analysis:**
+  - **Scope:** All selected taxa
+  - **Statistical Method:** Neighbor-Joining
+- **Phylogeny Test:**
+  - **Test Method:** Bootstrap method (Recommended: 100 or 1000 replicates)
+- **Substitution Model:**
+  - **Substitution Type:** Amino Acid
+  - **Model/Method:** Jones-Taylor-Thornton (JTT) model
+- **Rates and Patterns:**
+  - **Rates Among Sites:** Uniform Rates
+  - **Pattern Among Lineages:** Homogeneous
+- **Data Subset Treatment:**
+  - **Gaps/Missing Data:** Pairwise Deletion
+- **System Resources:**
+  - **Number of Threads:** 4 (or adjust based on your CPU)
 
-   - **Memory Iterations:**
-     - Max memory in MB: 2048
-     - Max iterations: 16
-
-   - **Advanced options:**
-     - Cluster method (iter 1,2): UPGMA
-     - Cluster method (iter): UPGMA
-     - Min diagonal length (lambda): 24
-
-13. Give a name for your alignment and save it, then close the window.
-
-## Phylogeny Reconstruction
-
-14. Navigate to "Phylogeny > Construct/Test-neighbor-joining Tree."
-15. When asked about the current data, select "No."
-16. When asked if you want to preserve data, select "No."
-17. It will ask if you want to save the alignment again, do so.
-
-It will open the last sequence alignment for phylogeny reconstruction.
-
-## Phylogeny Reconstruction Parameters
-
-18. In the "Phylogeny reconstruction parameters" window, configure the following settings:
-
-   - **ANALYSIS:**
-     - Scope: All selected taxa
-     - Statistical method: Neighbor-joining
-
-   - **PHYLOGENY TEST:**
-     - Test of phylogeny: Bootstrap method (You can choose the number of bootstrap replicates, e.g., 100 or 1000)
-
-   - **SUBSTITUTIONAL MODEL:**
-     - Substitution type: Amino acids
-     - Model/method: Jones-Taylor-Thornton (jTT) model
-
-   - **RATES AND PATTERNS:**
-     - Rates among sites: Uniform rates
-     - Pattern among lineages: Same (homogeneous)
-
-   - **DATA SUBSET TO USE:**
-     - Gaps/missing data treatment: Pairwise deletion
-     - Site coverage cutoff (%): Not applicable
-
-   - **SYSTEM RESOURCES USAGE:**
-     - NUMBER OF THREADS: 4
-
-19. After configuring these settings, proceed with the phylogeny reconstruction.
+4. **Compute:** Click OK to begin the reconstruction. The resulting tree will provide insights into the evolutionary relationships between your sequences.

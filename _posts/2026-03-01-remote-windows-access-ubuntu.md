@@ -7,7 +7,7 @@ tags: [ubuntu, windows, ssh, rdp, technical]
 categories: [technical]
 ---
 
-In modern research workflows, we often find ourselves jumping between different operating systems. For me, this meant wanting to access my powerful Windows machine (**Insurgent**) directly from my portable Ubuntu laptop (**Divergent**).
+In modern research workflows, we often find ourselves working across different operating systems. For me, this meant wanting to access my powerful Windows machine (**Insurgent**) directly from my portable Ubuntu laptop (**Divergent**).
 
 After some trial and error, I've established a setup that feels like the Windows drive is actually *inside* my Ubuntu laptop. Here is how I did it.
 
@@ -51,6 +51,6 @@ What if I'm not at home? I installed **Tailscale** on both machines. This create
 -   **NLA Settings**: If Remmina can't connect, disabling "Network Level Authentication" (NLA) on Windows usually fixes it.
 -   **Home vs. Office**: I use the local IP at home for maximum speed and Tailscale when I'm away for reliability.
 
-This setup has completely streamlined my workflow. No more syncing files or carrying two laptops—just one seamless research environment.
+This setup has completely streamlined my workflow. No more manual file syncing or carrying two laptops—just one seamless, integrated research environment.
 
 **Happy Hacking!** 🚀
