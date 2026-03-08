@@ -175,40 +175,42 @@ main:
       }
 
   - title: "Potential Role of CCN Proteins in Breast Cancer: Therapeutic Advances and Perspectives."
-    authors: "Paul, S.K., et al."
+    authors: "Ahmed, K. A., Hasib, T. A., Paul, S. K., Saddam, M., Mimi, A., Saikat, A. S. M., Faruque, H. A., Rahman, M. A., Uddin, M. J., and Kim, B."
     conference: "Current Oncology"
     year: "2021"
     pdf: "/assets/articles/2021-11-CCN.pdf"
     html: "https://www.mdpi.com/1718-7729/28/6/417"
     bibtex: |
-      @article{paul2021potential,
+      @article{curroncol28060417,
         title={Potential Role of CCN Proteins in Breast Cancer: Therapeutic Advances and Perspectives},
-        author={Paul, S. K. and others},
+        author={Ahmed, Kazi Ahsan and Hasib, Tasnin Al and Paul, Shamrat Kumar and Saddam, Md. and Mimi, Afsana and Saikat, Abu Saim Mohammad and Faruque, Hasan Al and Rahman, Md. Ataur and Uddin, Md. Jamal and Kim, Bonglee},
         journal={Current Oncology},
         volume={28},
         number={6},
-        pages={4612--4627},
+        pages={4972--4985},
         year={2021},
-        publisher={MDPI}
+        publisher={MDPI},
+        doi={10.3390/curroncol28060417}
       }
 
   - title: "An Insight into Pathophysiological Features and Therapeutic Advances on Ependymoma."
-    authors: "Paul, S.K., et al."
+    authors: "Seo, S.-H., Paul, S. K., Shikder, M., Khanam, M., Ghosh, P., Hasib, T. A., Ahmed, K. A., Sikdar, S., Uddin, M. J., and Kwon, Y."
     conference: "Cancers"
     year: "2021"
     doi: "10.3390/cancers13133221"
     pdf: "/assets/articles/2021-06-EPENDYMOMA.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/34203272/"
     bibtex: |
-      @article{paul2021insight,
+      @article{cancers13133221,
         title={An Insight into Pathophysiological Features and Therapeutic Advances on Ependymoma},
-        author={Paul, S. K. and others},
+        author={Seo, Seung-Hee and Paul, Shamrat Kumar and Shikder, Mita and Khanam, Mushira and Ghosh, Popy and Hasib, Tasnin Al and Ahmed, Kazi Ahsan and Sikdar, Suranjana and Uddin, Md Jamal and Kwon, Youngjoo},
         journal={Cancers},
         volume={13},
         number={13},
         pages={3221},
         year={2021},
-        publisher={MDPI}
+        publisher={MDPI},
+        doi={10.3390/cancers13133221}
       }
 
 
