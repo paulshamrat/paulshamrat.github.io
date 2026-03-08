@@ -14,7 +14,7 @@
         </div>
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">
-            <a href="{% if link.html %}{{ link.html }}{% elif link.doi %}https://doi.org/{{ link.doi }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
+            <a href="{% if link.html %}{{ link.html }}{% elsif link.doi %}https://doi.org/{{ link.doi }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
               {{ link.title }}
             </a>
           </div>

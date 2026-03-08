@@ -123,6 +123,7 @@ permalink: /gallery/
   </div>
 </div>
 
+<!--
 <br>
 <h2>Sketches & Arts</h2>
 <div class="gallery-section">
@@ -186,3 +187,4 @@ permalink: /gallery/
     </div>
   </div>
 </div>
+-->
