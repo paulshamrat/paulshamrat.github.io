@@ -2,66 +2,11 @@
 <div class="publications">
   <ol class="bibliography">
     {% for link in site.data.publications.main %}
-    <li>
-      <div class="pub-row">
-        <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-          {% if link.image %}
-          <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-          {% if link.conference_short %}
-          <abbr class="badge">{{ link.conference_short }}</abbr>
-          {% endif %}
-          {% endif %}
-        </div>
-        <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-          <div class="title">
-            <a href="{% if link.html %}{{ link.html }}{% elsif link.doi %}https://doi.org/{{ link.doi }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
-              {{ link.title }}
-            </a>
-          </div>
-          <div class="author">
-            {{ link.authors | replace: "Paul, S.K.", "<strong>Paul, S.K.</strong>" | replace: "Paul, S. K.", "<strong>Paul, S. K.</strong>" | replace: "Shamrat Kumar Paul", "<strong>Shamrat Kumar Paul</strong>" }}
-          </div>
-          <div class="periodical">
-            <em>{{ link.conference }}</em> {% if link.year %}({{ link.year }}){% endif %}
-          </div>
-          <div class="links">
-            {% if link.pdf %}
-            <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-            {% endif %}
-            {% if link.doi %}
-            <a href="https://doi.org/{{ link.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">DOI</a>
-            {% endif %}
-            {% if link.bibtex %}
-            <a class="bibtex btn btn-sm z-depth-0" role="button" onclick="toggleBibtex('{{ link.title | slugify }}')" style="font-size:12px;">BibTeX</a>
-            {% endif %}
-            {% if link.code %}
-            <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-            {% endif %}
-            {% if link.page %}
-            <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-            {% endif %}
-            {% if link.notes %}
-            <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-            {% endif %}
-          </div>
-
-          {% if link.bibtex %}
-          <div id="{{ link.title | slugify }}" class="bibtex-hidden" style="display: none; margin-top: 10px; padding: 10px; background: rgba(0,0,0,0.05); border-radius: 5px; font-family: monospace; font-size: 0.85rem; white-space: pre-wrap; border: 1px solid var(--border-color);">{{ link.bibtex }}</div>
-          {% endif %}
-        </div>
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
+<li>
+  {% include publication_single.md %}
+</li>
+{% endfor %}
+</ol>
 </div>
 
-<script>
-function toggleBibtex(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+{% include bibtex_script.md %}
