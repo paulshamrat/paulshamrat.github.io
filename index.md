@@ -27,30 +27,12 @@ I developed and maintain [ColabMDA](https://github.com/paulshamrat/ColabMDA) and
     {% assign selected_pubs = site.data.publications.main | where: "selected", true %}
     {% for link in selected_pubs %}
     <li>
-      <div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 1.5rem;">
-        <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
-          <div class="title" style="font-weight: bold;">
-            <a href="{% if link.doi %}https://doi.org/{{ link.doi }}{% elsif link.html %}{{ link.html }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
-              {{ link.title }}
-            </a>
-          </div>
-          <div class="author" style="font-size: 0.9rem;">
-            {{ link.authors | replace: "Paul, S.K.", "<strong>Paul, S.K.</strong>" | replace: "Paul, S. K.", "<strong>Paul, S. K.</strong>" | replace: "Shamrat Kumar Paul", "<strong>Shamrat Kumar Paul</strong>" }}
-          </div>
-          <div class="periodical" style="font-size: 0.9rem;"><em>{{ link.conference }} ({{ link.year }})</em> </div>
-          <div class="links" style="margin-top: 5px;">
-            {% if link.pdf %} 
-            <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; margin-right: 5px;">PDF</a>
-            {% endif %}
-            {% if link.html or link.page %} 
-            <a href="{% if link.html %}{{ link.html }}{% else %}{{ link.page }}{% endif %}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px;">Journal</a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
+      {% include publication_single.md %}
     </li>
     {% endfor %}
   </ol>
 </div>
+
+{% include bibtex_script.md %}
 
 <p><a href="{{ "/publications/" | relative_url }}" style="font-weight: 500;">View all publications &rarr;</a></p>
