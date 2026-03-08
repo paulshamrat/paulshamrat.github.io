@@ -27,7 +27,7 @@ main:
     doi: "10.3390/genes16010101"
     pdf: "/assets/articles/2024-12-30-SAMPDI-3D-V2.pdf"
     html: "https://www.mdpi.com/2073-4425/16/1/101"
-    selected: true
+    selected: false
     bibtex: |
       @article{rimal2025further,
         title={Further Development of SAMPDI-3D: Machine Learning Method for Predicting Binding Free Energy Changes Caused by Mutations in Either Protein or DNA},
