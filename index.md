@@ -4,29 +4,37 @@ layout: homepage
 
 ## Bio
 
-<p>
-  I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases—principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a core contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.
-  <span id="more-dots">...</span>
-  <span id="more-bio" style="display: none;">
-    I also hold an MS in Medical Biophysics from Clemson University and a BSc in Biochemistry from BSMRSTU, Bangladesh. My background spans molecular biology, physical chemistry, and computational modeling, which I combine to study biomolecular systems. My doctoral research investigates how missense variants alter protein stability and partner binding, curates large variant datasets, and translates structure- and energy-based insights into ideas for variant-guided small-molecule discovery. I also work on machine-learning approaches to predict mutation effects on biomolecular interactions. I recently presented a CDKL5 variant reclassification framework named <a href="https://github.com/paulshamrat/cdkl5-variants" target="_blank">cdkl5-variants</a> that links variant impacts of folding and binding energetics to pathogenicity and highlights potential avenues for targeted therapy design. My work has been supported by several fellowships, including the Clemson Graduate Education Program Quasi‑Endowment (College of Science fellowship) and the Pearce Center Grad WAC Fellowship. Earlier, I received a GRIESHMA research fellowship at IIT Madras and was joint second runner‑up at the BAUET Tech Fair for a project combining quantum chemistry with docking.
-  </span>
-  <a href="javascript:void(0)" onclick="toggleBio()" id="read-more-btn" style="color: var(--link-color); font-style: italic; font-weight: 500; text-decoration: none;">Read more</a>
-</p>
+<div id="bio-short">
+  <p>
+    I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases—principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a core contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.
+    <a href="javascript:void(0)" onclick="toggleBio()" style="color: var(--link-color); font-style: italic; font-weight: 500; text-decoration: none;">Read more</a>
+  </p>
+</div>
+
+<div id="bio-full" style="display: none;">
+  <p>I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases—principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a core contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.</p>
+  
+  <p>I also hold an MS in Medical Biophysics from Clemson University and a BSc in Biochemistry from BSMRSTU, Bangladesh. My background spans molecular biology, physical chemistry, and computational modeling, which I combine to study biomolecular systems.</p>
+  
+  <p>My doctoral research investigates how missense variants alter protein stability and partner binding, curates large variant datasets, and translates structure- and energy-based insights into ideas for variant-guided small-molecule discovery. I also work on machine-learning approaches to predict mutation effects on biomolecular interactions.</p>
+  
+  <p>I recently presented a CDKL5 variant reclassification framework named <a href="https://github.com/paulshamrat/cdkl5-variants" target="_blank">cdkl5-variants</a> that links variant impacts of folding and binding energetics to pathogenicity and highlights potential avenues for targeted therapy design.</p>
+  
+  <p>My work has been supported by several fellowships, including the Clemson Graduate Education Program Quasi‑Endowment (College of Science fellowship) and the Pearce Center Grad WAC Fellowship. Earlier, I received a GRIESHMA research fellowship at IIT Madras and was joint second runner‑up at the BAUET Tech Fair for a project combining quantum chemistry with docking.
+  <a href="javascript:void(0)" onclick="toggleBio()" style="color: var(--link-color); font-style: italic; font-weight: 500; text-decoration: none;">Show less</a></p>
+</div>
 
 <script>
 function toggleBio() {
-  var dots = document.getElementById("more-dots");
-  var moreText = document.getElementById("more-bio");
-  var btnText = document.getElementById("read-more-btn");
+  var shortBio = document.getElementById("bio-short");
+  var fullBio = document.getElementById("bio-full");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
+  if (shortBio.style.display === "none") {
+    shortBio.style.display = "block";
+    fullBio.style.display = "none";
   } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Show less";
-    moreText.style.display = "inline";
+    shortBio.style.display = "none";
+    fullBio.style.display = "block";
   }
 }
 </script>
