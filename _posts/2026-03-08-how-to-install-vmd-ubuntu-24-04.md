@@ -81,17 +81,20 @@ You should see the **VMD Main** controller and a **VMD Display** window appear. 
 
 ## Troubleshooting: Fix Tiny Fonts on High-DPI Screens
 
-If you are using a high-resolution display, you might find that VMD's menus and text are very small. You can fix this by setting environment variables and using a startup script:
+If you are using a high-resolution display, you might find that VMD's menus and text are very small. The most stable way to fix this is by setting the `FLTK_SCALING_FACTOR` environment variable before launching VMD:
 
-1.  **Main Menu Scaling**: Launch VMD with the `FLTK_SCALING_FACTOR` variable:
+1.  **Main Menu Scaling**: Launch VMD with the scaling variable:
     ```bash
     export FLTK_SCALING_FACTOR=2.0
     vmd
     ```
-2.  **Plugin/Console Scaling**: Create a `.vmdrc` file in your home directory:
-    ```tcl
-    tk scaling 2.0
-    ```
+
+You can create a simple launcher script to make this permanent:
+```bash
+#!/bin/bash
+export FLTK_SCALING_FACTOR=2.0
+vmd "$@"
+```
 
 ---
 
