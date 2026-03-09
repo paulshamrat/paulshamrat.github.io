@@ -90,6 +90,15 @@ If you ever "lose" your Winboat command or the AppImage disappears, check your `
 
 ---
 
+### Issue 4: Small Fonts and UI (High-DPI Scaling)
+If you have a high-resolution display, Winboat and its Windows environment might appear very small. You can fix this by adjusting the scaling factor in the configuration file.
+
+1.  Open the config file: `nano ~/.winboat/winboat.config.json`
+2.  Change the `"scale"` and `"scaleDesktop"` values from `100` to `150` or `200` (representing 150% or 200% scaling).
+3.  Restart Winboat for the changes to take effect.
+
+---
+
 ## 4. Why Winboat?
 
 Unlike traditional virtual machines, Winboat feels "native." Once you install Windows apps (like Microsoft Office), you can right-click them inside Winboat and select **"Add to Desktop."** This creates a shortcut in your Linux environment that launches the Windows app directly!
