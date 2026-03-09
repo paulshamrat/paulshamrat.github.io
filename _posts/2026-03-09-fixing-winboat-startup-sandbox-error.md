@@ -97,6 +97,20 @@ If you have a high-resolution display, Winboat and its Windows environment might
 
 ---
 
+
+### Issue 5: High RAM Usage / Reclaiming Resources
+Winboat runs a full Windows environment, which typically consumes around 8GB of RAM. If you notice your system slowing down, you can safely stop the background process to reclaim your memory without losing any of your work or configuration.
+
+**To stop Winboat and free your RAM:**
+Open your terminal and run:
+```bash
+sudo docker stop winboat
+```
+
+When you want to use it again, simply type `winboat` (or run your alias). It will start back up exactly where you left off!
+
+---
+
 ## 4. Why Winboat?
 
 Unlike traditional virtual machines, Winboat feels "native." Once you install Windows apps (like Microsoft Office), you can right-click them inside Winboat and select **"Add to Desktop."** This creates a shortcut in your Linux environment that launches the Windows app directly!
