@@ -104,7 +104,7 @@ Winboat runs a full Windows environment, which typically consumes around 8GB of 
 **To stop Winboat and free your RAM:**
 Open your terminal and run:
 ```bash
-sudo docker stop winboat
+sudo docker stop WinBoat
 ```
 
 When you want to use it again, simply type `winboat` (or run your alias). It will start back up exactly where you left off!
