@@ -111,6 +111,31 @@ When you want to use it again, simply type `winboat` (or run your alias). It wil
 
 ---
 
+
+### Bonus: On-Demand Startup (Zero RAM on Boot)
+If you want to ensure Winboat uses **zero** RAM unless you actually launch it, you can configure Docker to only start when you need it.
+
+1.  **Disable Docker at Boot**:
+    ```bash
+    sudo systemctl disable docker
+    ```
+
+2.  **Add a Smart Startup Function**:
+    Replace your `winboat` alias in `~/.bashrc` with this function:
+    ```bash
+    winboat() {
+        if ! systemctl is-active --quiet docker; then
+            echo "Starting Docker service..."
+            sudo systemctl start docker
+        fi
+        ~/winboat-0.9.0-x86_64.AppImage --no-sandbox "$@"
+    }
+    ```
+
+Now, typing `winboat` will automatically start the engine and then the app, keeping your system fast the rest of the time!
+
+---
+
 ## 4. Why Winboat?
 
 Unlike traditional virtual machines, Winboat feels "native." Once you install Windows apps (like Microsoft Office), you can right-click them inside Winboat and select **"Add to Desktop."** This creates a shortcut in your Linux environment that launches the Windows app directly!
