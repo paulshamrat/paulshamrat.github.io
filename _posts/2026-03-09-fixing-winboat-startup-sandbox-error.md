@@ -88,13 +88,11 @@ If you want to simply type `winboat` in your terminal instead of the full AppIma
 ### **Issue 3: Missing Launcher?**
 If you ever "lose" your Winboat command or the AppImage disappears, check your `~/` (Home) directory or your **Trash**. If it's in the Trash, move it back to Home and ensure it still has its execution permissions (`chmod +x`).
 
----
-
 ### Issue 4: Small Fonts and UI (High-DPI Scaling)
 If you have a high-resolution display, Winboat and its Windows environment might appear very small. You can fix this by adjusting the scaling factor in the configuration file.
 
 1.  Open the config file: `nano ~/.winboat/winboat.config.json`
-2.  Change the `"scale"` and `"scaleDesktop"` values from `100` to `150` or `200` (representing 150% or 200% scaling).
+2.  Change the `"scale"` and `"scaleDesktop"` values from `100` to `200`, `300`, or even `400` (representing 200%, 300%, or 400% scaling).
 3.  Restart Winboat for the changes to take effect.
 
 ---
