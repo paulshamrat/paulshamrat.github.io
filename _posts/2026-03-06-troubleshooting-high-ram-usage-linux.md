@@ -88,6 +88,15 @@ If you want to keep a closer eye on your memory without opening a heavy GUI, I h
         - `smem -u`: Shows memory usage per user.
         - `smem -rk`: Sorts by memory and shows values in MB/GB (human-readable).
 
+### Bonus: Preventing Docker from Auto-starting at Boot
+If you find that Docker is frequently consuming resources even when you aren't using it, you can prevent it from starting automatically when you turn on your PC:
+
+```bash
+sudo systemctl disable docker.service docker.socket
+```
+
+This ensures that Docker only runs when you manually start it with `sudo systemctl start docker`, saving you several gigabytes of RAM from the moment you boot up.
+
 **Summary Tip**: If your RAM is low, always check for hidden Virtual Machines or Docker instances first. They are often the stealthy consumers!
 
 ---
