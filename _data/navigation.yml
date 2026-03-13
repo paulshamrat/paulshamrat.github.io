@@ -10,6 +10,8 @@
   link: /misc
 - name: Blog
   link: /blog
+- name: News
+  link: /news
 #- name: About
   #link: /about
 #- name: Contact
