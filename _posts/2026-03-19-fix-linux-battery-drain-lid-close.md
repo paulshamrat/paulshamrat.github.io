@@ -2,6 +2,7 @@
 layout: post
 title:  "Fixing Linux Battery Drain on Lid Close (HP Envy x360)"
 image: assets/images/battery_fix.png
+published: false
 ---
 
 If you've switched to Linux on a modern laptop like the HP Envy x360, you might have noticed that closing the lid doesn't "save" your battery as well as it did on Windows. Often, you'll find your laptop dead after a few hours in your bag. This is usually due to **Modern Standby (s2idle)**, which keeps many components powered on.
