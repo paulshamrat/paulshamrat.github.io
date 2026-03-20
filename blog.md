@@ -39,10 +39,11 @@ permalink: /blog/
   letter-spacing: 0.03em;
 }
 .blog-title {
-  font-size: 0.97rem;
-  color: var(--link-color, #1a0dab);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a0dab;
   text-decoration: none;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 .blog-title:hover {
   text-decoration: underline;
