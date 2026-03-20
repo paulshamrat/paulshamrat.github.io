@@ -1,0 +1,42 @@
+name: CDKL5 Bot Automated Fetcher
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allows for manual triggering from the GitHub Actions UI
+
+jobs:
+  fetch_and_publish:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Run Fetcher Script
+        run: python3 scripts/fetch_cdkl5.py
+        
+      - name: Check for File Changes
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "changed=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+        
+      - name: Commit and Push Changes
+        if: steps.git-check.outputs.changed > 0
+        run: |
+          git config --global user.name "CDKL5 Bot"
+          git config --global user.email "bot@cdkl5hub.local"
+          git add _posts/*pubmed*.md
+          git commit -m "Automated update: Added new CDKL5 research [skip ci]"
+          git push
