@@ -22,6 +22,8 @@ navigation:
     url: "/blog/"
   - title: "Gallery"
     url: "/gallery/"
+  - title: "CDKL5 Hub"
+    url: "/cdkl5/"
 
 # Theme customization
 google_analytics: # UA-XXXXXXXXX-X
@@ -36,3 +38,8 @@ auto_dark_mode: true
 font: "Crimson Pro"
 enable_footnote: true
 avatar: assets/img/shamrat.svg
+
+collections:
+  cdkl5:
+    output: true
+    permalink: /cdkl5/:year/:month/:day/:title.html
