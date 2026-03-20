@@ -69,4 +69,6 @@ function toggleBio() {
 
 {% include bibtex_script.md %}
 
+<script src="{{ '/assets/js/citations.js' | relative_url }}"></script>
+
 <p><a href="{{ "/publications/" | relative_url }}" style="font-weight: 500;">View all publications &rarr;</a></p>

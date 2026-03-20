@@ -1,25 +1,17 @@
-<div class="pub-row" style="display: flex; flex-direction: row; margin-bottom: 1.5rem;">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100px; height: auto;">
-    {% if link.conference_short %}
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title" style="font-weight: bold;">
+<div class="pub-row" data-doi="{{ link.doi }}" data-title="{{ link.title }}">
+  <div class="pub-info">
+    <div class="title">
       <a href="{% if link.html %}{{ link.html }}{% elsif link.doi %}https://doi.org/{{ link.doi }}{% else %}{{ link.pdf }}{% endif %}" target="_blank">
         {{ link.title }}
       </a>
     </div>
-    <div class="author" style="font-size: 0.9rem;">
+    <div class="author">
       {{ link.authors | replace: "Paul, S.K.", "<strong>Paul, S.K.</strong>" | replace: "Paul, S. K.", "<strong>Paul, S. K.</strong>" | replace: "Shamrat Kumar Paul", "<strong>Shamrat Kumar Paul</strong>" }}
     </div>
-    <div class="periodical" style="font-size: 0.9rem;">
-      <em>{{ link.conference }}</em> {% if link.year %}({{ link.year }}){% endif %}
+    <div class="periodical">
+      <em>{{ link.conference }}</em>
     </div>
-    <div class="links" style="margin-top: 5px;">
+    <div class="links">
       {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; margin-right: 5px;">PDF</a>
       {% endif %}
@@ -32,9 +24,6 @@
       {% if link.code %}
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; margin-right: 5px;">Code</a>
       {% endif %}
-      {% if link.page %}
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px;">Project Page</a>
-      {% endif %}
       {% if link.notes %}
       <strong> <i style="color:#e74d3c; margin-left: 5px;">{{ link.notes }}</i></strong>
       {% endif %}
@@ -43,5 +32,22 @@
     {% if link.bibtex %}
     <div id="{{ link.title | slugify }}" class="bibtex-hidden" style="display: none; margin-top: 10px; padding: 10px; background: rgba(0,0,0,0.05); border-radius: 5px; font-family: monospace; font-size: 0.85rem; white-space: pre-wrap; border: 1px solid var(--border-color);">{{ link.bibtex }}</div>
     {% endif %}
+  </div>
+
+  <div class="pub-citations">
+    <span class="citation-label">Cited by:</span>
+    {% if link.doi %}
+    <a href="https://scholar.google.com/scholar?q={{ link.doi }}" target="_blank" class="citation-count" id="cite-{{ link.doi | slugify }}">
+      <span class="count-value">{% if link.manual_citations %}{{ link.manual_citations }}{% else %}...{% endif %}</span>
+    </a>
+    {% else %}
+    <a href="https://scholar.google.com/scholar?q={{ link.title | url_encode }}" target="_blank" class="citation-count" id="cite-{{ link.title | slugify }}">
+      <span class="count-value">{% if link.manual_citations %}{{ link.manual_citations }}{% else %}...{% endif %}</span>
+    </a>
+    {% endif %}
+  </div>
+
+  <div class="pub-year">
+    {{ link.year }}
   </div>
 </div>
