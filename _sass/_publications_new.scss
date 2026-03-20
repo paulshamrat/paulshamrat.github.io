@@ -1,0 +1,161 @@
+/*******************************************************************************
+ * Publication and bibliography styles
+ ******************************************************************************/
+
+@use "variables" as v;
+
+.publications {
+  margin-top: 3rem;
+
+  .pub-table-header {
+    display: flex !important;
+    flex-direction: row !important;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #666;
+
+    .header-title { flex: 1; text-align: left; }
+    .header-citations { 
+      width: 100px; 
+      text-align: right; 
+      padding-right: 15px;
+    }
+    .header-year { width: 60px; text-align: right; }
+  }
+
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #eee;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+
+      .pub-row {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        padding: 12px 0;
+
+        .pub-info {
+          flex: 1;
+          padding-right: 20px;
+
+          .title {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-bottom: 2px;
+            line-height: 1.3;
+            a {
+              color: #1a0dab;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          .author {
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 1px;
+          }
+          .periodical {
+            font-size: 0.85rem;
+            color: #777;
+            font-style: italic;
+          }
+          .links {
+            margin-top: 6px;
+            font-size: 0.75rem;
+          }
+        }
+
+        .pub-citations {
+          width: 100px;
+          text-align: right;
+          padding-right: 15px;
+          padding-top: 2px;
+
+          .citation-count {
+            color: #1a0dab;
+            font-weight: 400;
+            text-decoration: none;
+            font-size: 0.9rem;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .citation-label {
+            display: none;
+          }
+        }
+
+        .pub-year {
+          width: 60px;
+          text-align: right;
+          font-size: 0.9rem;
+          color: #555;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+[data-theme="dark"] .publications {
+  .pub-table-header {
+    border-color: #444;
+    color: #aaa;
+  }
+  ol.bibliography li {
+    border-color: #333;
+    &:hover { background-color: rgba(255, 255, 255, 0.05); }
+    .pub-row .pub-info .title a { color: #8ab4f8; }
+    .pub-row .pub-citations .citation-count { color: #8ab4f8; }
+    .pub-row .author { color: #aaa; }
+    .pub-row .pub-year { color: #aaa; }
+  }
+}
+
+// Media queries for mobile responsiveness
+@media (max-width: 768px) {
+  .publications {
+    .pub-table-header {
+      display: none !important;
+    }
+    ol.bibliography li .pub-row {
+      flex-direction: column !important;
+      padding: 15px 0;
+      .pub-info {
+        padding-right: 0;
+        margin-bottom: 10px;
+      }
+      .pub-citations, .pub-year {
+        width: auto !important;
+        text-align: left !important;
+        font-size: 0.85rem;
+        display: inline-block !important;
+        margin-right: 20px;
+        padding-right: 0 !important;
+      }
+      .pub-citations .citation-label {
+        display: inline;
+        margin-right: 5px;
+        color: #777;
+      }
+    }
+  }
+}

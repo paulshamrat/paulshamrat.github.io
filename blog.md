@@ -1,10 +1,10 @@
 ---
 layout: homepage
-title: Aletheia Blog
+title: Blog
 permalink: /blog/
 ---
 
-<h1>Aletheia Blog</h1>
+<h1>Blog</h1>
 <hr>
 
 <div class="blog-posts">
