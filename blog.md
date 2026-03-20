@@ -7,24 +7,47 @@ permalink: /blog/
 <h1>Blog</h1>
 <hr>
 
-<div class="blog-posts">
+<div class="blog-list">
   {% for post in site.posts %}
-    <div class="post-item" style="margin-bottom: 1.8rem;">
-      <h2 style="margin-bottom: 0.3rem; font-size: 1.2rem;">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-      <p class="post-metadata" style="color: var(--sidebar-text); font-size: 0.85rem; margin-bottom: 0.5rem;">
-        {{ post.date | date: "%B %d, %Y" }}
-        {% if post.categories %} • {{ post.categories | join: ", " }}{% endif %}
-      </p>
-      <p class="post-excerpt" style="font-size: 0.9rem; line-height: 1.4; margin-bottom: 0;">
-        {% if post.description %}
-          {{ post.description | truncatewords: 20 }}
-        {% else %}
-          {{ post.content | strip_html | truncatewords: 20 }}
-        {% endif %}
-        <a href="{{ post.url | relative_url }}" style="font-weight: 500; font-size: 0.9rem; margin-left: 5px;">Read more &rarr;</a>
-      </p>
+    <div class="blog-list-item">
+      <span class="blog-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}" class="blog-title">{{ post.title }}</a>
     </div>
   {% endfor %}
 </div>
+
+<style>
+.blog-list {
+  margin-top: 1rem;
+}
+.blog-list-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--border-color, #eee);
+}
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+.blog-date {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.82rem;
+  color: #888;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.03em;
+}
+.blog-title {
+  font-size: 0.97rem;
+  color: var(--link-color, #1a0dab);
+  text-decoration: none;
+  line-height: 1.4;
+}
+.blog-title:hover {
+  text-decoration: underline;
+}
+[data-theme="dark"] .blog-date { color: #888; }
+[data-theme="dark"] .blog-title { color: #8ab4f8; }
+[data-theme="dark"] .blog-list-item { border-color: #333; }
+</style>
