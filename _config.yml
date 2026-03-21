@@ -22,8 +22,8 @@ navigation:
     url: "/blog/"
   - title: "Gallery"
     url: "/gallery/"
-  - title: "CDKL5 Hub"
-    url: "/cdkl5/"
+  - title: "RareBot Hub"
+    url: "/rarebot/"
 
 # Theme customization
 google_analytics: # UA-XXXXXXXXX-X
@@ -40,6 +40,6 @@ enable_footnote: true
 avatar: assets/img/shamrat.svg
 
 collections:
-  cdkl5:
+  rarebot:
     output: true
-    permalink: /cdkl5/:year/:month/:day/:title.html
+    permalink: /rarebot/:year/:month/:day/:title.html

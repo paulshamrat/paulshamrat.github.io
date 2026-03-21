@@ -1,8 +1,8 @@
 ---
 layout: homepage
-title: CDKL5 Research Hub
-description: A constantly updating feed of the latest CDD research, clinical trials, and community news.
-permalink: /cdkl5/
+title: RareBot Hub (CDKL5 Focus)
+description: A constantly updating feed of the latest automated research curated by RareBot. Currently tracking CDKL5 Deficiency Disorder.
+permalink: /rarebot/
 ---
 
 <!-- 1. The Newsletter Subscription Box (Clean & Minimal) -->
@@ -26,7 +26,7 @@ permalink: /cdkl5/
 <!-- 3. The Content Feed (The Cards) -->
 <div class="card-columns">
 
-  {% assign cdkl5_posts = site.cdkl5 | sort: 'date' | reverse %}
+  {% assign cdkl5_posts = site.rarebot | sort: 'date' | reverse %}
   {% if cdkl5_posts.size > 0 %}
     <ul class="list-unstyled mt-3">
     {% for post in cdkl5_posts %}

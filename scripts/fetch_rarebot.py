@@ -89,7 +89,7 @@ def create_digest_markdown(start_date, end_date, papers):
     ]
     banner_url, banner_author, banner_author_url = random.choice(BANNERS)
     
-    filename = f"{end_date}-cdkl5-research-report.md"
+    filename = f"{end_date}-rarebot-cdkl5-report.md"
     safe_title = title.replace('"', "'")
     safe_summary_preview = article[:150].replace('\n', ' ') + "..."
     
@@ -97,7 +97,7 @@ def create_digest_markdown(start_date, end_date, papers):
 layout: post
 title: "{safe_title}"
 date: {target_date}
-categories: cdkl5
+categories: rarebot
 tag: "Monthly Digest"
 date_range: "{start_date} to {end_date}"
 paper_count: {paper_count}
@@ -123,7 +123,7 @@ def run():
     print("Generating CDKL5 Monthly Digest for the last month...")
     
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    posts_dir = os.path.join(repo_root, "_cdkl5")
+    posts_dir = os.path.join(repo_root, "_rarebot")
     os.makedirs(posts_dir, exist_ok=True)
     
     # 1 Week interval
