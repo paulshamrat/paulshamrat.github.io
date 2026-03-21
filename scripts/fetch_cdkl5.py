@@ -18,7 +18,7 @@ load_env()
 
 def generate_human_digest(start_date, end_date, papers, api_key):
     prompt = (
-        f"You are a scientific reporter writing a short Monthly Research Digest for the CDKL5 Deficiency Disorder community. "
+        f"You are a scientific reporter writing a short Weekly Research Digest for the CDKL5 Deficiency Disorder community. "
         f"Below are the titles, authors, URLs, and abstracts of research published from {start_date} to {end_date}.\n\n"
         f"Write a CONCISE, flowing narrative of MAXIMUM 300 words that highlights the most important trends and findings. "
         f"When citing a paper in the text, you MUST use inline markdown hyperlinks using the paper's URL, like this: [Smith et al.](https://url-to-paper.com). "
@@ -126,10 +126,10 @@ def run():
     posts_dir = os.path.join(repo_root, "_cdkl5")
     os.makedirs(posts_dir, exist_ok=True)
     
-    # 1 Month interval
+    # 1 Week interval
     today = datetime.datetime.now()
     end_dt = today
-    start_dt = end_dt - datetime.timedelta(days=30)
+    start_dt = end_dt - datetime.timedelta(days=7)
     
     start_str = start_dt.strftime("%Y-%m-%d")
     end_str = end_dt.strftime("%Y-%m-%d")

@@ -3,7 +3,6 @@ layout: homepage
 title: CDKL5 Research Hub
 description: A constantly updating feed of the latest CDD research, clinical trials, and community news.
 permalink: /cdkl5/
-published: false
 ---
 
 <!-- 1. The Newsletter Subscription Box (Clean & Minimal) -->
