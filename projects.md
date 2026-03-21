@@ -11,8 +11,10 @@ permalink: /projects/
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm" style="border-radius: 12px; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); transition: transform 0.2s;">
       <div class="card-body">
-        <h5 class="card-title" style="color: var(--global-theme-color); font-weight: 600;">
-          <i class="fa-solid fa-laptop-code mr-2"></i> ColabMDA
+        <h5 class="card-title" style="font-weight: 600;">
+          <a href="https://github.com/paulshamrat/ColabMDA" target="_blank" style="color: var(--global-theme-color); text-decoration: none;">
+            <i class="fa-solid fa-laptop-code mr-2"></i> ColabMDA
+          </a>
         </h5>
         
         <!-- GitHub Badges -->
@@ -35,8 +37,10 @@ permalink: /projects/
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm" style="border-radius: 12px; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); transition: transform 0.2s;">
       <div class="card-body">
-        <h5 class="card-title" style="color: var(--global-theme-color); font-weight: 600;">
-          <i class="fa-solid fa-cubes mr-2"></i> SAMPDI-3D V2
+        <h5 class="card-title" style="font-weight: 600;">
+          <a href="https://github.com/paulshamrat/SAMPDI-3Dv2" target="_blank" style="color: var(--global-theme-color); text-decoration: none;">
+            <i class="fa-solid fa-cubes mr-2"></i> SAMPDI-3D V2
+          </a>
         </h5>
         
         <!-- GitHub Badges -->
@@ -59,8 +63,10 @@ permalink: /projects/
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm" style="border-radius: 12px; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); transition: transform 0.2s;">
       <div class="card-body">
-        <h5 class="card-title" style="color: var(--global-theme-color); font-weight: 600;">
-          <i class="fa-solid fa-dna mr-2"></i> CDKL5 Variants
+        <h5 class="card-title" style="font-weight: 600;">
+          <a href="https://github.com/paulshamrat/cdkl5-variants" target="_blank" style="color: var(--global-theme-color); text-decoration: none;">
+            <i class="fa-solid fa-dna mr-2"></i> CDKL5 Variants
+          </a>
         </h5>
         
         <!-- GitHub Badges -->
@@ -83,8 +89,10 @@ permalink: /projects/
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm" style="border-radius: 12px; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); transition: transform 0.2s;">
       <div class="card-body">
-        <h5 class="card-title" style="color: var(--global-theme-color); font-weight: 600;">
-          <i class="fa-solid fa-robot mr-2"></i> RareBot (CDKL5)
+        <h5 class="card-title" style="font-weight: 600;">
+          <a href="/rarebot/" style="color: var(--global-theme-color); text-decoration: none;">
+            <i class="fa-solid fa-robot mr-2"></i> RareBot (CDKL5)
+          </a>
         </h5>
         
         <!-- Live Status Badge -->

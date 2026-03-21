@@ -22,8 +22,8 @@ navigation:
     url: "/blog/"
   - title: "Gallery"
     url: "/gallery/"
-  - title: "RareBot"
-    url: "/rarebot/"
+  - title: "Projects"
+    url: "/projects/"
 
 # Theme customization
 google_analytics: # UA-XXXXXXXXX-X
