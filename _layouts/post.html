@@ -121,7 +121,7 @@
       <p><a href="{{ "/blog/" | relative_url }}">&larr; Back to Blog</a></p>
       <h1>{{ page.title }}</h1>
       <p class="post-metadata" style="color: var(--sidebar-text); font-size: 0.9rem; margin-bottom: 0.8rem;">{{
-        page.date | date: "%B %d, %Y" }}{% if page.categories %} 2022 {{ page.categories | join: ", " }}{% endif %}</p>
+        page.date | date: "%B %d, %Y" }}{% if page.categories %} | {{ page.categories | join: ", " | capitalize }}{% endif %}</p>
       <hr>{{ content }}
 
       <br>
