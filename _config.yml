@@ -22,8 +22,6 @@ navigation:
     url: "/blog/"
   - title: "Gallery"
     url: "/gallery/"
-  - title: "CDKL5 Hub"
-    url: "/cdkl5/"
 
 # Theme customization
 google_analytics: # UA-XXXXXXXXX-X
