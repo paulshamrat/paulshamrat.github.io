@@ -22,7 +22,7 @@ navigation:
     url: "/blog/"
   - title: "Gallery"
     url: "/gallery/"
-  - title: "RareBot Hub"
+  - title: "RareBot"
     url: "/rarebot/"
 
 # Theme customization
