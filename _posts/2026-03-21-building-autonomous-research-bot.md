@@ -51,7 +51,14 @@ jobs:
           git push
 ```
 
-Every week, the GitHub Action provisions an Ubuntu runner, sets up Python 3.10, and executes the fetcher script. The `GEMINI_API_KEY` is securely injected as a repository secret. If the script detects new papers and generates a new markdown digest in the `_research/` directory, the workflow automatically commits and pushes the file back to the `main` branch. 
+Every week, the GitHub Action provisions an Ubuntu runner, sets up Python 3.10, and executes the fetcher script. If the script detects new papers and generates a new markdown digest in the `_research/` directory, the workflow automatically commits and pushes the file back to the `main` branch. 
+
+#### Setting up the Gemini API Key
+
+For the AI summarization to work, the Python script needs a valid `GEMINI_API_KEY`. 
+1. **Get an API Key:** Head over to [Google AI Studio](https://aistudio.google.com/) and generate a free API key for the Gemini model.
+2. **Add as a Secret:** Go to your GitHub repository's **Settings > Secrets and variables > Actions**, and click **New repository secret**. 
+3. Name the secret `GEMINI_API_KEY` and paste your key. The workflow will now automatically pull this securely during runtime!
 
 ### Presentation: Jekyll Collections
 
