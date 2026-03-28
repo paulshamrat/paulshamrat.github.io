@@ -25,6 +25,25 @@
 }
 .pub-table-header .header-year { width: 60px; text-align: right; }
 
+.pub-table-header .sortable {
+  cursor: pointer !important;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.pub-table-header .sortable:hover {
+  color: #1a0dab !important;
+}
+
+.pub-table-header .sort-icon {
+  margin-left: 4px;
+  font-size: 0.8rem;
+}
+
+[data-theme="dark"] .pub-table-header .sortable:hover {
+  color: #8ab4f8 !important;
+}
+
 .publications ol.bibliography {
   list-style: none;
   padding: 0;
@@ -126,7 +145,13 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  .pub-table-header { display: none !important; }
+  .pub-table-header { 
+    display: flex !important;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
 
   .pub-row {
     flex-direction: column !important;
