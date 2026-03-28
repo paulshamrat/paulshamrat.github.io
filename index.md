@@ -57,7 +57,7 @@ function toggleBio() {
 
 ## Conference Presentations
 
-1. Paul, S. K., Pitamber, P., Panday, S. K., Boccuto, L., and Alexov, E. [**Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). [**ACS Spring 2026**](https://www.acs.org/events/spring.html).
+1. Paul, S.K. et al. [**Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). [**ACS Spring 2026**](https://www.acs.org/events/spring.html).
 2. Paul, S.K. et al. [**Thermodynamics-guided reclassification of CDKL5 variants**](https://github.com/paulshamrat/cdkl5-variants). **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy), Clemson University. Aug 2025.
 3. Paul, S.K. et al. Role of RTA1-like protein family in Aspergillus fumigatus. ASM-SC Branch Spring Conference, Conway, SC, USA April 06, 2024. (Poster Presentation)
 
