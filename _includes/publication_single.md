@@ -42,7 +42,6 @@
         {% for item in link.supplementary %}
         <li>
           <a href="{{ item.url | relative_url }}" target="_blank">{{ item.name }}</a>
-          <a href="https://docs.google.com/viewer?url={{ site.url }}{{ item.url | relative_url }}" target="_blank" style="margin-left: 10px; color: #777; font-size: 0.75rem;">[View]</a>
         </li>
         {% endfor %}
       </ul>
