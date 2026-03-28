@@ -41,7 +41,7 @@
       <ul style="margin: 5px 0 0 20px; padding: 0;">
         {% for item in link.supplementary %}
         <li>
-          <a href="{{ item.url | relative_url }}" target="_blank">{{ item.name }}</a>
+          <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
