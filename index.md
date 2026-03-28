@@ -48,12 +48,20 @@ function toggleBio() {
 
 ## News
 
-- **Mar 2026**: My abstract "[**Thermodynamic Perspective on CDKL5 Deficiency Disorder via Exploring Altered Protein Folding and Binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655)" is now available for [**ACS Spring 2026**](https://www.acs.org/events/spring.html) (March 22-26).
-- **Aug 2025**: Presented the [**cdkl5-variants**](https://github.com/paulshamrat/cdkl5-variants) paper at **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy) at Clemson University.
 - **Aug 2025**: Paper on CDKL5 Deficiency Disorder published in [**IJMS**](https://www.mdpi.com/1422-0067/26/17/8399).
 - **Dec 2024**: SAMPDI-3Dv2 paper published in [**Genes**](https://www.mdpi.com/2073-4425/16/1/101).
 
 <p><a href="{{ "/news/" | relative_url }}" style="font-weight: 500;">View all news &rarr;</a></p>
+
+## Conference Presentations
+
+- **Mar 2026**: [**Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). Paul, S. K., Pitamber, P., Panday, S. K., Boccuto, L., and Alexov, E. [**ACS Spring 2026**](https://www.acs.org/events/spring.html).
+- **Aug 2025**: Presented the [**cdkl5-variants**](https://github.com/paulshamrat/cdkl5-variants) paper at **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy) at Clemson University.
+- **Apr 2024**: Role of RTA1-like protein family in Aspergillus fumigatus. Paul, S.K. et al. ASM-SC Branch Spring Conference, Conway, SC, USA. (Poster Presentation)
+- **Feb 2024**: Exploring the diversity and function of the RTA1-like protein family in Aspergillus fumigatus. Paul, S.K. et al. SCbio 2024 Annual Conference, Greenville, SC, U.S.A. (Poster Presentation)
+- **Oct 2023**: RTA1-like Protein Family in Aspergillus fumigatus. Paul, S.K. et al. 11th Cellular Biology of Eukaryotic Pathogens Meeting, Clemson University, USA. (Poster Presentation)
+- **Jul 2018**: Molecular docking study of tetrabenazine for targeting huntingtin protein. Paul, S.K. et al. BIOSPECTRUM2018, Kolkata, India. (Poster Presentation)
+- **May 2018**: In silico molecular docking study of delafloxacin against 4mqt; the treatment of acute bacterial skin and skin structure infections. Paul, S.K. et al. BAUET Tech Fair 2K18, Bangladesh. (Awarded 3rd best poster)
 
 ## Awards and Grants
 
