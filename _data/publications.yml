@@ -6,6 +6,11 @@ main:
     doi: "10.3390/ijms26178399"
     pdf: "/assets/articles/2025-08-29-CDKL5-VARIANTS.pdf"
     html: "https://www.mdpi.com/1422-0067/26/17/8399"
+    supplementary:
+      - name: "Supplementary 1 (PDF)"
+        url: "/assets/articles/supp/2025-08-29-CDKL5-VARIANTS/3849787_suppl_1.pdf"
+      - name: "Supplementary 2 (XLSX)"
+        url: "/assets/articles/supp/2025-08-29-CDKL5-VARIANTS/3849787_suppl_2.xlsx"
     selected: true
     bibtex: |
       @article{paul2025cdkl5,
