@@ -118,8 +118,16 @@
 
     </header>
     <section>
-
-      {{ content }}
+      <div class="content-wrapper {% if page.is_home %}has-sidebar{% endif %}">
+        <div class="main-content">
+          {{ content }}
+        </div>
+        {% if page.is_home %}
+        <aside class="news-column">
+          {% include news_sidebar.html %}
+        </aside>
+        {% endif %}
+      </div>
 
       <br>
 

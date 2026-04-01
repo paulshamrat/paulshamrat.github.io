@@ -1,0 +1,12 @@
+<div class="news-sidebar">
+  <h2 id="news-sidebar-title">News</h2>
+  <ul class="news-list">
+    {% assign news_items = site.data.news | sort: 'date' | reverse %}
+    {% for item in news_items limit: 5 %}
+    <li>
+      <strong>{{ item.date | date: "%b %d, %Y" }}</strong>: {{ item.text }}
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/news/' | relative_url }}" class="view-all">View all news &rarr;</a></p>
+</div>

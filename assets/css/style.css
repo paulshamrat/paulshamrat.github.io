@@ -288,7 +288,7 @@ a:hover {
 }
 
 .wrapper {
-    width: 960px;
+    width: 1172px;
     margin: 0 auto;
 }
 
@@ -459,10 +459,62 @@ header ul a strong {
 }
 
 section {
-    width: 650px;
+    width: 920px;
     float: right;
     padding-top: 4.0em;
     padding-bottom: 50px;
+}
+
+.content-wrapper.has-sidebar {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0; /* Prevents flex items from overflowing */
+}
+
+.news-column {
+    width: 240px;
+    flex-shrink: 0;
+    font-size: 0.95rem;
+    border-left: 1px solid var(--border-color);
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.news-column h2 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--heading-color);
+}
+
+.news-column .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-column .news-list li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.news-column .news-list li:last-child {
+    border-bottom: none;
+}
+
+.news-column .view-all {
+    display: block;
+    margin-top: 5px;
+    font-weight: 500;
+    font-style: italic;
 }
 
 small {
@@ -486,7 +538,7 @@ footer {
 }
 
 @media print,
-screen and (max-width: 960px) {
+screen and (max-width: 1172px) {
     .pub-row {
         display: flex;
         align-items: center;
@@ -516,6 +568,20 @@ screen and (max-width: 960px) {
         margin: 0 0 20px;
     }
 
+    .content-wrapper.has-sidebar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .news-column {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+        padding-left: 0;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
     .image.avatar img {
         border-radius: 100%;
         width: 117px;
@@ -532,7 +598,7 @@ screen and (max-width: 960px) {
 }
 
 @media print,
-screen and (max-width: 960px) {
+screen and (max-width: 1172px) {
     body {
         word-wrap: break-word;
         padding: 15px;
