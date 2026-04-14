@@ -288,8 +288,12 @@ a:hover {
 }
 
 .wrapper {
-    width: 1172px;
+    width: 960px;
     margin: 0 auto;
+}
+
+.home-page .wrapper {
+    width: 1172px;
 }
 
 blockquote {
@@ -459,10 +463,14 @@ header ul a strong {
 }
 
 section {
-    width: 920px;
+    width: 650px;
     float: right;
     padding-top: 4.0em;
     padding-bottom: 50px;
+}
+
+.home-page section {
+    width: 920px;
 }
 
 .content-wrapper.has-sidebar {
@@ -538,7 +546,7 @@ footer {
 }
 
 @media print,
-screen and (max-width: 1172px) {
+screen and (max-width: 960px) {
     .pub-row {
         display: flex;
         align-items: center;
@@ -598,7 +606,7 @@ screen and (max-width: 1172px) {
 }
 
 @media print,
-screen and (max-width: 1172px) {
+screen and (max-width: 960px) {
     body {
         word-wrap: break-word;
         padding: 15px;

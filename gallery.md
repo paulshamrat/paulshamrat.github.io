@@ -123,6 +123,22 @@ permalink: /gallery/
   </div>
 </div>
 
+<br>
+<h2 style="margin-top: 1rem;">Conferences & Events</h2>
+<div class="gallery-section">
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="{{ "/assets/images/conferences/paul_sk_acs26.jpg" | relative_url }}" target="_blank">
+        <img src="{{ "/assets/images/conferences/paul_sk_acs26.jpg" | relative_url }}" alt="ACS Spring 2026 Presentation" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">ACS Spring 2026</div>
+          <div class="overlay-context">Presentation at Atlanta, Georgia</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
 <!--
 <br>
 <h2>Sketches & Arts</h2>
