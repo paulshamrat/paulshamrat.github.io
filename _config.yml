@@ -21,10 +21,10 @@ navigation:
     url: "/publications/"
   - title: "Blog"
     url: "/blog/"
-  - title: "Gallery"
-    url: "/gallery/"
   - title: "Projects"
     url: "/projects/"
+  - title: "Gallery"
+    url: "/gallery/"
 
 # Theme customization
 google_analytics: # UA-XXXXXXXXX-X
