@@ -1,5 +1,6 @@
 ---
 layout: homepage
+is_home: true
 ---
 
 ## Bio
@@ -46,14 +47,15 @@ function toggleBio() {
 - **Open-Source Tool Development**: Creating accessible, high-performance workflows for the scientific community.
 <br>
 
-## News
 
-- **Feb 2026**: Invited to present research on CDKL5 deficiency disorder at [**ACS Spring 2026**](https://www.acs.org/meetings/acs-meetings/spring-2026.html) (March 22-26) in the COMP Division.
-- **Aug 2025**: Presented the [**cdkl5-variants**](https://github.com/paulshamrat/cdkl5-variants) paper at **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy) at Clemson University.
-- **Aug 2025**: Paper on CDKL5 Deficiency Disorder published in [**IJMS**](https://www.mdpi.com/1422-0067/26/17/8399).
-- **Dec 2024**: SAMPDI-3Dv2 paper published in [**Genes**](https://www.mdpi.com/2073-4425/16/1/101).
 
-<p><a href="{{ "/news/" | relative_url }}" style="font-weight: 500;">View all news &rarr;</a></p>
+## Conference Presentations
+
+1. Paul, S.K. et al. [**Shared Molecular Mechanisms of CDKL5 Variants**](https://events.clemson.edu/event/24076-clembio-symposium). [**ClemBIO Symposium**](https://mbio-symposium.netlify.app/), Clemson University. April 17, 2026. (Talk & Poster Presentation)
+2. Paul, S.K. et al. [**Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). [**ACS Spring 2026**](https://www.acs.org/events/spring.html).
+3. Paul, S.K. et al. [**Thermodynamics-guided reclassification of CDKL5 variants**](https://github.com/paulshamrat/cdkl5-variants). **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy), Clemson University. Aug 2025.
+
+<p><a href="{{ "/presentations/" | relative_url }}" style="font-weight: 500;">View all presentations &rarr;</a></p>
 
 ## Awards and Grants
 

@@ -38,8 +38,44 @@ Once Windows was ready, I used two key tools on Ubuntu:
 #### Mounting the Drive
 To mount the Windows C: drive to `~/insurgent`:
 ```bash
-sshfs insurgent_user@192.168.0.85:/C:/ ~/insurgent -o allow_other
+sshfs insurgent_user@192.168.0.76:/C:/ ~/insurgent -o allow_other
 ```
+
+If the mount freezes after a reboot or network change, reset it first:
+```bash
+fusermount3 -uz ~/insurgent
+sshfs insurgent_user@192.168.0.76:/C:/ ~/insurgent -o allow_other
+```
+
+#### Connecting with Remmina
+For a quick RDP connection in Remmina, type only the server IP in the quick-connect bar:
+
+```text
+192.168.0.76
+```
+
+Do **not** type `username@ip` there, because Remmina will treat the whole string as the server name.
+
+When prompted, use:
+
+```text
+Username: Paul Shamrat
+Password: <your Windows account password>
+Domain: <leave blank>
+```
+
+For a saved connection profile, these settings worked best:
+
+```text
+Protocol: RDP - Remote Desktop Protocol
+Server: 192.168.0.76
+Username: Paul Shamrat
+Domain: blank
+Resolution: Use client resolution or a smaller custom resolution
+Colour depth: Automatic (32 bpp)
+```
+
+One important Windows detail: RDP login requires the real account password, not just a PIN.
 
 ### 🌍 Phase 3: Global Access (Tailscale)
 What if I'm not at home? I installed **Tailscale** on both machines. This creates a secure, private tunnel that works anywhere in the world. I just replaced the home IP with my Tailscale IP, and it worked like a charm!
@@ -50,6 +86,39 @@ What if I'm not at home? I installed **Tailscale** on both machines. This create
 -   **Force Unmount**: If Windows reboots, the link "freezes." The command `fusermount3 -uz ~/insurgent` is your best friend to reset the link.
 -   **NLA Settings**: If Remmina can't connect, disabling "Network Level Authentication" (NLA) on Windows usually fixes it.
 -   **Home vs. Office**: I use the local IP at home for maximum speed and Tailscale when I'm away for reliability.
+-   **Windows IPs Change**: My home IP changed from `192.168.0.85` to `192.168.0.76`, so checking `ipconfig` on Windows saved a lot of confusion.
+-   **RDP Scaling Limitation**: Windows does not let me change display scaling from inside an RDP session, so changing Windows display scale there was not a reliable fix.
+-   **Practical Display Workaround**: In Remmina, using a smaller custom resolution can make text appear larger than simply using client resolution.
+
+## Troubleshooting
+
+### SSH works, but SSHFS says `Connection reset by peer`
+That usually means the Windows machine is reachable, but the SSH service reset the connection or the Windows IP changed. First, verify the current Windows IP with:
+
+```powershell
+ipconfig
+```
+
+Then reconnect from Ubuntu using the current address.
+
+### Remmina says it cannot connect to the RDP server
+Check the following on Windows:
+
+```powershell
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name 'fDenyTSConnections' -Value 0
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "insurgent_user"
+netstat -ano | findstr :3389
+```
+
+If I want the remote session to open as an administrator, I log in through Remmina with the administrator account itself rather than the helper account.
+
+### The text looks too small in Remmina
+Inside the Windows RDP session, the Display settings page reports that scaling cannot be changed from a remote session. In practice, the most reliable options are:
+
+1. Use Remmina's scale mode / dynamic resolution tools.
+2. Try a **smaller custom resolution** in the Remmina profile, which makes the Windows desktop appear larger.
+3. If true Windows scaling is needed, set it while physically at the Windows machine, then reconnect later.
 
 This setup has completely streamlined my workflow. No more manual file syncing or carrying two laptops—just one seamless, integrated research environment.
 

@@ -1,4 +1,12 @@
 main:
+  - title: "Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding."
+    authors: "Paul, S. K., Pitamber, P., Panday, S. K., Boccuto, L., and Alexov, E."
+    conference: "American Chemical Society (ACS) Spring 2026"
+    year: "2026"
+    html: "https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655"
+    note: "Presented at ACS Spring 2026, Atlanta, GA"
+    selected: false
+
   - title: "CDKL5 Deficiency Disorder: Revealing the Molecular Mechanism of Pathogenic Variants."
     authors: "Paul, S.K., Panday, S.K., Boccuto, L., and Alexov, E."
     conference: "International Journal of Molecular Sciences"
@@ -6,6 +14,11 @@ main:
     doi: "10.3390/ijms26178399"
     pdf: "/assets/articles/2025-08-29-CDKL5-VARIANTS.pdf"
     html: "https://www.mdpi.com/1422-0067/26/17/8399"
+    supplementary:
+      - name: "Supplementary 1 (PDF)"
+        url: "/assets/articles/supp/2025-08-29-CDKL5-VARIANTS/3849787_suppl_1.pdf"
+      - name: "Supplementary 2 (XLSX)"
+        url: "/assets/articles/supp/2025-08-29-CDKL5-VARIANTS/3849787_suppl_2.xlsx"
     selected: true
     bibtex: |
       @article{paul2025cdkl5,
@@ -25,6 +38,7 @@ main:
     conference: "Genes"
     year: "2025"
     doi: "10.3390/genes16010101"
+    manual_citations: 6
     pdf: "/assets/articles/2024-12-30-SAMPDI-3D-V2_genes.pdf"
     html: "https://www.mdpi.com/2073-4425/16/1/101"
     selected: false
@@ -85,7 +99,7 @@ main:
     conference: "Egyptian Journal of Medical Human Genetics"
     year: "2024"
     doi: "10.1186/s43042-024-00485-7"
-    manual_citations: 94
+    manual_citations: 98
     pdf: "/assets/articles/2024-01-27-bcl2.pdf"
     html: "https://jmhg.springeropen.com/articles/10.1186/s43042-024-00485-7"
     bibtex: |
@@ -201,6 +215,7 @@ main:
     conference: "Cancers"
     year: "2021"
     doi: "10.3390/cancers13133221"
+    manual_citations: 10
     pdf: "/assets/articles/2021-06-EPENDYMOMA.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/34203272/"
     bibtex: |
@@ -215,10 +230,17 @@ main:
         publisher={MDPI},
         doi={10.3390/cancers13133221}
       }
+  - title: "Microarray Data Analysis Using GEO2R to Identify Differentially Expressed Genes in Ovarian Cancer after NSC319726 Treatment and Pathway Analysis."
+    authors: "Paul Shamrat Kumar, Banerjee Satarupa, and Karunagaran Devarajan"
+    year: "2020"
+    html: "https://www.researchgate.net/publication/341662444_Microarray_Data_Analysis_Using_GEO2R_to_Identify_Differentially_Expressed_Genes_in_Ovarian_Cancer_after_NSC319726_Treatment_and_Pathway_Analysis"
+
   - title: "In Silico Design and Homology Modeling of Helicase C-Terminal Domain of Nonstructural Protein NS3 of West Nile Virus (Strain NY-99)."
     authors: "Paul, S. K., Khalipha, A. B. R., Kabir, L., Ray, P., Mina, M. A., and Masum, H. M."
     conference: "International Conference on Communication, Devices and Computing (ICCDC 2019)"
     year: "2019"
+    doi: "10.1007/978-981-15-0829-5_68"
+    manual_citations: 1
     html: "https://link.springer.com/chapter/10.1007/978-981-15-0829-5_68"
     bibtex: |
       @inproceedings{paul2019silico,
@@ -234,6 +256,8 @@ main:
     authors: "Paul, S. K., Al Hasib, T., Ray, P., Kabir, L., and Khalipha, A. B. R."
     conference: "Biotechnology and Biological Sciences (BIOSPECTRUM 2019)"
     year: "2019"
+    doi: "10.1201/9781003001614-30"
+    manual_citations: 1
     html: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003001614-30/structure-prediction-functional-characterization-uncharacterized-protein-rv1708-mycobacterium-tuberculosis-strain-atcc-25618-h37rv-shamrat-kumar-paul-tasnin-al-hasib-pranta-ray-lutful-kabir-abul-bashar-ripon-khalipha"
     bibtex: |
       @incollection{paul2019structure,

@@ -54,6 +54,13 @@ Back up your locally modified files to the cloud:
 rclone copy /home/paul/works gdrive:works -P
 ```
 
+### Syncing a Specific Folder
+If you've only updated one project and don't want to scan your entire `works` directory, you can target that specific subfolder to save time:
+
+```bash
+rclone copy /home/paul/works/academics gdrive:works/academics -P
+```
+
 > [!TIP]
 > Use `copy` instead of `sync` most of the time. `copy` only adds files to the destination; `sync` can delete files if they are missing on the source.
 

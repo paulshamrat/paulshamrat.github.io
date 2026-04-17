@@ -57,12 +57,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 })
                 .catch(e => {
                   console.error(`All APIs failed for DOI ${cleanDoi}:`, e);
-                  countSpan.textContent = '0';
+                  // Keep the existing manual count if fetch fails
                 });
             });
         });
     } else {
-      countSpan.textContent = '0'; 
+      // If no DOI, only set to '0' if it's currently '...' (no manual count)
+      if (countSpan.textContent.trim() === "...") {
+        countSpan.textContent = '0'; 
+      }
     }
   });
 });
