@@ -27,10 +27,10 @@
   <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
   <script>
     (function () {
