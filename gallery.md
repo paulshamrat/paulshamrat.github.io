@@ -169,6 +169,19 @@ permalink: /gallery/
         </div>
       </a>
     </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/sirpa2025.webp" | relative_url }}"
+         data-title="SIRPA 2025"
+         data-context="Presentation at Clemson University">
+        <img src="{{ "/assets/images/thumbnails/sirpa2025.webp" | relative_url }}" alt="SIRPA 2025 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">SIRPA 2025</div>
+          <div class="overlay-context">Presentation at Clemson University</div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 
