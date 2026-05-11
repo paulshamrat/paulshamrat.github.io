@@ -38,7 +38,7 @@ main:
     conference: "Genes"
     year: "2025"
     doi: "10.3390/genes16010101"
-    manual_citations: 6
+    manual_citations: 7
     pdf: "/assets/articles/2024-12-30-SAMPDI-3D-V2_genes.pdf"
     html: "https://www.mdpi.com/2073-4425/16/1/101"
     selected: false
@@ -59,6 +59,7 @@ main:
     conference: "Heliyon"
     year: "2025"
     doi: "10.1016/j.heliyon.2024.e41166"
+    manual_citations: 3
     pdf: "/assets/articles/2024-12-15-PSMB8.pdf"
     html: "https://doi.org/10.1016/j.heliyon.2024.e41166"
     bibtex: |
@@ -99,7 +100,7 @@ main:
     conference: "Egyptian Journal of Medical Human Genetics"
     year: "2024"
     doi: "10.1186/s43042-024-00485-7"
-    manual_citations: 98
+    manual_citations: 99
     pdf: "/assets/articles/2024-01-27-bcl2.pdf"
     html: "https://jmhg.springeropen.com/articles/10.1186/s43042-024-00485-7"
     bibtex: |
@@ -138,6 +139,7 @@ main:
     conference: "bioRxiv"
     year: "2023"
     doi: "10.1101/2023.02.14.528547"
+    manual_citations: 2
     pdf: "/assets/articles/2023-03-23-RHOB.pdf"
     html: "https://www.biorxiv.org/content/10.1101/2023.02.14.528547v1"
     bibtex: |
@@ -154,7 +156,7 @@ main:
     conference: "Heliyon"
     year: "2022"
     doi: "10.1016/j.heliyon.2022.e11232"
-    manual_citations: 50
+    manual_citations: 53
     pdf: "/assets/articles/2022-10-20-GCA.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/36340004/"
     selected: true
@@ -175,7 +177,7 @@ main:
     conference: "Molecules"
     year: "2022"
     doi: "10.3390/molecules27051481"
-    manual_citations: 42
+    manual_citations: 45
     pdf: "/assets/articles/2022-02-22-IPF.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/35268581/"
     bibtex: |
@@ -194,7 +196,7 @@ main:
     authors: "Ahmed, K. A., Hasib, T. A., Paul, S. K., Saddam, M., Mimi, A., Saikat, A. S. M., Faruque, H. A., Rahman, M. A., Uddin, M. J., and Kim, B."
     conference: "Current Oncology"
     year: "2021"
-    manual_citations: 25
+    manual_citations: 27
     pdf: "/assets/articles/2021-11-CCN.pdf"
     html: "https://www.mdpi.com/1718-7729/28/6/417"
     bibtex: |
@@ -215,7 +217,7 @@ main:
     conference: "Cancers"
     year: "2021"
     doi: "10.3390/cancers13133221"
-    manual_citations: 10
+    manual_citations: 11
     pdf: "/assets/articles/2021-06-EPENDYMOMA.pdf"
     html: "https://pubmed.ncbi.nlm.nih.gov/34203272/"
     bibtex: |

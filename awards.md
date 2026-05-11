@@ -6,6 +6,8 @@ permalink: /awards/
 
 # Awards and Grants
 
+- **Feb 20, 2026**: [**ACS Membership**](https://credentials.acs.org/34232bdc-3fda-48ca-8958-406e45d5b197#acc.nZ8WCcas) (American Chemical Society)
+
 - **2023-2024**: Grad WAC Fellowship (Pearce Center for Professional Commn., Clemson University)
 - **2022-2023**: College of Science Fellowship (Clemson University, USA)
 - **2021-2022**: N.S.T. Fellowship 2021 (Ministry of Science and Technology, Bangladesh.)
