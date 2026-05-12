@@ -223,13 +223,14 @@ autocolor {
 
 .image.avatar img {
     border-radius: 100%;
-    width: 45%;
-    padding: 20px;
+    width: 100%;
+    padding: 0;
 }
 
 #header .image.avatar {
     margin: 0 0 1em 0;
     width: 8.00em;
+    display: block;
 }
 
 h3,
@@ -400,7 +401,7 @@ header {
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
     padding-top: 4.0em;
-    text-align: center;
+    text-align: left;
 }
 
 header ul {
@@ -542,7 +543,7 @@ footer {
     position: fixed;
     bottom: 30px;
     -webkit-font-smoothing: subpixel-antialiased;
-    text-align: center;
+    text-align: left;
 }
 
 @media print,

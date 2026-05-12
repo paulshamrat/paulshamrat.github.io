@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
   const pubRows = document.querySelectorAll('.pub-row');
+  const totalCitationsSpan = document.getElementById('total-citations-value');
+
+  function updateTotalCitations() {
+    if (!totalCitationsSpan) return;
+    let total = 0;
+    document.querySelectorAll('.count-value').forEach(span => {
+      const val = parseInt(span.textContent);
+      if (!isNaN(val)) total += val;
+    });
+    totalCitationsSpan.textContent = total;
+  }
   
   pubRows.forEach(row => {
     const doi = row.getAttribute('data-doi');
@@ -16,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const value = parseInt(newValue);
         if (!isNaN(value) && value > currentCount) {
           countSpan.textContent = value;
+          updateTotalCitations();
         }
       };
       
@@ -66,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (countSpan.textContent.trim() === "...") {
         countSpan.textContent = '0'; 
       }
+      updateTotalCitations();
     }
   });
 });

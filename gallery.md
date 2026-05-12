@@ -159,6 +159,19 @@ permalink: /gallery/
   <div class="gallery-grid">
     <div class="gallery-item">
       <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/clembio2026.webp" | relative_url }}"
+         data-title="ClemBio 2026"
+         data-context="Presentation at Clemson University">
+        <img src="{{ "/assets/images/thumbnails/clembio2026.webp" | relative_url }}" alt="ClemBio 2026 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">ClemBio 2026</div>
+          <div class="overlay-context">Presentation at Clemson University</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
          data-src="{{ "/assets/images/conferences/paul_sk_acs26.webp" | relative_url }}"
          data-title="ACS Spring 2026"
          data-context="Presentation at Atlanta, Georgia">

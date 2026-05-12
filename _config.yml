@@ -9,6 +9,11 @@ baseurl: ""
 
 # Sidebar information
 email: shamratpaul@gmail.com
+position: "PhD Student"
+program: "Medical Biophysics Graduate Program"
+affiliation: "Clemson Physics and Astronomy Department"
+affiliation_link: "https://www.clemson.edu/science/departments/physics-astronomy/index.html"
+location: "Clemson, SC, USA"
 google_scholar: https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en
 orcid: https://orcid.org/0000-0001-8673-3771
 github: https://github.com/paulshamrat
