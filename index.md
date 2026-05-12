@@ -7,13 +7,13 @@ is_home: true
 
 <div id="bio-short">
   <p>
-    I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases, principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a core contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.
+    I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases, principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.
     <a href="javascript:void(0)" onclick="toggleBio()" style="color: var(--link-color); font-style: italic; font-weight: 500; text-decoration: none;">Read more</a>
   </p>
 </div>
 
 <div id="bio-full" style="display: none;">
-  <p>I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases, principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a core contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.</p>
+  <p>I am a PhD student in Medical Biophysics at Clemson University. I specialize in computational biophysics and the thermodynamics of biomolecules, with a dedicated focus on developing therapeutics for rare diseases, principally <strong>CDKL5 deficiency disorder</strong>. I developed and maintain <a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a> and am a contributor to <a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a>.</p>
   
   <p>I also hold an MS in Medical Biophysics from Clemson University and a BSc in Biochemistry from BSMRSTU, Bangladesh. My background spans molecular biology, physical chemistry, and computational modeling, which I combine to study biomolecular systems.</p>
   
