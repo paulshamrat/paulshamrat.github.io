@@ -69,42 +69,42 @@
 
       <div class="profile-info" style="text-align: left; margin-top: 15px;">
         {% if site.position %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
           <i class="fa-solid fa-user-graduate" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <span>{{ site.position }}</span>
         </div>
         {% endif %}
 
         {% if site.program %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
           <i class="fa-solid fa-microscope" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <span>{{ site.program }}</span>
         </div>
         {% endif %}
 
         {% if site.affiliation %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
           <i class="fa-solid fa-atom" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <a href="{{ site.affiliation_link }}" style="color: inherit;">{{ site.affiliation }}</a>
         </div>
         {% endif %}
 
         {% if site.university %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
           <i class="fa-solid fa-university" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <span>{{ site.university }}</span>
         </div>
         {% endif %}
 
         {% if site.email %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 15px; font-size: 0.95rem;">
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; font-size: 0.95rem;">
           <i class="fa-solid fa-envelope" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <a href="mailto:{{ site.email }}" style="color: inherit;">{{ site.email }}</a>
         </div>
         {% endif %}
       </div>
       {% if site.research_interests %}
-      <div class="research-interests" style="margin-top: 15px; text-align: left;">
+      <div class="research-interests" style="margin-top: 8px; text-align: left;">
         <div class="interest-tags" style="display: flex; flex-wrap: wrap; gap: 4px;">
           {% for interest in site.research_interests %}
           <span class="interest-tag" style="font-size: 0.68rem; padding: 2px 8px; background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.05); color: var(--accent-color); border: 1px solid rgba(var(--accent-color-rgb, 4, 51, 97), 0.08); border-radius: 15px; font-weight: 500;">{{ interest }}</span>
