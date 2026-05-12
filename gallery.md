@@ -191,4 +191,84 @@ permalink: /gallery/
   </div>
 </div>
 
+<!-- --- Sketches & Arts Category --- -->
+<h2 style="margin-top: 0.5rem;">Sketches & Arts</h2>
+<div class="gallery-section">
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/cottege.webp" | relative_url }}"
+         data-title="Cottage (2014)">
+        <img src="{{ "/assets/images/thumbnails/cottege.webp" | relative_url }}" alt="Cottage (2014)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">Cottage (2014)</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/river.webp" | relative_url }}"
+         data-title="River (2014)">
+        <img src="{{ "/assets/images/thumbnails/river.webp" | relative_url }}" alt="River (2014)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">River (2014)</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/language.webp" | relative_url }}"
+         data-title="Language Movement 1952"
+         data-context="Art from 2016">
+        <img src="{{ "/assets/images/thumbnails/language.webp" | relative_url }}" alt="Language Movement 1952 (2016)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">Language Movement 1952</div>
+          <div class="overlay-context">Art from 2016</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/michael.webp" | relative_url }}"
+         data-title="Michael Madhusudan Dutt"
+         data-context="Art from 2014">
+        <img src="{{ "/assets/images/thumbnails/michael.webp" | relative_url }}" alt="Michael Madhusudan Dutt (2014)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">Michael Madhusudan Dutt</div>
+          <div class="overlay-context">Art from 2014</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/1-fairy.webp" | relative_url }}"
+         data-title="Fairy Illustration"
+         data-context="Art from 2014">
+        <img src="{{ "/assets/images/thumbnails/1-fairy.webp" | relative_url }}" alt="Fairy 1 (2014)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">Fairy Illustration</div>
+          <div class="overlay-context">Art from 2014</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/sketch/2-fairy.webp" | relative_url }}"
+         data-title="Fairy Illustration"
+         data-context="Art from 2014">
+        <img src="{{ "/assets/images/thumbnails/2-fairy.webp" | relative_url }}" alt="Fairy 2 (2014)" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">Fairy Illustration</div>
+          <div class="overlay-context">Art from 2014</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
 <script src="{{ "/assets/js/gallery.js" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
