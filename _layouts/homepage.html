@@ -68,9 +68,16 @@
       <h1>{{ site.title }}</h1>
 
       <div class="profile-info" style="text-align: left; margin-top: 15px;">
+        {% if site.position %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+          <i class="fa-solid fa-user-graduate" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <span>{{ site.position }}</span>
+        </div>
+        {% endif %}
+
         {% if site.program %}
         <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
-          <i class="fa-solid fa-graduation-cap" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <i class="fa-solid fa-microscope" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <span>{{ site.program }}</span>
         </div>
         {% endif %}
