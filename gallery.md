@@ -49,6 +49,19 @@ permalink: /gallery/
         </div>
       </a>
     </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/cbep2023.webp" | relative_url }}"
+         data-title="CBEP 2023"
+         data-context="11th Cellular Biology of Eukaryotic Pathogens Meeting">
+        <img src="{{ "/assets/images/thumbnails/cbep2023.webp" | relative_url }}" alt="CBEP 2023 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">CBEP 2023</div>
+          <div class="overlay-context">11th Cellular Biology of Eukaryotic Pathogens Meeting</div>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
 
