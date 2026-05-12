@@ -31,6 +31,8 @@ navigation:
     url: "/publications/"
   - title: "Blog"
     url: "/blog/"
+  - title: "Projects"
+    url: "/projects/"
   - title: "Gallery"
     url: "/gallery/"
 
@@ -47,3 +49,8 @@ auto_dark_mode: true
 font: "Crimson Pro"
 enable_footnote: true
 avatar: assets/img/shamrat.svg
+
+collections:
+  rarebot:
+    output: true
+    permalink: /rarebot/:year/:month/:day/:title.html
