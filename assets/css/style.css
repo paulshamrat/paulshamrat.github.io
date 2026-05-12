@@ -614,6 +614,11 @@ screen and (max-width: 960px) {
         padding: 15px;
     }
 
+    .wrapper,
+    .home-page .wrapper {
+        width: 100%;
+    }
+
     .pub-row {
         display: flex;
         align-items: center;
