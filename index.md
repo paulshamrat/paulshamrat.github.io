@@ -71,6 +71,8 @@ function toggleBio() {
 - **American Chemical Society (ACS)**, Member since Feb 2026. [**Certificate**](https://credentials.acs.org/34232bdc-3fda-48ca-8958-406e45d5b197#acc.nZ8WCcas)
 - **American Society for Microbiology (ASM)**, Member since Jan 2024. [**Certificate**]({{ "/assets/certificates/asm-membership-2024.pdf" | relative_url }})
 
+<p><a href="{{ "/memberships/" | relative_url }}" style="font-weight: 500;">View all memberships &rarr;</a></p>
+
 <h2 id="selected-publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
 <div class="publications">
   <ol class="bibliography">
