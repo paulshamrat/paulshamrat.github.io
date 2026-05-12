@@ -1,9 +1,9 @@
 - name: Home
   link: /
-- name: Achievements
-  link: /achievements
 - name: Projects
   link: /projects
+- name: Achievements
+  link: /achievements
 - name: Gallery
   link: /gallery
 - name: Misc.

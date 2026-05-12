@@ -17,7 +17,7 @@ permalink: /projects/
           <i class="fa-regular fa-bookmark gh-repo-icon"></i>
           <h3 class="gh-card-title"><a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a></h3>
         </div>
-        <p class="gh-description">Accessible cloud-based platform for Molecular Dynamics analysis in the browser. Features a resume-safe system that automatically saves progress to Google Drive.</p>
+        <p class="gh-description">Molecular dynamics simulation and analysis using Google Colab's resources (CPU/GPU) and Google Drive, enabling a completely cloud-based, resume-safe workflow.</p>
       </div>
       <div class="gh-card-footer">
         <div class="gh-stat-item">
