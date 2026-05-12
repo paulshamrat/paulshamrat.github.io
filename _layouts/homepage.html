@@ -110,48 +110,48 @@
         </div>
         {% endif %}
       </div>
-      <div class="social-icons">
+      {% if site.research_interests %}
+      <div class="research-interests" style="margin-top: 15px; text-align: left;">
+        <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--heading-color); margin-bottom: 8px; opacity: 0.8;">Research Interests</div>
+        <div class="interest-tags" style="display: flex; flex-wrap: wrap; gap: 4px;">
+          {% for interest in site.research_interests %}
+          <span class="interest-tag" style="font-size: 0.68rem; padding: 2px 8px; background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.05); color: var(--accent-color); border: 1px solid rgba(var(--accent-color-rgb, 4, 51, 97), 0.08); border-radius: 15px; font-weight: 500;">{{ interest }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="social-icons" style="margin-top: 20px;">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a style="margin: 0 8px 0 0" href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.1rem"></i>
         </a>
         {% endif %}
 
         {% if site.github %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github }}">
-          <i class="fab fa-github"></i>
+        <a style="margin: 0 8px 0 0" href="{{ site.github }}">
+          <i class="fab fa-github" style="font-size:1rem"></i>
         </a>
         {% endif %}
 
         {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
-          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        <a style="margin: 0 8px 0 0" href="{{ site.orcid }}">
+          <i class="ai ai-orcid" style="font-size:1.1rem"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        <a style="margin: 0 8px 0 0" href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin" style="font-size:1rem"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-x-twitter" style="font-size:1rem"></i>
         </a>
         {% endif %}
       </div>
-
-      {% if site.research_interests %}
-      <div class="research-interests" style="margin-top: 25px; text-align: left;">
-        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--heading-color); margin-bottom: 10px;">Research Interests</div>
-        <div class="interest-tags" style="display: flex; flex-wrap: wrap; gap: 6px;">
-          {% for interest in site.research_interests %}
-          <span class="interest-tag" style="font-size: 0.75rem; padding: 4px 10px; background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.06); color: var(--accent-color); border: 1px solid rgba(var(--accent-color-rgb, 4, 51, 97), 0.1); border-radius: 20px; font-weight: 500;">{{ interest }}</span>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
       <br>
 
     </header>
