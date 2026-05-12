@@ -27,8 +27,7 @@ permalink: /gallery/
   </div>
 </div>
 
-<br>
-<h2 style="margin-top: 1rem;">Scientific Illustrations</h2>
+<h2 style="margin-top: 0.5rem;">Scientific Illustrations</h2>
 <div class="gallery-section">
   <div class="gallery-grid">
     <!-- IPF Pathology -->
@@ -153,8 +152,7 @@ permalink: /gallery/
   </div>
 </div>
 
-<br>
-<h2 style="margin-top: 1rem;">Conferences &amp; Events</h2>
+<h2 style="margin-top: 0.5rem;">Conferences &amp; Events</h2>
 <div class="gallery-section">
   <div class="gallery-grid">
     <div class="gallery-item">
