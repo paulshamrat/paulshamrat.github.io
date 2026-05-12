@@ -31,19 +31,19 @@ permalink: /projects/
           <i class="fa-solid fa-code-fork"></i> <span class="gh-forks">...</span>
         </a>
         <a href="https://colabmda.readthedocs.io/" target="_blank" class="gh-doc-link">
-          <i class="fa-solid fa-book"></i> Docs
+          <i class="fa-solid fa-book"></i> Read Documentation &rarr;
         </a>
       </div>
     </div>
 
     <!-- Card 2: SAMPDI-3Dv2 -->
-    <div class="gh-card" data-repo="delphi001/sampdi3dv2">
+    <div class="gh-card featured-card" data-repo="delphi001/sampdi3dv2">
       <div>
         <div class="gh-card-header">
           <i class="fa-regular fa-bookmark gh-repo-icon"></i>
           <h3 class="gh-card-title"><a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a></h3>
         </div>
-        <p class="gh-description">Predicting changes in protein-protein binding affinity upon mutation.</p>
+        <p class="gh-description">A structure-based tool for predicting changes in protein-protein binding affinity upon mutation, utilizing physics-based features and machine learning.</p>
       </div>
       <div class="gh-card-footer">
         <div class="gh-stat-item">
@@ -60,13 +60,13 @@ permalink: /projects/
     </div>
 
     <!-- Card 3: cdkl5-variants -->
-    <div class="gh-card" data-repo="paulshamrat/cdkl5-variants">
+    <div class="gh-card featured-card" data-repo="paulshamrat/cdkl5-variants">
       <div>
         <div class="gh-card-header">
           <i class="fa-regular fa-bookmark gh-repo-icon"></i>
           <h3 class="gh-card-title"><a href="https://github.com/paulshamrat/cdkl5-variants" target="_blank">cdkl5-variants</a></h3>
         </div>
-        <p class="gh-description">Thermodynamic-guided reclassification of CDKL5 variants.</p>
+        <p class="gh-description">Thermodynamic-guided reclassification of CDKL5 variants, linking variant impacts on folding and binding energetics to pathogenicity.</p>
       </div>
       <div class="gh-card-footer">
         <div class="gh-stat-item">
@@ -83,13 +83,13 @@ permalink: /projects/
     </div>
 
     <!-- Card 4: Website -->
-    <div class="gh-card" data-repo="paulshamrat/paulshamrat.github.io">
+    <div class="gh-card featured-card" data-repo="paulshamrat/paulshamrat.github.io">
       <div>
         <div class="gh-card-header">
           <i class="fa-regular fa-bookmark gh-repo-icon"></i>
-          <h3 class="gh-card-title"><a href="https://github.com/paulshamrat/paulshamrat.github.io" target="_blank">Personal Website</a></h3>
+          <h3 class="gh-card-title"><a href="https://github.com/paulshamrat/paulshamrat.github.io" target="_blank">Personal Website Portfolio</a></h3>
         </div>
-        <p class="gh-description">Source code for my academic website and biophysics portfolio.</p>
+        <p class="gh-description">Source code for this academic website and biophysics portfolio, built with Jekyll and refined for minimalist excellence.</p>
       </div>
       <div class="gh-card-footer">
         <div class="gh-stat-item">
