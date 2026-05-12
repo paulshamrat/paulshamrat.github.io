@@ -68,24 +68,24 @@
       <h1>{{ site.title }}</h1>
 
       <div class="profile-info" style="text-align: left; margin-top: 15px;">
-        {% if site.position %}
-        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
-          <i class="fa-solid fa-graduation-cap" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
-          <span>{{ site.position }}</span>
-        </div>
-        {% endif %}
-
         {% if site.program %}
         <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
-          <i class="fa-solid fa-book" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <i class="fa-solid fa-graduation-cap" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <span>{{ site.program }}</span>
         </div>
         {% endif %}
 
         {% if site.affiliation %}
         <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
-          <i class="fa-solid fa-university" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <i class="fa-solid fa-atom" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
           <a href="{{ site.affiliation_link }}" style="color: inherit;">{{ site.affiliation }}</a>
+        </div>
+        {% endif %}
+
+        {% if site.university %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; font-size: 0.95rem;">
+          <i class="fa-solid fa-university" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <span>{{ site.university }}</span>
         </div>
         {% endif %}
 
