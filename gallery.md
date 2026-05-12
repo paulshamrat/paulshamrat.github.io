@@ -7,11 +7,56 @@ permalink: /gallery/
 <h1>Gallery</h1>
 <hr>
 
-<!-- --- Highlighted Illustrations Category --- -->
-<h2 style="margin-top: 1rem;">Highlighted Illustrations</h2>
+<!-- --- Conferences & Events Category --- -->
+<h2 style="margin-top: 0.5rem;">Conferences & Events</h2>
 <div class="gallery-section">
-  <p style="margin-bottom: 1.5rem; color: var(--text-color-light);">Curated visualizations showcasing key molecular mechanisms and research breakthroughs.</p>
   <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/clembio2026.webp" | relative_url }}"
+         data-title="ClemBio 2026"
+         data-context="Presentation at Clemson University">
+        <img src="{{ "/assets/images/thumbnails/clembio2026.webp" | relative_url }}" alt="ClemBio 2026 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">ClemBio 2026</div>
+          <div class="overlay-context">Presentation at Clemson University</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/paul_sk_acs26.webp" | relative_url }}"
+         data-title="ACS Spring 2026"
+         data-context="Presentation at Atlanta, Georgia">
+        <img src="{{ "/assets/images/thumbnails/paul_sk_acs26.webp" | relative_url }}" alt="ACS Spring 2026 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">ACS Spring 2026</div>
+          <div class="overlay-context">Presentation at Atlanta, Georgia</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/sirpa2025.webp" | relative_url }}"
+         data-title="SIRPA 2025"
+         data-context="Presentation at Clemson University">
+        <img src="{{ "/assets/images/thumbnails/sirpa2025.webp" | relative_url }}" alt="SIRPA 2025 Presentation" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">SIRPA 2025</div>
+          <div class="overlay-context">Presentation at Clemson University</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- --- Scientific Illustrations Category --- -->
+<h2 style="margin-top: 0.5rem;">Scientific Illustrations</h2>
+<div class="gallery-section">
+  <div class="gallery-grid">
+    <!-- IPF Pathology -->
     <div class="gallery-item">
       <a href="#" class="gallery-link"
          data-src="{{ "/assets/images/cdkl5/Figure02_substrates_250811.webp" | relative_url }}"
@@ -24,13 +69,7 @@ permalink: /gallery/
         </div>
       </a>
     </div>
-  </div>
-</div>
 
-<h2 style="margin-top: 0.5rem;">Scientific Illustrations</h2>
-<div class="gallery-section">
-  <div class="gallery-grid">
-    <!-- IPF Pathology -->
     <div class="gallery-item">
       <a href="#" class="gallery-link"
          data-src="{{ "/assets/images/ipf/ipf.webp" | relative_url }}"
@@ -151,131 +190,5 @@ permalink: /gallery/
     </div>
   </div>
 </div>
-
-<h2 style="margin-top: 0.5rem;">Conferences &amp; Events</h2>
-<div class="gallery-section">
-  <div class="gallery-grid">
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/conferences/clembio2026.webp" | relative_url }}"
-         data-title="ClemBio 2026"
-         data-context="Presentation at Clemson University">
-        <img src="{{ "/assets/images/thumbnails/clembio2026.webp" | relative_url }}" alt="ClemBio 2026 Presentation" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">ClemBio 2026</div>
-          <div class="overlay-context">Presentation at Clemson University</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/conferences/paul_sk_acs26.webp" | relative_url }}"
-         data-title="ACS Spring 2026"
-         data-context="Presentation at Atlanta, Georgia">
-        <img src="{{ "/assets/images/thumbnails/paul_sk_acs26.webp" | relative_url }}" alt="ACS Spring 2026 Presentation" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">ACS Spring 2026</div>
-          <div class="overlay-context">Presentation at Atlanta, Georgia</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/conferences/sirpa2025.webp" | relative_url }}"
-         data-title="SIRPA 2025"
-         data-context="Presentation at Clemson University">
-        <img src="{{ "/assets/images/thumbnails/sirpa2025.webp" | relative_url }}" alt="SIRPA 2025 Presentation" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">SIRPA 2025</div>
-          <div class="overlay-context">Presentation at Clemson University</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-
-<!--
-<br>
-<h2>Sketches &amp; Arts</h2>
-<div class="gallery-section">
-  <div class="gallery-grid">
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/cottege.webp" | relative_url }}"
-         data-title="Cottage (2014)">
-        <img src="{{ "/assets/images/thumbnails/cottege.webp" | relative_url }}" alt="Cottage (2014)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">Cottage (2014)</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/river.webp" | relative_url }}"
-         data-title="River (2014)">
-        <img src="{{ "/assets/images/thumbnails/river.webp" | relative_url }}" alt="River (2014)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">River (2014)</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/language.webp" | relative_url }}"
-         data-title="Language Movement 1952"
-         data-context="Art from 2016">
-        <img src="{{ "/assets/images/thumbnails/language.webp" | relative_url }}" alt="Language Movement 1952 (2016)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">Language Movement 1952</div>
-          <div class="overlay-context">Art from 2016</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/michael.webp" | relative_url }}"
-         data-title="Michael Madhusudan Dutt"
-         data-context="Art from 2014">
-        <img src="{{ "/assets/images/thumbnails/michael.webp" | relative_url }}" alt="Michael Madhusudan Dutt (2014)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">Michael Madhusudan Dutt</div>
-          <div class="overlay-context">Art from 2014</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/1-fairy.webp" | relative_url }}"
-         data-title="Fairy Illustration"
-         data-context="Art from 2014">
-        <img src="{{ "/assets/images/thumbnails/1-fairy.webp" | relative_url }}" alt="Fairy 1 (2014)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">Fairy Illustration</div>
-          <div class="overlay-context">Art from 2014</div>
-        </div>
-      </a>
-    </div>
-
-    <div class="gallery-item">
-      <a href="#" class="gallery-link"
-         data-src="{{ "/assets/images/sketch/2-fairy.webp" | relative_url }}"
-         data-title="Fairy Illustration"
-         data-context="Art from 2014">
-        <img src="{{ "/assets/images/thumbnails/2-fairy.webp" | relative_url }}" alt="Fairy 2 (2014)" decoding="async" loading="lazy">
-        <div class="gallery-overlay">
-          <div class="overlay-title">Fairy Illustration</div>
-          <div class="overlay-context">Art from 2014</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
--->
 
 <script src="{{ "/assets/js/gallery.js" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
