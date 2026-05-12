@@ -11,13 +11,14 @@ permalink: /projects/
   <div class="project-grid">
 
     <!-- Card 1: ColabMDA -->
-    <div class="gh-card" data-repo="paulshamrat/ColabMDA">
+    <div class="gh-card featured-card" data-repo="paulshamrat/ColabMDA">
       <div>
         <div class="gh-card-header">
           <i class="fa-regular fa-bookmark gh-repo-icon"></i>
           <h3 class="gh-card-title"><a href="https://github.com/paulshamrat/ColabMDA" target="_blank">ColabMDA</a></h3>
+          <span class="gh-featured-badge">Featured & Mature</span>
         </div>
-        <p class="gh-description">Accessible cloud-based platform for Molecular Dynamics analysis in the browser.</p>
+        <p class="gh-description">Accessible cloud-based platform for Molecular Dynamics analysis in the browser. Features a resume-safe system that automatically saves progress to Google Drive.</p>
       </div>
       <div class="gh-card-footer">
         <div class="gh-stat-item">
@@ -29,6 +30,9 @@ permalink: /projects/
         </a>
         <a href="https://github.com/paulshamrat/ColabMDA/network/members" target="_blank" class="gh-stat-item">
           <i class="fa-solid fa-code-fork"></i> <span class="gh-forks">...</span>
+        </a>
+        <a href="https://colabmda.readthedocs.io/" target="_blank" class="gh-doc-link">
+          <i class="fa-solid fa-book"></i> Docs
         </a>
       </div>
     </div>

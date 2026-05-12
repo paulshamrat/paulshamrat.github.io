@@ -105,3 +105,36 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* ── Featured & Docs Extensions ────────────────────────────── */
+.gh-card.featured-card {
+    grid-column: 1 / -1; /* Spans full width on desktop */
+    border-left: 4px solid #DA5B0B; /* Jupyter orange or similar maturity indicator */
+    background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.02);
+}
+
+.gh-featured-badge {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    background: #DA5B0B;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.gh-doc-link {
+    margin-left: auto;
+    color: var(--link-color);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity 0.2s;
+}
+
+.gh-doc-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
