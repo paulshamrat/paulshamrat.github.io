@@ -7,6 +7,9 @@ permalink: /projects/
 
 <link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}">
 
+<h1>Software & Projects</h1>
+<hr>
+
 <div class="projects-container">
   <div class="project-grid">
 
