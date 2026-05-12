@@ -141,6 +141,17 @@
         </a>
         {% endif %}
       </div>
+
+      {% if site.research_interests %}
+      <div class="research-interests" style="margin-top: 25px; text-align: left;">
+        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--heading-color); margin-bottom: 10px;">Research Interests</div>
+        <div class="interest-tags" style="display: flex; flex-wrap: wrap; gap: 6px;">
+          {% for interest in site.research_interests %}
+          <span class="interest-tag" style="font-size: 0.75rem; padding: 4px 10px; background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.06); color: var(--accent-color); border: 1px solid rgba(var(--accent-color-rgb, 4, 51, 97), 0.1); border-radius: 20px; font-weight: 500;">{{ interest }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
       <br>
 
     </header>

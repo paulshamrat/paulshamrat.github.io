@@ -15,6 +15,11 @@ affiliation: "Dept. of Physics and Astronomy"
 affiliation_link: "https://www.clemson.edu/science/departments/physics-astronomy/index.html"
 university: "Clemson University"
 location: "Clemson, SC, USA"
+research_interests:
+  - "Biophysics"
+  - "Bioinformatics"
+  - "Machine Learning"
+  - "Artificial Intelligence"
 google_scholar: https://scholar.google.com/citations?user=cXPtAYwAAAAJ&hl=en
 orcid: https://orcid.org/0000-0001-8673-3771
 github: https://github.com/paulshamrat
