@@ -289,12 +289,14 @@ a:hover {
 }
 
 .wrapper {
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .home-page .wrapper {
-    width: 1172px;
+    max-width: 1172px;
 }
 
 blockquote {
@@ -546,16 +548,15 @@ footer {
     text-align: left;
 }
 
-@media print,
-screen and (max-width: 960px) {
-    .pub-row {
-        display: flex;
-        align-items: center;
+@media screen and (max-width: 960px) {
+    body {
+        padding: 0;
     }
 
-    div.wrapper {
-        width: auto;
-        margin: 0;
+    .wrapper, .home-page .wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
     }
 
     header,
@@ -563,15 +564,17 @@ screen and (max-width: 960px) {
     footer {
         float: none;
         position: static;
-        width: auto;
+        width: 100% !important;
+        box-sizing: border-box;
     }
 
     header {
-        padding-right: 320px;
+        padding-right: 0;
+        padding-top: 20px;
     }
 
     section {
-        border: 1px solid #e5e5e5;
+        border: 1px solid var(--border-color);
         border-width: 1px 0;
         padding: 20px 0;
         margin: 0 0 20px;
@@ -607,30 +610,16 @@ screen and (max-width: 960px) {
     }
 }
 
-@media print,
-screen and (max-width: 960px) {
-    body {
-        word-wrap: break-word;
-        padding: 15px;
-    }
-
-    .wrapper,
-    .home-page .wrapper {
+@media screen and (max-width: 768px) {
+    header ul {
         width: 100%;
-    }
-
-    .pub-row {
-        display: flex;
-        align-items: center;
-    }
-
-    header {
-        padding: 0;
     }
 
     pre,
     code {
         word-wrap: normal;
+        max-width: 100%;
+        overflow-x: auto;
     }
 }
 

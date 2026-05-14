@@ -30,5 +30,12 @@
     margin-bottom: 20px;
     justify-content: center;
     display: flex;
+    width: 100%;
+  }
+  .nav-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 10px;
   }
 }
