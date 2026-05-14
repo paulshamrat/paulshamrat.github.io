@@ -13,6 +13,19 @@ permalink: /gallery/
   <div class="gallery-grid">
     <div class="gallery-item">
       <a href="#" class="gallery-link"
+         data-src="{{ "/assets/images/conferences/cuihg_poster.webp" | relative_url }}"
+         data-title="CUIHG Summer Symposium 2026"
+         data-context="Poster Presentation in Greenwood, SC">
+        <img src="{{ "/assets/images/thumbnails/cuihg_poster.webp" | relative_url }}" alt="CUIHG Summer Symposium 2026" decoding="async" loading="lazy">
+        <div class="gallery-overlay">
+          <div class="overlay-title">CUIHG Summer Symposium 2026</div>
+          <div class="overlay-context">Poster Presentation in Greenwood, SC</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="#" class="gallery-link"
          data-src="{{ "/assets/images/conferences/clembio2026.webp" | relative_url }}"
          data-title="ClemBio 2026"
          data-context="Presentation at Clemson University">
