@@ -39,30 +39,7 @@ permalink: /projects/
       </div>
     </div>
 
-    <!-- Card 2: SAMPDI-3Dv2 -->
-    <div class="gh-card featured-card" data-repo="delphi001/sampdi3dv2">
-      <div>
-        <div class="gh-card-header">
-          <i class="fa-regular fa-bookmark gh-repo-icon"></i>
-          <h3 class="gh-card-title"><a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a></h3>
-        </div>
-        <p class="gh-description">A structure-based tool for predicting changes in protein-protein binding affinity upon mutation, utilizing physics-based features and machine learning.</p>
-      </div>
-      <div class="gh-card-footer">
-        <div class="gh-stat-item">
-          <span class="gh-language-dot"></span>
-          <span class="gh-language"></span>
-        </div>
-        <a href="https://github.com/delphi001/sampdi3dv2/stargazers" target="_blank" class="gh-stat-item">
-          <i class="fa-regular fa-star"></i> <span class="gh-stars">...</span>
-        </a>
-        <a href="https://github.com/delphi001/sampdi3dv2/network/members" target="_blank" class="gh-stat-item">
-          <i class="fa-solid fa-code-fork"></i> <span class="gh-forks">...</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- Card 3: cdkl5-variants -->
+    <!-- Card 2: cdkl5-variants -->
     <div class="gh-card featured-card" data-repo="paulshamrat/cdkl5-variants">
       <div>
         <div class="gh-card-header">
@@ -80,6 +57,29 @@ permalink: /projects/
           <i class="fa-regular fa-star"></i> <span class="gh-stars">...</span>
         </a>
         <a href="https://github.com/paulshamrat/cdkl5-variants/network/members" target="_blank" class="gh-stat-item">
+          <i class="fa-solid fa-code-fork"></i> <span class="gh-forks">...</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 3: SAMPDI-3Dv2 -->
+    <div class="gh-card featured-card" data-repo="delphi001/sampdi3dv2">
+      <div>
+        <div class="gh-card-header">
+          <i class="fa-regular fa-bookmark gh-repo-icon"></i>
+          <h3 class="gh-card-title"><a href="https://github.com/delphi001/sampdi3dv2" target="_blank">SAMPDI-3Dv2</a></h3>
+        </div>
+        <p class="gh-description">A structure-based tool for predicting changes in protein-protein binding affinity upon mutation, utilizing physics-based features and machine learning.</p>
+      </div>
+      <div class="gh-card-footer">
+        <div class="gh-stat-item">
+          <span class="gh-language-dot"></span>
+          <span class="gh-language"></span>
+        </div>
+        <a href="https://github.com/delphi001/sampdi3dv2/stargazers" target="_blank" class="gh-stat-item">
+          <i class="fa-regular fa-star"></i> <span class="gh-stars">...</span>
+        </a>
+        <a href="https://github.com/delphi001/sampdi3dv2/network/members" target="_blank" class="gh-stat-item">
           <i class="fa-solid fa-code-fork"></i> <span class="gh-forks">...</span>
         </a>
       </div>
