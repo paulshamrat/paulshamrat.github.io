@@ -33,13 +33,12 @@
     width: 100%;
   }
   .nav-container {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     padding: 0 10px;
   }
   .nav-container a {
-    font-size: 1rem;
-    white-space: nowrap;
+    font-size: 1.1rem;
   }
 }
