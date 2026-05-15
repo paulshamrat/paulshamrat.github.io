@@ -35,11 +35,11 @@
   .nav-container {
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
     padding: 0 10px;
   }
   .nav-container a {
-    font-size: 0.9rem;
+    font-size: 1rem;
     white-space: nowrap;
   }
 }
