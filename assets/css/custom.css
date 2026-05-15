@@ -31,14 +31,21 @@
     justify-content: center;
     display: flex;
     width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+  .top-nav::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
   }
   .nav-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 0 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0 15px;
+    min-width: max-content;
   }
   .nav-container a {
     font-size: 1.1rem;
+    white-space: nowrap;
   }
 }
