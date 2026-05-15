@@ -51,10 +51,10 @@ function toggleBio() {
 
 ## Conference Presentations
 
-1. Paul, S.K. et al. [**Diverse Disease-Causing CDKL5 Genotypes Converge on a Shared Molecular Mechanism**](https://events.clemson.edu/event/23525-summer-symposium). [**CUIHG Summer Symposium**](https://events.clemson.edu/event/23525-summer-symposium), Greenwood, SC. May 14, 2026. (Poster Presentation)
-2. Paul, S.K. et al. [**Shared Molecular Mechanisms of CDKL5 Variants**](https://events.clemson.edu/event/24076-clembio-symposium). [**ClemBIO Symposium**](https://mbio-symposium.netlify.app/), Clemson University. April 17, 2026. (Talk & Poster Presentation)
-3. Paul, S.K. et al. [**Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding**](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). [**ACS Spring 2026**](https://www.acs.org/events/spring.html). [**Certificate**](https://credentials.acs.org/a607e44d-fdc8-46f1-85e4-3ad246ebdf78#acc.TfyMgZvd).
-4. Paul, S.K. et al. [**Thermodynamics-guided reclassification of CDKL5 variants**](https://github.com/paulshamrat/cdkl5-variants). **SIRPA 2025** (Symposium for the Introduction of Research in Physics and Astronomy), Clemson University. Aug 2025.
+1. **Paul, S.K. et al.** Diverse Disease-Causing CDKL5 Genotypes Converge on a Shared Molecular Mechanism. [CUIHG Summer Symposium](https://events.clemson.edu/event/23525-summer-symposium), Greenwood, SC. May 14, 2026. (Poster Presentation).
+2. **Paul, S.K. et al.** Shared Molecular Mechanisms of CDKL5 Variants. [ClemBIO Symposium](https://mbio-symposium.netlify.app/), Clemson, SC. April 17, 2026. (Talk & Poster Presentation).
+3. **Paul, S.K. et al.** [Thermodynamic perspective on CDKL5 deficiency disorder via exploring altered protein folding and binding](https://acs.digitellinc.com/p/s/thermodynamic-perspective-on-cdkl5-deficiency-disorder-via-exploring-altered-protein-folding-and-binding-656655). [ACS Spring 2026](https://www.acs.org/events/spring.html), Atlanta, GA. March 22-26, 2026. (Poster Presentation). [**Certificate**](https://credentials.acs.org/a607e44d-fdc8-46f1-85e4-3ad246ebdf78#acc.TfyMgZvd).
+4. **Paul, S.K. et al.** [Thermodynamics-guided reclassification of CDKL5 variants](https://github.com/paulshamrat/cdkl5-variants). Symposium for the Introduction of Research in Physics and Astronomy (SIRPA) 2025, Clemson, SC. Aug 2025. (Poster Presentation).
 
 <p><a href="{{ "/presentations/" | relative_url }}" style="font-weight: 500;">View all presentations &rarr;</a></p>
 
