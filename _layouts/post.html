@@ -27,9 +27,10 @@
   <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+  <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
   <script>
     (function () {
@@ -66,50 +67,80 @@
 
       <h1>{{ site.title }}</h1>
 
-      {% if site.position %}
-      <position style="font-size:1.10rem;">{{ site.position }}</position>
-      <br>
-      {% endif %}
-      {% if site.affiliation %}
-      <a href="{{ site.affiliation_link }}" rel="noopener">
-        <autocolor>{{ site.affiliation }}</autocolor>
-      </a>
-      <br>
-      {% endif %}
-      {% if site.email %}
-      <email>{{ site.email }}</email>
+      <div class="profile-info" style="text-align: left; margin-top: 15px; font-family: 'Crimson Pro', serif;">
+        {% if site.position %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
+          <i class="fa-solid fa-user-graduate" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <span>{{ site.position }}</span>
+        </div>
+        {% endif %}
+
+        {% if site.program %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
+          <i class="fa-solid fa-microscope" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <span>{{ site.program }}</span>
+        </div>
+        {% endif %}
+
+        {% if site.affiliation %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
+          <i class="fa-solid fa-atom" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <a href="{{ site.affiliation_link }}" style="color: inherit;">{{ site.affiliation }}</a>
+        </div>
+        {% endif %}
+
+        {% if site.university %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 2px; font-size: 0.95rem;">
+          <i class="fa-solid fa-university" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <span>{{ site.university }}</span>
+        </div>
+        {% endif %}
+
+        {% if site.email %}
+        <div class="info-item" style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; font-size: 0.95rem;">
+          <i class="fa-solid fa-envelope" style="width: 18px; color: var(--accent-color); margin-top: 3px;"></i>
+          <a href="mailto:{{ site.email }}" style="color: inherit;">{{ site.email }}</a>
+        </div>
+        {% endif %}
+      </div>
+      {% if site.research_interests %}
+      <div class="research-interests" style="margin-top: 15px; text-align: left; font-family: 'Crimson Pro', serif;">
+        <div class="interest-tags" style="display: flex; flex-wrap: wrap; gap: 4px;">
+          {% for interest in site.research_interests %}
+          <span class="interest-tag" style="font-size: 0.68rem; padding: 2px 8px; background: rgba(var(--accent-color-rgb, 4, 51, 97), 0.05); color: var(--accent-color); border: 1px solid rgba(var(--accent-color-rgb, 4, 51, 97), 0.08); border-radius: 15px; font-weight: 500;">{{ interest }}</span>
+          {% endfor %}
+        </div>
+      </div>
       {% endif %}
 
-      <br>
-      <br>
-      <div class="social-icons">
+      <div class="social-icons" style="margin-top: 20px;">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a style="margin: 0 12px 0 0" href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.6rem"></i>
         </a>
         {% endif %}
 
         {% if site.github %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github }}">
-          <i class="fab fa-github"></i>
+        <a style="margin: 0 12px 0 0" href="{{ site.github }}">
+          <i class="fab fa-github" style="font-size:1.5rem"></i>
         </a>
         {% endif %}
 
         {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
-          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        <a style="margin: 0 12px 0 0" href="{{ site.orcid }}">
+          <i class="ai ai-orcid" style="font-size:1.6rem"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        <a style="margin: 0 12px 0 0" href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin" style="font-size:1.5rem"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
+          <i class="fab fa-x-twitter" style="font-size:1.5rem"></i>
         </a>
         {% endif %}
       </div>

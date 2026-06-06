@@ -20,14 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
       const cleanDoi = doi.trim();
       const encodedDoi = encodeURIComponent(cleanDoi);
       
-      const currentCount = parseInt(countSpan.textContent) || 0;
+      const initialText = countSpan.textContent.trim();
+      const currentCount = parseInt(initialText) || 0;
       
-      // Fetch and only update if the new count is HIGHER than the current (manual or old) count
+      // Fetch and only update if the initial text is "..." or the new count is HIGHER than the current (manual or old) count
       const updateValue = (newValue) => {
         const value = parseInt(newValue);
-        if (!isNaN(value) && value > currentCount) {
-          countSpan.textContent = value;
-          updateTotalCitations();
+        if (!isNaN(value)) {
+          if (initialText === "..." || value > currentCount) {
+            countSpan.textContent = value;
+            updateTotalCitations();
+          }
         }
       };
       
