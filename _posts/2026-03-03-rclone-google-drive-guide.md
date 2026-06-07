@@ -57,9 +57,25 @@ rclone copy /home/paul/works gdrive:works -P
 ### Syncing a Specific Folder
 If you've only updated one project and don't want to scan your entire `works` directory, you can target that specific subfolder to save time:
 
-```bash
-rclone copy /home/paul/works/academics gdrive:works/academics -P
-```
+- **To Upload (Local -> Cloud):**
+  ```bash
+  rclone copy /home/paul/works/academics gdrive:works/academics -P
+  ```
+- **To Download (Cloud -> Local):**
+  ```bash
+  rclone copy gdrive:works/academics /home/paul/works/academics -P
+  ```
+
+#### Speed Tip: Use Fast-List (Upload or Download)
+The `--fast-list` flag speeds up remote scanning by fetching file listings in large batches. It works for **both** directions:
+- **Download (Cloud -> Local):**
+  ```bash
+  rclone copy gdrive:works/academics /home/paul/works/academics --fast-list -P
+  ```
+- **Upload (Local -> Cloud):**
+  ```bash
+  rclone copy /home/paul/works/academics gdrive:works/academics --fast-list -P
+  ```
 
 > [!TIP]
 > Use `copy` instead of `sync` most of the time. `copy` only adds files to the destination; `sync` can delete files if they are missing on the source.
